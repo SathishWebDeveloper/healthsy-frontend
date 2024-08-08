@@ -1,0 +1,187 @@
+#jobShareModal{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+#jobShareModal strong{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #181423;
+    margin-bottom: 8px;
+}
+.jobshare-section .btn-dismissal .btn-close{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px;
+    opacity: 1;
+    box-shadow: 1px 0px 10px #918d8e;
+    left: 97%;
+    top: -4%;
+}
+.jobshare-body{
+    display: flex;
+}
+.jobshare-section .modal-content{
+    padding: 30px;
+    right: 0;
+}
+.jobshare-section .modal-dialog{
+    border-radius: 10px;
+}
+.jobshare-section .modal-body{
+    border-bottom: 0px solid #fff;
+}
+.jobshare-section-body{
+    display: flex;
+}
+.jobshare-section .copy-link-bg{
+    padding: 10px 20px;
+    background: #F3F4F6;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    color: #4B4853;
+}
+.job-share-para{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+.float-right{
+    float: right;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.copied{
+    color: #CB1B5B;
+}
+.wa-sm-icon{
+    background: rgba(37, 211, 102, 0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.fb-sm-icon{
+    background: rgba(24, 119, 242, 0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.twitter-sm-icon{
+    background: rgba(29, 161, 242, 0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.li-sm-icon{
+    background: rgba(0, 119, 181, 0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.insta-sm-icon{
+    background: rgba(204, 58, 159, 0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .job-share-para p{
+        /* border: 1px solid red; */
+    }
+    .jobshare-section .modal-content{
+        width: 100%;
+        height: 330px;
+        /* height: 30%; */
+        margin: auto;
+        left: 0%;
+        /* top: 225px; */
+        /* top: 80px; */
+        /* max-height: calc(100vh - 60px); */
+        /* overflow-y: auto; */
+        border-radius: 8px;
+    }
+    .btn-dismissal{
+        display: none;
+    }
+    .jobshare-section .btn-dismissal {
+        position: relative;
+        opacity: 1;
+        left: 5%;
+        top: -55px;
+    }
+    
+    .jobshare-section .btn-dismissal .btn-close{
+        background-color: white ;
+        color: black;
+        border-radius: 50%;
+        position: absolute;
+        padding: 10px;
+        opacity: 1 !important; 
+        box-shadow: 1px 0px 10px #918d8e;
+        overflow-x: hidden !important;
+      
+    }
+    .car-share-icon-mob{
+        background: #fff;
+        position: absolute;
+        /* top: 64%; */
+        margin-top: 50%;
+        width: 90%;
+        /* border: 1px solid red; */
+    }
+    /* .example::-webkit-scrollbar {
+        display: none;
+    } */
+    .car-mob-icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .car-mob-icons > a > span{
+        margin-right: 0px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    #jobShareModal strong{
+        font-size: 16px;
+    }
+    .job-share-para{
+        font-size: 14px;
+    }
+    .jobshare-section .copy-link-bg{
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .float-right{
+        margin-top: -5%;
+    }
+    }
+
+    /* .jobshare-section .modal-backdrop .show{
+      position: relative;
+    } */

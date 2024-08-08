@@ -1,0 +1,10 @@
+.our-achievements-section {
+    .col{
+        padding: 14px;
+        border-right: 1px solid #eee;
+        margin-top: 0;
+    }
+    .col:last-child{
+        border-right: 0px solid #eee;
+    }
+}

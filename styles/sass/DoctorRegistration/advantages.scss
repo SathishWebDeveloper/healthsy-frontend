@@ -1,0 +1,108 @@
+.section-advantages .container {
+    margin-bottom: 35px !important;
+}
+
+.section-advantages .advantages-title {
+    color: #181423;
+    text-align: center;
+    margin-top: 0px !important;
+    padding-top: 55px !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px !important;
+    line-height: 47px !important;
+
+}
+
+.section-advantages .sections {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.section-advantages .outer-layer {
+    padding: 5px 30px 25px 30px !important;
+}
+
+.section-advantages .advantage-content p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 28px;
+    width: 88%;
+}
+
+.section-advantages .advantage-content {
+    border: 1px solid #F1F1F1 !important;
+    box-shadow: 0px 0px 4px rgba(253, 253, 253, 0.2) !important;
+    border-radius: 12px !important;
+    align-items: center;
+    padding: 36px 66px;
+}
+
+.section-advantages .advantage-1 {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+
+}
+.pl0{
+    padding-left: 0;
+}
+
+@media screen and (max-width:768px) {
+    .section-advantages .container {
+        overflow: hidden !important;
+    }
+
+    .section-advantages .container {
+        margin-bottom: 35px !important;
+    }
+
+    .section-advantages .advantages-title {
+        color: #181423;
+        text-align: center;
+        margin-top: 0px !important;
+        padding-top: 35px !important;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px !important;
+        line-height: 35px !important;
+        height: 85px;
+
+    }
+
+    .section-advantages .sections {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .section-advantages .outer-layer {
+        padding: 0px 25px 25px 25px !important;
+    }
+
+    .section-advantages .advantage-content p {
+        font-size: 16px;
+        line-height: 24px !important;
+        margin-bottom: 0;
+    }
+
+    .section-advantages .advantage-content {
+        border: 1px solid #F1F1F1 !important;
+        box-shadow: 0px 0px 4px rgba(253, 253, 253, 0.2) !important;
+        border-radius: 12px !important;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .section-advantages .advantage-1 {
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+
+    }
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .section-advantages .advantage-content p {
+        width: 100% !important;
+    }
+}

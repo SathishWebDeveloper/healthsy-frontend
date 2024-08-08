@@ -1,0 +1,222 @@
+.careerHeaderSection {
+    .menuContent {
+        a:first-child {
+            margin-right: 60px;
+        }
+    }
+}
+
+.careerHeaderMenu {
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+    border-bottom: 3px solid #CB1B5B;
+}
+
+.careerBannerSection {
+    position: relative;
+    height: 712px;
+}
+
+.careersBannerContent {
+    height: 712px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+    h1 {
+        font-weight: 800;
+        font-size: 64px;
+        max-width: 1020px;
+        text-align: center;
+    }
+}
+
+.careerDesignation {
+    padding-left: 0 !important;
+}
+
+.careerDetailTitle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #CB1B5B;
+}
+
+.selectDepartment {
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #DAD0D0;
+    border-radius: 8px;
+    color: #4B4853;
+    padding: 16px 40px 16px 24px;
+    appearance: none;
+    background-image: url("/assets/careers/drop-down.png");
+    background-repeat: no-repeat;
+    background-position: right 14px top 25px;
+}
+
+.jobTeamCard {
+    border-top: 1px solid #D1CCCC;
+    padding: 40px 0px;
+}
+
+.jobPostCard {
+    border-radius: 10px;
+    background: #F9F9F9;
+    width: 644px;
+    padding: 16px;
+}
+
+.jobDesignation {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.departmentTitle {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.departmentDesc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #65626C;
+}
+
+.jopLocation,
+.jopLocationDesk,
+.carrerJobType {
+    color: #65626C;
+}
+
+.jobDescription {
+
+    p,
+    span,
+    strong,
+    b {
+        background: #F9F9F9 !important;
+    }
+}
+
+.career-job-desc {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px 5px 4px 0;
+}
+
+.noVacancy {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    color: #98969d;
+}
+
+.careerBannerImg {
+    object-fit: cover;
+}
+
+@media only screen and (min-device-width: 769px) {
+
+    .jobDescription {
+        max-height: 105px !important;
+
+        p,
+        span,
+        strong,
+        b {
+            line-height: 25px !important;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 1023px) {
+    .jobPostCard {
+        width: 500px;
+        padding: 13px 18px;
+    }
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    .jobTeamCard {
+        flex-direction: column;
+        margin: 0 12px;
+        border: none;
+        padding: 10px 0px;
+    }
+
+    .departmentDesc {
+        margin-bottom: 25px;
+        font-size: 14px;
+    }
+
+    .jobPostCard {
+        width: 100%;
+    }
+
+    .careerDetailTitle {
+        font-size: 24px;
+    }
+
+    .jobDesignation {
+        font-size: 18px;
+    }
+
+    .carrerJobType,
+    .jopLocation,
+    .jobDescription {
+        font-size: 14px;
+    }
+
+    .careerDetailsHeader {
+        flex-direction: column !important;
+        align-items: start !important;
+        margin: 0 12px 48px;
+    }
+
+    .jopLocation,
+    .rightArrow {
+        display: block !important;
+        margin-left: 16px;
+    }
+
+    // .jobPostCardBottom{
+    //     justify-content: flex-start !important;
+    // }
+    .externalLink,
+    .jopLocationDesk {
+        display: none;
+    }
+
+    .careerDetailDesc {
+        display: block !important;
+        font-size: 14px;
+        margin: 12px 0 18px !important;
+        color: #65626C;
+    }
+
+    .selectDepartment {
+        height: 40px;
+        padding: 0px 35px 0px 24px;
+        background-size: 12px;
+        background-position: right 14px top 15px;
+    }
+}
+
+@media only screen and (max-device-width: 600px) {
+    .careerBannerSection {
+        height: 280px;
+    }
+
+    .careersBannerContent {
+        height: 280px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 24px;
+            max-width: 375px;
+        }
+    }
+}

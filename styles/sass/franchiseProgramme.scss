@@ -1,0 +1,687 @@
+// Franchise Programme Page
+//Franchise Banner
+.bannerFranchiseSections {
+    position: relative !important;
+    height: 705px !important;
+    padding: 180px 0 0;
+
+    .franchiseBannerImg {
+        object-fit: cover;
+    }
+
+    .franchiseBannerText {
+        position: absolute;
+
+        // height: 705px;
+        h1 {
+            line-height: 65px;
+            margin: auto;
+            text-align: center;
+            max-width: 860px;
+        }
+    }
+
+    .franchiseBannerTick {
+        margin-right: 14px;
+    }
+
+    .franchiseBannerPointTxt:first-child,
+    .franchiseBannerPointTxt:nth-child(2) {
+        margin-right: 32px;
+    }
+
+    .franchiseBannerPointsWrapper {
+        margin: 40px 0 88px;
+    }
+
+    .franchiseBannerBtn {
+        width: 219.429px;
+        height: 64px;
+        border: none;
+        border-radius: 13.714px;
+    }
+
+    .franchiseWhiteLogo {
+        position: absolute;
+        top: 32px;
+        left: 90px;
+    }
+}
+
+//About Franchise
+.aboutFranchiseSection {
+    background: #F9F9F9;
+    padding: 80px 0;
+    margin-bottom: 80px;
+
+    .aboutTitle {
+        h2 {
+            color: var(--text-dark-blue-magenta);
+            line-height: 54px;
+            margin-bottom: 32px;
+        }
+
+        p {
+            color: var(--text-dark-gray);
+            line-height: 48px;
+        }
+    }
+}
+
+//Advantage Franchise
+.advantageFranchiseSection {
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    .advantageFranchiseTitle {
+        color: var(--text-dark-blue-magenta);
+        text-align: center;
+        line-height: 35px;
+        margin-bottom: 19px;
+    }
+
+    .advantageFranchiseDesc {
+        color: var(--theme-pink-color);
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    //Advantage Box Section
+    .advantageBoxSection {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 51px 43px;
+
+        .advantageBoxContent {
+            border-radius: 24px;
+            border: 1px solid #fff;
+            background: #fff;
+            box-shadow: 0px 0px 40px 0px rgba(147, 147, 147, 0.15);
+            padding: 32px 40px 32px 32px;
+            max-width: 272px;
+            height: auto;
+            // margin-bottom: 51px;
+            // height: 210px;
+
+            .advImg {
+                margin-bottom: 21px;
+            }
+
+            .content {
+                color: #182233;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 29px;
+            }
+        }
+    }
+}
+
+//Own Franchise
+.ownFranchiseSection {
+    background: #FFF1F6;
+    padding: 56px 51px 40px 71px;
+    border-radius: 12px;
+    margin-bottom: 366px;
+    max-width: 1240px;
+
+    .ownFranchiseTitle {
+        h2 {
+            color: var(--text-dark-blue-magenta);
+            line-height: 55px;
+            margin-bottom: 48px;
+        }
+
+        .ownFranchisepts {
+            margin-bottom: 32px;
+            width: 70%;
+
+            .content {
+                padding-left: 32px;
+                line-height: 28px;
+                color: var(--text-dark-blue-magenta);
+            }
+        }
+    }
+
+    .healthsyFranchiseStore {
+        max-width: 1097px;
+        width: 100%;
+        border-radius: 32px;
+        background: #CB1B5B;
+        padding: 48px 0;
+        position: absolute;
+        bottom: -286px;
+    }
+
+    .franchiseStoreContentWrapper {
+        max-width: 791px;
+    }
+
+    .healthsyFranchiseTitle {
+        width: 100%;
+        line-height: 55px;
+    }
+
+    .healthsyFranchiseContent {
+        padding: 18px 0 40px;
+        color: #F5D1DE;
+    }
+
+    .healthsyFranchiseBtn {
+        background: #fff;
+        width: 192px;
+        height: 56px;
+        border-radius: 12px;
+        margin: auto;
+    }
+
+    @media only screen and (max-device-width: 1200px) and (min-device-width: 995px) {
+        .healthsyFranchiseStore {
+            max-width: 900px;
+        }
+    }
+
+    @media only screen and (max-device-width: 994px) and (min-device-width: 769px) {
+        .healthsyFranchiseStore {
+            max-width: 650px;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 32px 20px 0;
+        border-radius: 24px;
+        max-width: 380px;
+
+        .ownFranchiseContentWrapper {
+            flex-direction: column;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+
+        .ownFranchiseImg {
+            max-width: 276px;
+            height: auto;
+        }
+
+        .ownFranchiseTitle {
+            h2 {
+                font-style: normal;
+                line-height: 32px;
+            }
+
+            .ownFranchisepts {
+                margin-bottom: 32px;
+                width: 100%;
+
+                .content {
+                    padding-left: 32px;
+                    line-height: 28px;
+                    color: var(--text-dark-blue-magenta);
+                }
+            }
+        }
+
+        .healthsyFranchiseStore {
+            max-width: 348px;
+            padding: 32px 21px;
+            bottom: -252px;
+        }
+
+        .healthsyFranchiseTitle {
+            // max-width: 306px;
+            line-height: 32px;
+        }
+
+        .healthsyFranchiseContent {
+            padding: 16px 0 40px;
+            line-height: 23px;
+        }
+    }
+}
+
+// Register Design Section
+.registerSection {
+    padding-top: 64px;
+    padding-bottom: 80px;
+
+    .title {
+        color: var(--text-dark-blue-magenta);
+        line-height: normal;
+        margin-bottom: 18px;
+    }
+
+    .sub-title {
+        color: #797979;
+        line-height: normal;
+        margin-bottom: 72px;
+    }
+}
+
+.registerImageSection {
+    position: relative;
+
+    .registerImg {
+        width: 100%;
+        height: auto !important;
+        position: relative !important;
+    }
+}
+
+// Responsive CSS
+
+@media only screen and (max-device-width: 850px) and (min-device-width: 769px) {
+    .advantageFranchiseSection {
+        .advantageBoxSection {
+            grid-template-columns: repeat(3, 1fr) !important;
+        }
+    }
+
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    .ownFranchiseWrapper {
+        padding: 0 24px;
+    }
+
+    //About Franchise
+    .aboutFranchiseSection {
+        background: #F9F9F9;
+        padding: 40px 12px 24px;
+        margin-bottom: 40px;
+
+        .aboutTitle {
+            h2 {
+                line-height: 37px;
+                margin-bottom: 16px;
+            }
+
+            p {
+                line-height: 38px;
+            }
+        }
+    }
+
+    //Advantage Franchise
+    .advantageFranchiseSection {
+        margin: 40px 0;
+        padding: 0 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .advantageFranchiseTitle {
+            line-height: normal;
+            margin-bottom: 14px;
+        }
+
+        .advantageFranchiseDesc {
+            line-height: 32px;
+            margin-bottom: 40px;
+        }
+
+        //Advantage Box Section
+        .advantageBoxSection {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 24px;
+
+            .advantageBoxContent {
+                padding: 21px 26px 21px 21px;
+                // height: 150px;
+                max-width: 178px;
+                // margin-bottom: 24px;
+
+                .advImg {
+                    width: 32px;
+                    height: 32px;
+                }
+
+                .content {
+                    font-size: 13.089px;
+                    font-weight: 700;
+                    line-height: 18.979px;
+                }
+            }
+        }
+    }
+
+    //Franchise Banner
+    .bannerFranchiseSections {
+        position: relative !important;
+        height: 621px !important;
+        padding: 114px 0 0;
+
+        .franchiseBannerImg {
+            object-fit: cover;
+        }
+
+        .franchiseBannerText {
+            position: absolute;
+
+            // height: 621px;
+            h1 {
+                line-height: 39px;
+                max-width: 352px;
+                margin: auto;
+            }
+        }
+
+        .franchiseBannerPointsWrapper {
+            flex-direction: column;
+        }
+
+        .franchiseBannerPoint:first-child,
+        .franchiseBannerPoint:nth-child(2) {
+            margin: 0 0 28px 0;
+        }
+
+        .franchiseBannerPointsWrapper {
+            margin: 24px 0 80px;
+        }
+
+        .franchiseBannerBtn {
+            width: 192px;
+            border-radius: 12px;
+        }
+
+        .franchiseWhiteLogo {
+            width: 120px;
+            height: 33px;
+            top: 23px;
+            left: 24px;
+        }
+
+    }
+
+    // Register Design Section
+    .registerSection {
+        padding: 40px 14px;
+
+        .title {
+            line-height: 32px;
+            margin-bottom: 16px;
+            padding: 0 10px;
+        }
+
+        .sub-title {
+            line-height: 25px;
+            margin-bottom: 32px;
+            padding: 0 10px;
+        }
+    }
+
+    .registerImageSection {
+        position: relative;
+
+        .registerImg {
+            width: 100%;
+            height: auto !important;
+            position: relative !important;
+            padding: 0 10px;
+        }
+    }
+}
+
+.franchiseProgrammeForm {
+    background: #FFF9FB;
+    padding: 84px 24px 80px;
+
+    .franchiseProgrammeContentWrapper {
+        width: 100%;
+        max-width: 793px;
+    }
+
+    .franchiseProgrammeLine {
+        border: 1px solid #E3E3E3;
+        margin: 24px 0 0;
+    }
+
+    .franchiseLabel {
+        margin: 32px 0 16px;
+    }
+
+    .franchiseInputField {
+        max-width: 793px;
+        height: 64px;
+        border-radius: 12px;
+        border: 1px solid var(--eerie-black-100, #D2D2D2);
+        background: var(--White, #FFF);
+    }
+
+    .franchiseTerms {
+        flex-wrap: wrap;
+        margin: 50px 0 16px;
+        color: #797979;
+
+        a {
+            font-weight: 600 !important;
+        }
+    }
+
+    .franchiseSubmitBtn {
+        width: 793px;
+        height: 56px;
+        border-radius: 12px;
+        border: none;
+    }
+
+    .otp-input {
+        border: 1px solid var(--eerie-black-100, #D2D2D2);
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 40px 24px;
+
+        .franchiseProgrammeContentWrapper {
+            max-width: 380px;
+        }
+
+        .franchiseSubmitBtn {
+            width: 380px;
+            margin: auto;
+        }
+
+        .franchiseLabel {
+            margin: 26px 0 16px;
+        }
+
+        .franchiseLabelName {
+            margin-top: 24px !important;
+        }
+
+        .franchiseTerms {
+            margin: 36px 0 20px;
+        }
+    }
+}
+
+
+// Call Card
+.callCardWrapper {
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 34px;
+
+    .closeIcon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+// Call Model
+.callModelWrapper {
+    padding: 22px 22px 40px 32px;
+
+    .callModelLabel {
+        color: #4D4D4D;
+    }
+
+    .callModelNumber {
+        margin: 18px 0 20px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 24px 24px 40px;
+
+        .callModelNumber {
+            margin: 20px 0 28px;
+        }
+    }
+}
+
+//FranchiseOpportunities
+.franchiseOpportunities {
+    overflow: hidden;
+    position: relative !important;
+    height: 650px;
+    padding: 80px 0;
+
+    .franchiseOpportunitiesForm {
+        position: absolute;
+        max-width: 607px;
+        height: auto;
+        border-radius: 24px;
+        background: #FFF;
+        padding: 40px 40px 56px;
+    }
+
+    .franchiseOpportunitiesTitle {
+        width: 100%;
+        max-width: 527px;
+    }
+
+    .healthsyFranchiseOpportunities {
+        width: 100%;
+        max-width: 527px;
+        height: 64px;
+        border-radius: 12px;
+        border: 1px solid var(--eerie-black-100, #D2D2D2);
+        background: var(--White, #FFF);
+        padding-left: 60px !important;
+        appearance: none;
+        background-image: url("/assets/careers/drop-down.png");
+        background-repeat: no-repeat;
+        background-position: right 24px top 25px;
+    }
+
+    .franchiseOpportunitesFieldWrapper {
+        padding: 32px 0 40px;
+    }
+
+    .franchiseOpportunitesStore {
+        padding-bottom: 32px;
+    }
+
+    .franchiseOpportunitiesBtn {
+        border-radius: 16px;
+        width: 527px;
+        height: 64px;
+    }
+
+    .franchiseOpportunitiesImg {
+        object-fit: cover;
+    }
+
+    .stateLoaction {
+        position: absolute;
+        left: 18px;
+        top: 52px;
+    }
+
+    .cityLoaction {
+        position: absolute;
+        left: 18px;
+        bottom: 60px;
+    }
+
+    .cityLocationIcon {
+        bottom: 85px !important;
+    }
+
+    .opportunitiesSuccess {
+        margin-top: 20px;
+    }
+
+    .bottomSpacing {
+        padding-bottom: 16px !important;
+    }
+
+    .opportunityAvailable {
+        color: #1AAA55;
+    }
+
+    .opportunityUnavailable {
+        color: #EB0000;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 56px 0 238px;
+
+        .franchiseOpportunitiesForm {
+            max-width: 380px;
+            padding: 32px 24px 63px;
+            text-align: center;
+            margin: 0 24px;
+        }
+
+        .franchiseOpportunitiesTitle {
+            max-width: 332px;
+        }
+
+        .franchiseOpportunitesStore {
+            padding-bottom: 24px;
+        }
+
+        .franchiseOpportunitiesFormContentWrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cityLoaction {
+            bottom: 68px;
+        }
+
+        .franchiseOpportunitiesBtn {
+            width: 332px;
+            height: 56px;
+        }
+
+        .cityLocationIcon {
+            bottom: 92px !important;
+        }
+
+        .opportunitiesSuccess {
+            margin-top: 21px;
+        }
+
+        .bottomSpacing {
+            padding-bottom: 24px !important;
+        }
+
+        .callModelNavigate {
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (max-device-width: 400px) {
+        .franchiseOpportunitiesBtn {
+            width: 248px;
+        }
+    }
+}
+
+//FAQ
+.healthsyFranchiseFAQ {
+    padding: 64px 0 80px;
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 40px 18px 72px;
+
+        .opportunitiesNavigate {
+            font-size: 14px;
+        }
+    }
+}

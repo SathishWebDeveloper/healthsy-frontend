@@ -1,0 +1,199 @@
+.subscription{
+    padding: 100px 100px 70px 100px;  
+    overflow: hidden !important;
+  }
+  .subscription .container{
+    padding: 57px 100px 0;
+    background: #FFF5FA;
+    border-radius: 24px;
+    overflow: hidden;
+    position: relative;
+    /* height: 419px; */
+  }
+  .subscription .container .mobile-img{
+    /* height: 380px; */
+    position: absolute;
+    /* width: 227.4px; */
+    height: 495px;
+    left: 18px;
+    top: 12px;
+  }
+  .subscription .container .content .title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #181423;
+    margin-bottom: 24px;
+  }
+  .subscription .container .content .sub-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #CB1B5B;
+    margin-bottom: 8px;
+  }
+  .subscription .container .content .features{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 250px 250px;
+  }
+  .subscription .container .content .features li{
+    list-style-type: none;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .subscription .container .content .features li .img-container{
+    background: #fff;
+    border-radius: 6px;
+    padding: 8px;
+    display: flex;
+    width: 40px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+  
+  .subscription_mob_img{
+    /* filter: drop-shadow(0px 0px 12px #DD5486); */
+    position: absolute;
+    z-index: 99;
+    width: 265.4px;
+  }
+  .subscription .mob-img-hide{
+    position: absolute;
+    left: 0;
+    top: -65px;
+  }
+  
+  .subscription-adv-box{
+    position: relative;
+  }
+  .subscription-img-box{
+    position: absolute;
+    width: 264px;
+    height: 451.12px;
+    top: 0px;
+  }
+  .subscription-img-box::before{
+    position: absolute;
+  width: 264px;
+  height: 451.12px;
+  left: 100px;
+  top: 40px;
+  
+  background: #FFFFFF;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .subscription {
+      padding: 10px;
+    }
+    .subscription-text-content{
+      display: flex;
+      flex-direction: column !important;
+      align-items: center;
+    }
+    .subscription-img-box{
+      position: relative;
+      height: 590px;
+    }
+    .subscription-adv-box div{
+      flex-direction: column-reverse;
+    }
+    .subscription .container .content .features {
+      display: inline-block;
+    }
+  
+    /* .subscription .container .content .features li:nth-child(2),
+    .subscription .container .content .features li:nth-child(4),
+    .subscription .container .content .features li:nth-child(6),
+    .subscription .container .content .features li:nth-child(8){ */
+      /* margin-left: -3%; */
+    /* } */
+  /* }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { */
+    .subscription .container .content .features {
+      display: grid;
+      grid-template-columns: 210px 225px;
+    }
+    .subscription .container .content .features li{
+      /* font-size: 14px; */
+      font-size: 16px;
+      line-height: 21px;
+    }
+  
+    .subscription .container .content .features li .img-container {
+      width: 32px;
+      height: 32px;
+    }
+    .subscription .container .content .title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 16px;
+      text-align: center;
+      margin-bottom: 34px;
+    }
+    .subscription {
+      padding: 24px;
+    }
+    .subscription_mob_img{
+      height: 466px;
+      /* left: 40px; */
+      width: auto;
+    }
+    .subscription .container .mobile-img {
+      height: 442px;
+      /* left: 55px; */
+      top: 12px;
+    }
+    .subscription-img-box {
+      width: 234px;
+      margin: auto;
+      height: 505px;
+    }
+    .subscription .container {
+      height: auto;
+      padding: 8px;
+      padding-top: 48px;
+  }
+  
+  .subscription .container .content .sub-title {
+    font-weight: 500;
+    font-size: 16px;
+    width: 348px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .animate-up-down {
+    animation: mover 2s infinite alternate;
+  }
+  }
+  
+  @media only screen and (max-device-width: 500px) { 
+    .subscription .container .content .features {
+      display: grid;
+      grid-template-columns: 180px 180px;
+    }
+  }
+  @media only screen and (max-device-width: 420px) { 
+    .subscription .container .content .features {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  }
+  @media only screen and (max-device-width: 380px) { 
+    .subscription .container .content .features {
+      display: block;
+    }
+  }

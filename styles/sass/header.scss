@@ -1,0 +1,410 @@
+.header {
+    height: 92.79px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background: white;
+    top: 0;
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
+    // box-shadow: 0px 4px 11px rgba(235, 234, 234, 0.25);
+    // border-bottom: 1px solid #000000;
+
+}
+
+.header .contents {
+    padding: 24px 0px;
+}
+
+.header-sub-menu a,
+.sub-menu2 a {
+    color: #4D4D4D !important;
+    font-size: 16px;
+    padding-left: 0 !important;
+}
+
+.sub-menu2 {
+    padding: 4% 0% 0% 0%;
+    font-weight: 400;
+    color: #4D4D4D;
+}
+
+.btn.btn-secondary {
+    background: #fff;
+    color: #CB1B5B;
+    padding: 12px 24px;
+    /* margin-right: 40%; */
+    border: 1px solid #CB1B5B;
+}
+
+.dropdown {
+    /* width: 20%;
+    margin-left: 80%; */
+    position: relative;
+}
+
+.dropdown .dropdown-items {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    top: 60px;
+    border-radius: 10px;
+    // padding: 0px 0px;
+    width: 220px;
+    right: 0;
+    display: none;
+    transition: max-height 0.15s ease-out;
+    z-index: 9999;
+}
+
+.dropdown .dropdown-items li,
+.dropdown .dropdown-items a {
+    list-style-type: none;
+    padding: 16px 0px;
+    cursor: pointer !important;
+    text-align: left;
+    padding-bottom: 0;
+    font-size: 14px;
+    color: #181423;
+}
+
+.healthsynergyMenu {
+    list-style-type: none;
+    padding: 2px 0px !important;
+    cursor: pointer !important;
+    text-align: left;
+    padding-bottom: 0;
+    font-size: 14px;
+    color: #181423 !important;
+}
+
+.dropdown .dropdown-items li.partnerWithUS,
+.dropdown .dropdown-items a.partnerWithUS {
+    cursor: default !important;
+}
+
+.dropdown .dropdown-items li.active,
+.dropdown .dropdown-items a.active {
+    color: #CB1B5B;
+}
+
+.dropdown .dropdown-items a.active img {
+    transform: rotate(180deg);
+}
+
+.dropdown-items a .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown .dropdown-items.show {
+    display: block;
+}
+
+.dropdown .dropdown-items a .sub-drop-down {
+    display: none;
+}
+
+.dropdown .dropdown-items a.active .sub-drop-down {
+    display: grid;
+    padding-top: 6px;
+}
+
+.dropdown .dropdown-items a.active .sub-drop-down a {
+    padding-left: 0;
+    padding: 4px 0px;
+}
+
+.dropdown .sub-drop-down a {
+    font-size: 14px;
+    color: #000;
+    opacity: 0.7;
+    text-align: left;
+}
+
+.dropdown-items ul {
+    padding-left: 0;
+}
+
+.header-buttons {
+    /* color: #181423; */
+    /* color: #CB1B5B; */
+    display: flex;
+    border: none !important;
+    align-items: center;
+    font-weight: bold !important;
+    margin-right: 28px;
+}
+
+.header-buttons:hover {
+    color: #CB1B5B;
+}
+
+.headerDropdownBtn[aria-expanded='true'] {
+    color: #CB1B5B;
+}
+
+.headerDropdownBtn[aria-expanded='true'] svg {
+    transform: rotate(181deg);
+}
+
+.headerDropdownBtn:hover {
+    color: #212529;
+}
+
+.headerDropdownBtn[aria-expanded='true']:hover {
+    color: #CB1B5B;
+}
+
+.blogHeaderBtn {
+    border: 1px solid #CB1B5B !important;
+    color: #CB1B5B;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 175px;
+    height: 48px;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    padding: 0px 18px 0px 24px !important;
+}
+
+.customHeaderMenu {
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+.getNotifiedBtn {
+    width: 179px;
+    height: 48px;
+    border: none;
+}
+
+@media screen and (min-width: 960px) {
+    .home-sidebar {
+        display: none !important;
+    }
+}
+
+.getNotifiedBtn {
+    border-radius: 12px !important;
+    margin-left: 24px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1021px) {
+    .getNotifiedBtn {
+        margin-left: 25px;
+        white-space: nowrap;
+    }
+
+    .header-buttons {
+        margin-right: -4px;
+    }
+
+    .newInstaDocQrCode {
+        padding-right: 80px !important;
+    }
+}
+
+.exploreMembership {
+    margin-left: 32px;
+
+    @media screen and (max-width: 1150px) and (min-width: 769px) {
+        max-width: 110px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1020px) and (min-width: 769px) {
+    .getNotifiedBtn {
+        display: none;
+    }
+
+    .newInstaDocQrCode {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header-menu .header-buttons {
+        margin-left: 10px !important;
+    }
+
+    .container {
+        max-width: 900px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn.btn-secondary {
+        padding: 12px 10px;
+    }
+
+    .header-buttons {
+        display: none !important;
+    }
+}
+
+a:hover {
+    color: #E799B6;
+}
+
+.transform-180 {
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-device-width: 959px) {
+    .home-sidebar li {
+        padding: 0px !important;
+    }
+
+    .home-sidebar ul {
+        margin-top: 0 !important;
+    }
+
+    .headerSectionTitles {
+        padding: 16px 0;
+        font-size: 16px;
+        border-bottom: 1px solid #FAE8EF;
+    }
+
+    .HHSMenuTitle {
+        padding: 16px 0 20px 0;
+    }
+
+    .HHS-header-sub-menu {
+        padding: 0 0 20px 0 !important;
+    }
+
+    .HHS-header-sub-menu a {
+        font-size: 14px;
+    }
+
+    .header-sub-menu {
+        padding: 0 0 20px 0;
+        font-weight: 500;
+        color: #4D4D4D;
+    }
+
+    .homeHealthcareSubMenu,
+    .mobHeaderMenu {
+        padding-bottom: 16px;
+    }
+
+    .headerSectionTitles .header-sub-menu:last-child {
+        padding-bottom: 4px;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .header .contents {
+        padding: 0px;
+    }
+}
+
+.btn-check:focus+.btn-secondary,
+.btn-secondary:focus {
+    box-shadow: none !important;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.headerBtn {
+    height: 48px;
+    width: 180px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 12px !important;
+}
+
+.bookDemo {
+    border: 2px solid #CB1B5B;
+    color: #CB1B5B !important;
+    background-color: #fff;
+}
+
+.registerNow,
+.bookNow {
+    background-color: #CB1B5B;
+    color: #fff;
+    border: none;
+}
+
+.healthsyLifeMobHeaderSection {
+    .DownloadBtn {
+        max-width: 335px;
+        width: 100% !important;
+    }
+
+    .SocialMediaSection {
+        margin: 32px 0 25px;
+    }
+}
+
+.header-menu-list:hover,
+.healthsySubMenu:hover,
+.comapanyMenuList li:hover,
+li.healthsySubMenu:hover {
+    background: #FFF2F7;
+    color: #CB1B5B !important;
+}
+
+li.healthsySubMenu:hover {
+    .healthsySubMenu {
+        background: #FFF2F7;
+        color: #CB1B5B !important;
+    }
+
+}
+
+.homeHealthcareMenu:hover {
+    .header-menu-list {
+        color: #CB1B5B !important;
+        background: #FFF2F7;
+
+    }
+}
+
+// .popoverPanel {
+//     position: absolute;
+//     bottom: -45px;
+//     background: white;
+//     left: 222px;
+//     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+//     border-radius: 8px;
+// }
+
+.serviceMenus {
+    padding: 0px 0px !important;
+
+    ul>a>li {
+        padding: 12px 20px !important;
+    }
+
+    // ul .homeHealthcareMenu {
+    //     padding: 12px 12px 12px 20px !important;
+    // }
+
+    .home-healthcare-menu-item {
+        padding: 12px 16px !important;
+    }
+}
+
+.serviceMenuContent>a:first-child li,
+.popoverPanel>div>a:first-child li,
+.comapanyMenuList>a:first-child li,
+.ServiceCategoriesMenuContent>a:first-child li {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.serviceMenuContent>a:last-child li,
+.healthSyMenuContent>li:last-child,
+.comapanyMenuList>a:last-child li,
+.ServiceCategoriesMenuContent>a:last-child li,
+.popoverPanel>div>a:last-child li {
+    border-radius: 0px 0px 8px 8px;
+}

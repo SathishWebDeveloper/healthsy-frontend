@@ -1,0 +1,266 @@
+.inclinic-doctor-banner{
+    background-color: #CB1B5B;
+    height: 180px;
+    display: flex;
+    align-items: center;
+
+    .searchFieldWrapper {
+        height: 106px;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        justify-content: space-between;
+        width: 981px;
+        .location_field{
+            width: 458px;
+            height: 70px;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            .select__indicators{
+                margin-right: 25px;
+                background-color: #f5f5f5;
+                z-index: 3;
+                height: 70px;
+                max-height: 70px;
+            }
+            .select__control--menu-is-open{
+               border-radius:  15px 15px 0px 0px !important;
+            }
+            .css-1nmdiq5-menu{
+                width: 99%;
+                margin:0 0 0 1px !important;
+               .select__group{
+                  padding: 0px !important;
+                }
+                .select__menu-list{
+                    padding: 0%;
+                }
+                .select__group-heading{
+                    margin: 0;
+                    height: 20px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    // border: 1px solid red;
+                    border-radius: 0px !important;
+                    padding: 20px 10px;
+                    background-color: #f5f5f5;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    text-transform: none !important;
+                }
+                 .select__option{
+                    width: 100%;
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    border-radius: 0 !important;
+                    padding: 0% !important;
+                   & div{
+                        display: flex;
+                        justify-content: space-between;
+                        margin:0px 20px 0px 5px;
+                        width: 100%;
+                        cursor: pointer;
+                        & :hover{
+                            background-color: #f5f5f5;
+                        }
+                    }
+                }
+            }
+            .css-1hb7zxy-IndicatorsContainer{
+                > :not(:first-child) {
+                    display: none !important;   
+                }
+                > div:first-child {
+                    border-radius: 50%;
+                    padding: 1px !important;
+                    cursor: pointer;
+                    & svg {
+                        & path {
+                            fill: #000000 !important;
+                        }
+                    }
+                  }
+                & span{
+                    display: none !important;
+                }
+            }
+            .location_icon{
+                position: absolute;
+                top: 50%;
+                left: 91%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                z-index: 2;
+
+            }
+        }
+        .docter_field{
+            width: 458px;
+            height: 70px;
+            position: relative;
+            .select__control--menu-is-open{
+                border-radius:  15px 15px 0px 0px !important;
+             }
+            .css-1nmdiq5-menu{
+                width: 99%;
+                margin:0 0 0 1px !important;
+               .select__group{
+                  padding: 0px !important;
+                }
+                .select__menu-list{
+                    padding: 0%;
+                }
+                .select__group-heading{
+                    margin: 0;
+                    height: 20px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    border-radius: 0px !important;
+                    padding: 20px 10px;
+                    background-color: #f5f5f5;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                   text-transform: none !important;
+
+                }
+                 .select__option{
+                    width: 100%;
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    border-radius: 0 !important;
+                    padding: 0% !important;
+                   & div{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 100%;
+                        cursor: pointer;
+                        margin:0px 20px 0px 5px;
+                        & :hover{
+                            background-color: #f5f5f5;
+                        }
+                    }
+                }
+            }
+            .css-1hb7zxy-IndicatorsContainer{
+                & span{
+                    display: none !important;
+                }
+            }
+            .select__indicators{
+                margin-right: 16px;
+                background-color: #f5f5f5;
+                z-index: 3;
+            }
+            .css-1i4neno-placeholder{
+                display: flex;
+            }
+            .specialization-lgcontent-text{
+                width: 110px;
+                color: #CB1B5B;
+                position: absolute;
+                top: 50%;
+                left: 30%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+    .mobileSearchField{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 380px;
+        max-width: 380px;
+        margin: 0 auto 16px auto;
+        .mobileScreenInput{
+            margin: auto;
+            width: 380px;
+            max-width: 380px;
+            .css-qbdosj-Input{
+                margin-left: 45px !important;
+            }
+            .select__control--menu-is-open{
+             }
+             .css-1nmdiq5-menu{
+                display: none;
+                 width: 99%;
+                 margin:0 0 0 1px !important;
+             }
+             .select__indicators{
+                margin-right: 10px;
+
+            }
+             .css-1hb7zxy-IndicatorsContainer{
+                 > :not(:first-child) {
+                     display: none !important;   
+                 }
+                 > div:first-child {
+                    //  border: 1px solid #000000;
+                     border-radius: 50%;
+                     padding: 1px !important;
+                     cursor: pointer;
+                     & svg {
+                         & path {
+                             fill: #000000 !important;
+                         }
+                     }
+                   }
+                 & span{
+                     display: none !important;
+                 }
+             }
+             .css-1i4neno-placeholder{
+               display: flex;
+             }
+             .css-1i4neno-placeholder{
+                display: flex;
+            }
+        }
+        .search_icon{
+            position: absolute;
+            top: 50%;
+            left: 7%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            @media only screen and (max-device-width: 425px) {
+                left: 9%;
+            }
+        }
+
+        @media only screen and (max-device-width: 425px) {
+            padding: 0px 5px;
+            width: 100%;
+            max-width: 100%;
+            .mobileScreenInput{
+                width: 100%;
+            }
+        }
+    }
+
+    @media only screen and (min-device-width: 992px) and (max-device-width: 1050px) {
+        .inclinic-doctorspecial{
+            margin: 0 0 0 8px !important;
+            padding: 0% !important;
+        }
+    }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 992px) {
+        height: 260px;
+        align-items: flex-start;
+        .inclinic-doctorspecial{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            .searchFieldWrapper {
+                height: 200px;
+                flex-direction: column;
+                width: 500px;
+            }
+        }
+    }
+}
+

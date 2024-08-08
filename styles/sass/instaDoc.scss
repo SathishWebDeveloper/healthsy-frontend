@@ -1,0 +1,635 @@
+.instaDocStepsSection {
+    padding-top: 80px;
+
+    .instaDocStepsHeadingWrapper {
+        width: 590px;
+    }
+
+    .instaDocStepsheading {
+        line-height: 51.5px;
+        margin-bottom: 17px;
+    }
+
+    .watchVideoBtn {
+        width: 270px;
+        height: 60px;
+        border-radius: 50.503px;
+        background: #CB1B5B;
+        color: white;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .instaDocstepsWrapper {
+        width: 144px;
+        height: 39px;
+        border-radius: 8px;
+        background: #FFEBF3;
+        color: #CB1B5B;
+        margin: 32px 0 31px;
+    }
+
+    .stepNoWrapper {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #CB1B5B;
+        color: white;
+    }
+
+    .instaDocStepsTitle {
+        margin: 10px 0 7px;
+    }
+
+    .instaDocStepGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 70px 95px;
+    }
+
+    // .instaDocNoteWrapper {
+    //     width: 78px;
+    //     height: 40px;
+    //     border-radius: 8px;
+    //     background: #FFEBF3;
+    //     color: #CB1B5B;
+    //     margin: 34px 0 16px;
+    // }
+
+    // .noteText {
+    //     font-weight: 500;
+    //     font-size: 16px;
+    //     line-height: 34px;
+    //     margin-bottom: 32px;
+    // }
+
+    .instaDocStepsContentWrapper {
+        width: 674px;
+        margin-bottom: 124px;
+    }
+
+    @media only screen and (max-device-width: 1200px) and (min-device-width: 996px) {
+        .instaDocStepGrid {
+            gap: 10px 20px;
+        }
+    }
+
+    @media only screen and (max-device-width: 995px) and (min-device-width: 769px) {
+        .instaDocStepsContainer {
+            flex-direction: column;
+            align-items: center !important;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 40px 24px 0;
+
+        .watchVideoBtn {
+            margin: 55px auto 71px;
+        }
+
+        .instaDocStepsheading {
+            line-height: 33px;
+            margin-bottom: 24px;
+        }
+
+        .instaDocStepGrid {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 32px;
+        }
+
+        .instaDocstepsWrapper {
+            margin: 22px 0 37px;
+        }
+
+        .instaDocStepsTitle {
+            margin: 16px 0 13px;
+        }
+
+        // .instaDocNoteWrapper {
+        //     margin: 32px 0 23px;
+        // }
+
+        // .noteText {
+        //     margin: 0;
+        // }
+
+
+        .instaDocStepsContentWrapper {
+            margin-bottom: 0;
+        }
+
+    }
+}
+
+.instaDocAdvSection {
+    margin: 64px auto 100px;
+
+    .newInstaDocTitle {
+        line-height: 51.5px;
+    }
+
+    .instaDocContnet {
+        padding: 15px 0 50px;
+    }
+
+    .healthSyInstaDoc {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0 115px;
+    }
+
+    .instaDocImg {
+        border-radius: 10px;
+        width: 64px;
+        height: 64px;
+    }
+
+    .instaDocTitle {
+        padding: 30px 0 16px;
+    }
+
+    .instaDocDesc {
+        line-height: 25px;
+        max-width: 217px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        margin-bottom: 23px;
+        padding: 0 24px;
+
+        .healthSyInstaDoc {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .newInstaDoc {
+            padding: 0 24px;
+        }
+
+        .newInstaDocTitle {
+            line-height: 33px;
+        }
+
+        .instaDocImg {
+            border-radius: 11px;
+            width: 52px;
+            height: 52px;
+        }
+
+        .instaDocContnet {
+            padding: 10px 0 24px;
+        }
+
+        .instaDocTitle {
+            padding: 16px 0 16px;
+        }
+
+        .instaDocDesc {
+            max-width: 380px;
+            padding-bottom: 27px;
+            line-height: 29px;
+        }
+    }
+}
+
+.instaDocApp {
+    background-color: #CB1B5B;
+    border-radius: 15px;
+    margin-top: 89px;
+    margin-bottom: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newInstaDocQrCode {
+    display: flex;
+    align-items: center;
+    padding: 36px 130px 36px 69px;
+}
+
+.instaDocGeneral {
+    padding: 36px 0 36px 69px;
+}
+
+.intaDocAdvantage {
+    padding: 12px 0 20px;
+}
+
+.instaDocInput {
+    width: 333px;
+    height: 52px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    padding: 16px 0 16px 22px;
+    color: #4D4D4D;
+}
+
+.instaDocBtn {
+    width: 155px;
+    height: 52px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #CB1B5B;
+    border: none;
+    margin-left: 22px;
+}
+
+.instaDocDownload {
+    padding: 33px 0 12px;
+}
+
+.googlePlayStoreApp,
+.googlePlayStoreApp:hover {
+    background: #181423;
+    color: #fff;
+}
+
+.googleAppStoreButton,
+.googleAppStoreButton:hover {
+    background: #fff;
+    color: black;
+}
+
+.instaDocApp {
+
+    .googlePlayStoreImg,
+    .googleAppStoreImg {
+        margin-right: 10px;
+    }
+
+    .instaDocAppLink a:first-child {
+        padding-left: 0 !important;
+    }
+
+    @media only screen and (max-device-width: 840px) and (min-device-width: 769px) {
+        .newInstaDocQrCode {
+            padding: 36px 58px 36px 69px;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        justify-content: center;
+        padding: 32px;
+        margin: 0 25px;
+        width: auto;
+
+        .instaDocAppLink {
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .instaDocGeneral {
+            padding: 0;
+            text-align: center;
+        }
+
+        .instaDocMobConent {
+            padding: 32px 0 16px;
+        }
+
+        .intaDocAdvantage {
+            padding: 16px 0 32px;
+            text-align: center;
+        }
+        .instaDocInputWrapper{
+            width: 265px;
+            margin: auto;
+        }
+        .instaDocInput {
+            width: 265px;
+            height: 49.756px;
+        }
+
+        .instaDocInput::placeholder {
+            font-size: 14px;
+        }
+
+        .instaDocMobBtn {
+            width: 39px;
+            height: 40px;
+            border-radius: 8px;
+            background: #CB1B5B;
+            position: absolute;
+            right: 10px;
+            top: 13px;
+        }
+
+        .googlePlayStoreApp {
+            margin-bottom: 22px;
+        }
+
+        .googlePlayStoreImg,
+        .googleAppStoreImg {
+            width: 20px;
+            height: 24px;
+            font-size: 15px;
+
+        }
+
+        .googlePlayStoreBtn,
+        .googleAppStoreBtn {
+            min-width: 165px;
+
+        }
+    }
+
+    @media only screen and (max-device-width: 320px) {
+        .instaDocInput, .instaDocInputWrapper {
+            width: 95%;
+        }
+    }
+}
+@media only screen and (min-device-width: 769px) and (max-device-width: 1399px) {
+    .instaDocInputWrapper{
+        width : 100% !important;
+        & div {
+            width : 100% !important;
+        }
+    }
+}
+
+.instaDocUsersSection {
+    background: #FFF4F8;
+    margin-bottom: 90px;
+
+    .container {
+        padding: 40px 0 0;
+    }
+
+    .newInstaDocTitle {
+        line-height: 51.5px;
+    }
+
+    .instaDocContnet {
+        padding: 15px 0 50px;
+    }
+
+    .healthSyInstaDoc {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0 115px;
+    }
+
+    .instaDocImg {
+        border-radius: 10px;
+        width: 64px;
+        height: 64px;
+    }
+
+    .instaDocTitle {
+        padding: 30px 0 16px;
+    }
+
+    .instaDocDesc {
+        line-height: 25px;
+        max-width: 217px;
+    }
+
+    .instaDocUsersBox {
+        // min-width: 361px;
+        height: auto;
+        border-radius: 13px;
+        border: 1px solid #E9E9E9;
+        background: #FFF;
+        padding: 33px 19px 15px 32px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+
+    .instaDocUsersLocation {
+        padding: 3px 0 12px;
+    }
+
+    .instaDocUserDesc {
+        color: #4D4D4D;
+    }
+
+    @media only screen and (min-device-width: 769px) {
+
+        .instaDocTestmonialHeader {
+            padding: 83px 0 76px;
+        }
+
+        .instaDocMobContent {
+            padding: 40px 0 20px;
+        }
+
+        .instaDocDetails {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0 79px;
+        }
+
+
+        .instaDocCity {
+            padding-left: 3px;
+        }
+
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        margin-bottom: 45px;
+
+        .instaDocTestmonialHeader {
+            padding: 0 0 20px 25px;
+        }
+
+        .healthSyInstaDoc {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .newInstaDoc {
+            padding: 0 24px;
+        }
+
+        .newInstaDocTitle {
+            line-height: 33px;
+        }
+
+        .instaDocImg {
+            border-radius: 11px;
+            width: 52px;
+            height: 52px;
+        }
+
+        .instaDocContnet {
+            padding: 10px 0 24px;
+        }
+
+        .instaDocTitle {
+            padding: 16px 0 16px;
+        }
+
+        .instaDocDesc {
+            max-width: 380px;
+            padding-bottom: 27px;
+            line-height: 29px;
+        }
+
+        .instaDocUsersBox {
+            height: 224px;
+            max-width: 360px;
+            text-align: start;
+            margin-bottom: 40px;
+        }
+
+        .instaDocUsersLocation img {
+            width: 10px !important;
+        }
+
+        // carousel
+        .carousel.carousel-slider {
+            max-width: 388px;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .slider-wrapper {
+            max-width: 100%;
+
+        }
+
+        .instaDocCarouselArrow,
+        .instaDocCarouselRightArrow {
+            position: absolute;
+            background: #fff;
+            z-index: 2;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0px 32px 96px 0px rgba(0, 0, 0, 0.10), 0px 8px 32px 0px rgba(0, 0, 0, 0.07), 0px 3px 9.600000381469727px 0px rgba(0, 0, 0, 0.05), 0px 4px 6.400000095367432px 0px rgba(0, 0, 0, 0.03);
+
+            img {
+                width: 20px;
+            }
+        }
+
+        .instaDocCarouselArrow,
+        .instaDocCarouselRightArrow {
+            width: 29px;
+            height: 29px;
+            top: 100px;
+
+            img {
+                width: 12px;
+            }
+        }
+
+        .instaDocCarouselArrow {
+            right: calc(50% + 160px);
+            z-index: 5;
+        }
+
+        .instaDocCarouselRightArrow {
+            transform: rotate(180deg);
+            left: calc(50% + 160px);
+            right: 0;
+        }
+
+        ul>li:first-child,
+        .slide.previous {
+            right: -28%;
+        }
+
+        .selected.slide.previous {
+            right: inherit;
+        }
+
+        .slide.selected+li {
+            left: -28%;
+        }
+    }
+
+    @media only screen and (max-device-width: 540px) {
+        .slide.selected+li {
+            left: -18%;
+        }
+
+        ul>li:first-child,
+        .slide.previous {
+            right: -18%;
+        }
+
+    }
+
+    @media only screen and (max-device-width: 450px) {
+        .slide.selected+li {
+            left: -11%;
+        }
+
+        ul>li:first-child,
+        .slide.previous {
+            right: -11%;
+        }
+
+    }
+
+    @media only screen and (max-device-width: 420px) {
+        .slide.selected+li {
+            left: 0;
+        }
+
+        ul>li:first-child,
+        .slide.previous {
+            right: 0;
+        }
+
+        .slide.selected {
+            padding: 0 30px;
+        }
+
+        .instaDocCarouselRightArrow {
+            right: 20px;
+            left: inherit;
+        }
+
+        .instaDocCarouselArrow {
+            left: 20px;
+            right: inherit;
+        }
+
+        .instaDocUsersBox {
+            height: auto;
+        }
+    }
+}
+
+.instaDocNote {
+    border-radius: 15px;
+    border: 1px solid #CB1B5B;
+    background: #FFEBF3;
+    padding: 24px 35px 20px;
+
+    .instaDocNoteTitle {
+        color: #CB1B5B;
+        margin-bottom: 16px;
+    }
+
+    .noteDesc {
+        line-height: 34px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 15px 24px 22px;
+        border-radius: 0;
+        border: none;
+
+        .instaDocNoteTitle {
+            width: 63px;
+            height: 32px;
+            border-radius: 6.462px;
+            background: #FFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 23px;
+        }
+
+        .clickNavigate {
+            font-size: 16px;
+        }
+    }
+
+}

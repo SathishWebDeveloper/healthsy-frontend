@@ -1,0 +1,54 @@
+.aboutUsBannerSection {
+    .padding-section {
+        height: auto;
+    }
+}
+
+.aboutUsBannerTitle {
+    margin-top: 28px;
+
+    h1 {
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    span {
+        color: #CB1B5B;
+        font-weight: 700;
+    }
+
+    .aboutUsBannerSubTitle {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .aboutUsBannerTitle {
+        margin-top: 15px;
+
+        h1 {
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            width: 70%;
+            margin-bottom: 18px;
+        }
+
+        .aboutUsBannerSubTitle {
+            font-size: 16px;
+            margin-bottom: 24px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 450px) {
+    .aboutUsBannerTitle h1 {
+        max-width: 320px;
+        width: 100%;
+    }
+}

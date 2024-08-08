@@ -1,0 +1,95 @@
+.ctaBannerModelSection {
+    padding: 30px 30px 24px 30px;
+
+    .c-input-group--phn {
+        margin-bottom: 30px;
+    }
+
+    .ctaModelPhone {
+        height: 65px !important;
+    }
+
+    .ctaModelPhone::placeholder {
+        font-size: 20px;
+        color: #4B4853;
+    }
+}
+
+.ctaHeading {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.ctaFormInput,
+.ctaHeadingSection,
+.ctaBtn {
+    max-width: 660px !important;
+    width: 100%;
+}
+
+.ctaFormInput {
+    margin: 21px 0 !important;
+    font-size: 20px !important;
+}
+
+.ctaFormInput::placeholder {
+    font-size: 20px;
+    color: #4B4853;
+}    
+
+.ctaFormInput,
+.ctaBtn {
+    height: 65px !important;
+}
+
+.ctaBtn {
+    border: 1px solid;
+    border-radius: 10px;
+    background: #CB1B5B;
+    color: #FFFFFF;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+
+.ctaFormInp::placeholder {
+    color: black !important;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .ctaBannerModelSection {
+        padding: 15px;
+
+        .ctaModelPhone {
+            height: 54px !important;
+        }
+    }
+
+    .ctaHeading {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .ctaCloseIcon {
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+    .ctaFormInput {
+        margin: 12px 0 !important;
+        font-size: 16px !important;
+    }
+
+    .ctaFormInput,
+    .ctaBtn {
+        height: 54px !important;
+    }
+
+    .ctaBtn {
+        font-size: 0 !important;
+    }
+
+    .ctaBtn::after {
+        content: "Get Callback";
+        font-size: 18px !important;
+    }
+}

@@ -1,0 +1,60 @@
+.blog-content {
+    background-color: #f7f7f7 !important;
+    padding-bottom: 50px;
+}
+.blog-content  .content-text{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.blog-content .images{
+    padding-top: 70px !important; 
+    padding: 0px;
+}
+.blog-content .img{
+    background-color: white;
+    padding: 0px 18px 18px 18px !important;
+    border-radius: 5px;
+} 
+.blog-content .img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.blog-content .img p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.blog-content  .img .share img{
+    height: 20px;
+    width: 20px;
+}
+.blog-content .img .share {
+    color: grey;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.blog-content .view{
+    text-align: center;
+}
+.blog-content button{
+ background-color: #f7f7f7;
+ color: rgb(92, 88, 88);
+ border:1px solid rgb(206, 204, 204);
+ border-radius: 5px;
+ height: 40px;
+ width: 150px;
+ margin-top: 80px;
+
+}
+@media screen  and (max-width: 768px) {
+  .blog-content .img{
+    margin-bottom: 40px;
+  } 
+  .blog-content button{
+    margin-top: 10px;
+  } 
+  .blog-content  .content-text{
+    padding: 20px 0px;
+  }
+}

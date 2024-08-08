@@ -1,0 +1,31 @@
+.reportError {
+    .reportInputField {
+        max-width: 242px;
+        height: 60px;
+    }
+
+    .report-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .report-item {
+        flex-basis: calc(50% - 10px);
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-check-input {
+        margin-right: 5px;
+        justify-content: center;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .reportInputField {
+            width: 158px;
+            height: 42px;
+        }
+    }
+}

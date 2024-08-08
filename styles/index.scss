@@ -1,0 +1,2860 @@
+@import './sass/header.scss';
+@import './sass/footer.scss';
+@import './sass/otp.scss';
+@import './sass/scroll.scss';
+@import './sass/SideBarNavigation.scss';
+@import './sass/modal.scss';
+@import './sass/homepage/homepagetop.scss';
+@import './sass/homepage/launching.scss';
+@import './sass/homepage/notify.scss';
+@import './sass/homepage/ordering.scss';
+@import './sass/homepage/consultation.scss';
+@import './sass/homepage/getall.scss';
+@import './sass/homepage/healthcareservice.scss';
+@import './sass/homepage/membership.scss';
+@import './sass/homepage/appointments.scss';
+@import './sass/homepage/joinus.scss';
+@import './sass/homepage/instadoc.scss';
+@import './sass/homepage/subscription.scss';
+@import './sass/homepage/Articles.scss';
+@import './sass/homepage/launchingshortly.scss';
+
+@import './sass/bookDemo/bookDemo.scss';
+@import './sass/bookDemo/headerDemo.scss';
+@import './sass/joinUsPage/careerFilter.scss';
+@import './sass/joinUsPage/header.scss';
+@import './sass/joinUsPage/careerBanner.scss';
+@import './sass/jobForm/jobForm.scss';
+@import './sass/menuDropdown/menuDropdown.scss';
+@import './sass/careersDetails/detailBanner.scss';
+@import './sass/careersDetails/detailContent.scss';
+@import './sass/careersDetails/detailCard.scss';
+
+@import './sass/sellWithUs/forDoctorsBanner.scss';
+@import './sass/sellWithUs/advantages.scss';
+@import './sass/sellWithUs/registration-sell.scss';
+@import './sass/sellWithUs/highlights.scss';
+@import './sass/PharmacyRegistration/pharmregister.scss';
+@import './sass/RegistrationForm.scss';
+@import './sass/OtherRegistration/banner.scss';
+@import './sass/OtherRegistration/registrationform.scss';
+@import './sass/DoctorRegistration/doctorregistration.scss';
+@import './sass/DoctorRegistration/index.scss';
+@import './sass/DoctorRegistration/advantages.scss';
+@import './sass/DoctorRegistration/highlights.scss';
+@import './sass/DoctorRegistration/forDoctorsBanner.scss';
+@import './sass/DoctorRegistration/registration.scss';
+
+@import './sass/blogs/allCategory.scss';
+@import './sass/blogs/featured/feature.scss';
+@import './sass/blogs/banner.scss';
+@import './sass/blogs/blogDetails.scss';
+@import './sass/blogs/dynamicBlog/index.scss';
+@import './sass/blogs/categoryFilter.scss';
+@import './sass/blogDetails/articleBanner.scss';
+@import './sass/postAComment/postAComment.scss';
+@import './sass/blogDetails/blogSuccessSubscribe.scss';
+
+@import './sass/healthcareregistration/advantages.scss';
+@import './sass/healthcareregistration/HealthCareBanner.scss';
+@import './sass/healthcareregistration/healthcareregistration.scss';
+@import './sass/healthcareregistration/highlights-health.scss';
+@import './sass/healthcareregistration/registeration.scss';
+@import './sass/terms.scss';
+@import './sass/privacy.scss';
+@import './sass/refundpolicy.scss';
+@import './sass/customergrievance.scss';
+@import './sass/healthcareProducts.scss';
+@import './sass/homeHealthcare.scss';
+@import './sass/onlineConsultation.scss';
+@import './sass/jobShare//jobShare.scss';
+@import './sass/contactUs/contactUsBanner.scss';
+@import'./sass/healthsyLife.scss';
+@import './sass/careers.scss';
+@import './sass/careerDetails.scss';
+
+@import './sass/aboutUs/aboutUsBanner.scss';
+@import './sass/aboutUs/aboutHealthsy.scss';
+@import './sass/aboutUs/aboutUsCoreSection.scss';
+@import './sass/aboutUs/aboutCTO.scss';
+@import './sass/aboutUs/aboutTeamMembers.scss';
+@import './sass/aboutUs/ourInvestors.scss';
+@import './sass/aboutUs/ourAchievements.scss';
+@import './sass/contactUs/contactUsForm.scss';
+@import './sass/formLandingBanner.scss';
+@import './sass/formLandingAdvantages.scss';
+@import './sass/formLandingSteps.scss';
+@import './sass/ctaBannerModel.scss';
+@import './sass/ctaSuccessModal.scss';
+@import './sass/serviceAdvantages.scss';
+@import './sass/serviceBanner.scss';
+@import './sass/serviceCategory.scss';
+@import './sass/Physio.scss';
+@import './sass/city.scss';
+@import './sass/cities.scss';
+@import './sass/forInstaDoc.scss';
+@import './sass/instaDoc.scss';
+@import './sass/physioRegistrationFrom.scss';
+@import './sass/doctorsAd.scss';
+@import './sass/instaDocQRCode.scss';
+
+@import './sass/advantageSubscrition.scss';
+@import './sass/custom.scss';
+@import './sass/userGeneral.scss';
+@import './sass/homepage/advantagesOfSubscription.scss';
+@import './sass/homepage/medicine.scss';
+@import './sass/homepage/homeBanner.scss';
+@import './sass/sustainabilityPolicy.scss';
+@import './sass/franchiseProgramme.scss';
+@import './sass/instaDocRegistration.scss';
+@import './sass/rpQrRating.scss';
+@import './sass/doctorListing.scss';
+@import './sass/reportError.scss';
+@import './sass/inclinicDoctorlistpage.scss';
+
+.primaryColor {
+  color: #CB1B5B !important;
+}
+
+.bgPrimary {
+  background: #CB1B5B;
+}
+
+a {
+  text-decoration: none !important;
+  color: gray !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.blogpage-text a {
+  color: #CB1B5B !important;
+}
+
+// .home_page_learn_more a {
+//   padding: 10px;
+// }
+
+.getNotifiedBtn:hover {
+  background: #CB1B5B !important;
+}
+
+.sustainabilityHeaderBtn {
+  background: #00A242;
+}
+
+.sustainabilityHeaderBtn:hover {
+  background: #00A242 !important;
+}
+
+.launching-google-btn:hover {
+  color: none;
+}
+
+.launching-google-btn:active {
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.launching-app-btn:hover {
+  color: #000000 !important;
+}
+
+.getNotifiedBtn:active {
+  background: #CB1B5B !important;
+}
+
+.get-code {
+  color: #CB1B5B !important;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 20px;
+  border: none !important;
+}
+
+.bg-light-gray {
+  background-color: #98969D !important;
+}
+
+.background-light-gray {
+  background-color: #D6D6D6 !important;
+}
+
+.otp-input {
+  width: 48px !important;
+  float: left;
+  margin-right: 24px;
+}
+
+.star {
+  color: #CB1B5B;
+}
+
+.btn {
+  height: 56px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+
+}
+
+.verification-btn {
+  margin-bottom: 24px !important;
+}
+
+// careers index
+.career-main-head-mob {
+  white-space: normal;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+* {
+  font-family: 'Mulish' !important;
+  font-style: normal;
+}
+
+.theme-color {
+  color: #CB1B5B;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border: 1px solid #CB1B5B !important
+}
+
+input[type='radio'] {
+  border-color: #CB1B5B;
+}
+
+input[type="radio"]:checked {
+  background: #FFFFFF;
+  border-color: #CB1B5B;
+}
+
+.text-indent-10 {
+  text-indent: 10px
+}
+
+h1,
+h2,
+h4,
+h5 {
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn {
+  height: 56px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+}
+
+.btn.btn-primary {
+  background: #CB1B5B;
+  color: #fff !important;
+  padding: 16px 54px;
+  border: 0;
+}
+
+.btn.btn-secondary {
+  background: #fff;
+  color: #CB1B5B;
+  padding: 12px 24px;
+  border: 1px solid #CB1B5B;
+}
+
+.btn-light {
+  background: #fff;
+  color: #000000;
+  padding: 14px 48px;
+}
+
+.bg-primary {
+  background-color: #CB1B5B !important;
+}
+
+.text-primary {
+  color: #CB1B5B !important;
+}
+
+.border-color-light-primary {
+  border-color: #FFECF3 !important;
+}
+
+.bg-secondary-gray {
+  background-color: #65626C;
+}
+
+.text-secondary-gray {
+  color: #65626C;
+}
+
+.bg-light-gray {
+  background-color: #98969D;
+}
+
+.text-light-gray {
+  background-color: #98969D;
+}
+
+.bg-faded-green {
+  background: #599E85;
+  opacity: 1 !important;
+  width: 99px;
+  height: 30px;
+  padding: 0px !important;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  border: 0px solid #98969D;
+  border-radius: 5px;
+  height: 50px;
+  background: #F9F9F9;
+  border-radius: 5px;
+  padding-left: 24px;
+}
+
+.verifyOTP {
+  align-items: flex-start;
+}
+
+.form-label {
+  font-weight: 700;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-success.disabled {
+  opacity: 1;
+}
+
+.btn-light-green {
+  background-color: #00a79d
+}
+
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.form-select:focus {
+  box-shadow: none !important;
+}
+
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  // background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e) !important;
+  background-repeat: no-repeat !important;
+  background-position: right 0.75rem center !important;
+  background-size: 16px 12px;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-left: 28px;
+}
+
+.form-label {
+  margin-bottom: 1rem !important;
+}
+
+.input-group-text {
+  background-color: #f9f9f9 !important;
+}
+
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+
+.form-check-input {
+  border: 3px solid rgba(0, 0, 0, .25);
+}
+
+.success-gif-pict {
+  width: 214px;
+  height: 214px;
+  margin-bottom: 60px;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+  box-shadow: none !important;
+}
+
+.form-section input,
+select {
+  padding-left: 24px !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #f8f8f8 inset;
+}
+
+.registration-form .otp-input {
+  padding-left: 12px !important;
+}
+
+.pr0 {
+  padding-right: 0;
+}
+
+.logo-img {
+  width: 168px;
+  height: auto;
+}
+
+.mb2p5 {
+  margin-bottom: 2.5rem;
+}
+
+textarea {
+  resize: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .logo-header {
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+  }
+
+  .header-menu {
+    padding-right: calc(var(--bs-gutter-x) * .5) !important;
+  }
+}
+
+/* Phn no. input focus border */
+.c-input-group--phn .c-input-group--prefix {
+  position: absolute;
+  left: 4px;
+  height: 32px !important;
+  min-width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 35%;
+  transform: translateY(-50%);
+  z-index: 20;
+  background-color: transparent !important;
+  border-right: 1px solid #d3d3d3;
+}
+
+.form-section input,
+.c-input-group--phn input {
+  padding-left: 50px !important;
+}
+
+.registration-section {
+  .form-section input {
+    padding-left: 20px !important;
+  }
+
+  .c-input-group--phn input {
+    padding-left: 50px !important;
+  }
+}
+
+.c-input-group--phn .c-input-group--prefix,
+.c-input-group--phn .c-input-group--btn,
+.c-input-group--phn .c-input-group--status {
+  top: 50% !important;
+}
+
+.c-input-group--phn input {
+  padding-left: 56px !important;
+}
+
+.c-input-group--phn .c-input-group--status {
+  position: absolute;
+  right: 24px;
+  top: 35%;
+  transform: translateY(-50%);
+  font-weight: 500;
+}
+
+.c-input-group--phn .c-input-group--btn {
+  position: absolute;
+  right: 6px;
+  top: 35%;
+  border-radius: 8px;
+  transform: translateY(-50%);
+}
+
+.c-input-group--phn .c-input-group--btn-text {
+  border: none;
+  height: 42px;
+  /* width: 126px; */
+  border-radius: 8px;
+  background: none;
+}
+
+.light-bg-gray {
+  background: #F9F9F9;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #f8f8f8 !important;
+  opacity: 1;
+}
+
+/* new styles  */
+.onlineSectionContainer {
+  margin: auto;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.onlineCourseContentWrapper {
+  width: 90%;
+}
+
+.sectionSubTitles {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.squareBox {
+  width: 88px;
+  height: 88px;
+  min-width: 88px;
+  border-radius: 25%;
+  background: #FAE8EF;
+  border: 1px solid #FAE8EF;
+  margin: 20px 0px;
+}
+
+.metricIcons {
+  width: 42px;
+  height: 42px;
+}
+
+.onlineSectionDesc {
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 250px;
+  margin: 10px auto 0px;
+  text-align: center;
+}
+
+.WidestRangeContainer {
+  margin: auto;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.descWrapper {
+  max-width: 420px;
+}
+
+.widestRangeWrapper {
+  background: #FFF5FA;
+}
+
+.topLabel {
+  font-weight: 700;
+  font-size: 18px;
+  color: #CB1B5B;
+}
+
+// .middleLabel {
+//   width: 100%;
+//   min-width: 510px;
+// }
+
+
+.bottomLabel {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.widestRangeImg {
+  width: 24px;
+  height: 24px;
+}
+
+.ContentWrapper {
+  align-items: center;
+}
+
+.btn-learnMore {
+  color: #FFFFFF !important;
+  background-color: #CB1B5B !important;
+  font-weight: 700 !important;
+  border-radius: 12px;
+  width: 192px;
+  height: 56px;
+}
+
+.btn-learnMore:hover {
+  background-color: #D5497C !important;
+  color: #FFFFFF;
+}
+
+.learnMore-btn {
+  background: #CB1B5B;
+  width: 192px;
+  height: 56px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 12px;
+  color: white !important;
+}
+
+// ctaSuccessModal
+
+.ctaSuccessModalContainer .modal-content {
+  right: 0px !important;
+}
+
+.ctaSuccessModalContainer .modal-dialog {
+  max-width: 720px !important;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .ctaSuccessModalContainer .modal-dialog {
+    max-width: 400px !important;
+    width: 95%;
+    margin: auto;
+  }
+
+  .learnMore-btn {
+    height: 48px;
+  }
+
+  .widestRangeImg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .ContentWrapper {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* ordering-medicines-sections */
+.ordering-medicines-sections {
+  background: #FFF5FA;
+}
+
+.membership-section {
+  padding-top: 130px !important;
+}
+
+// .topBrandImg {
+//   max-width: 536px;
+// }
+
+.stpesImageRow,
+.stpesImageRowReverse {
+  height: auto;
+}
+
+.inClinicStepSmallMobImage {
+  position: absolute;
+  bottom: -6px;
+  right: -73px;
+}
+
+.inlineArrow {
+  top: 28%;
+  right: 25px;
+}
+
+@media only screen and (min-device-width: 1400px) {
+  .descWrapper {
+    max-width: 660px;
+  }
+
+  .stpesImageRowReverse {
+    width: 458px;
+  }
+
+  .stpesImageRow {
+    width: 600px !important;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .onlineCourseContentWrapper {
+    flex-direction: column;
+  }
+
+  .onlineSectionContainer {
+    margin-bottom: 20px;
+  }
+
+  .subContent {
+    flex-direction: row !important;
+  }
+
+  .onlineCourseContent {
+    margin-bottom: 1.5rem;
+    /* flex-direction: row; */
+    width: 400px;
+    margin: auto;
+    margin-bottom: 3rem;
+    max-width: 400px;
+    /* align-self: center; */
+  }
+
+  .sectionSubTitles {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .WidestRangeContentWrapper {
+    flex-direction: column;
+  }
+
+  .descWrapper {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  .topLabel {
+    font-size: 16px;
+  }
+
+  .middleLabel {
+    margin: 10px 0 20px;
+  }
+
+  // .topBrandImg {
+  //   max-width: 350px;
+  // }
+
+  .btn-learnMore-wrapper {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+
+
+  .mob-text-content {
+    max-width: 480px;
+    margin: auto;
+  }
+
+  .c-input-group--phn .c-input-group--prefix,
+  .c-input-group--phn .c-input-group--btn,
+  .c-input-group--phn .c-input-group--status {
+    top: 45% !important;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .onlineCourseContent {
+    /* width: auto; */
+    max-width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+}
+
+/* Home healthcare */
+.typing-animation {
+  overflow: hidden;
+  /* Hides the text as it's typed */
+  animation: typing 2s steps(20, end), erasing 1s steps(20, end) 2s backwards;
+  /* The animation style */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  /* Start with 0 width */
+  to {
+    width: 100%;
+  }
+
+  /* End with full width */
+}
+
+@keyframes erasing {
+  from {
+    width: 100%;
+  }
+
+  /* Start with full width */
+  to {
+    width: 0;
+  }
+
+  /* End with 0 width */
+}
+
+/* Inclinic Appointment and Home healthcare*/
+
+.topSection {
+  margin-top: 35px;
+  margin-bottom: 72px;
+}
+
+.serviceBannerTwoWrapper {
+  height: 660px;
+}
+
+.firstLabel,
+.contactUsBannerTitle {
+  font-weight: 800;
+  font-size: 48px;
+  max-width: 650px;
+}
+
+.contactUsBannerTitle {
+  font-size: 64px;
+}
+
+.addressTitle {
+  font-weight: 700;
+  font-size: 48px;
+  max-width: 450px;
+}
+
+/* Contact US */
+.contactUsDesc {
+  margin-top: 1rem;
+  color: #4D4D4D;
+  font-weight: 500;
+  font-size: 32px;
+  max-width: 660px;
+}
+
+.contactUsSubDesc {
+  color: #CB1B5B;
+  font-size: 24px;
+  max-width: 660px;
+  font-weight: 500;
+  margin-top: 0.8rem;
+}
+
+.customerSupportSection {
+  padding: 4.5rem 0;
+  margin-bottom: 64px;
+}
+
+.customerSupportBox {
+  padding: 2.5rem 2rem;
+  background: #fff;
+  width: 375px;
+  height: 315px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto 52px;
+}
+
+.customerSupportBoxTitle {
+  color: #797979;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.calluson {
+  color: #181423;
+  margin-bottom: 6px;
+}
+
+.contactEmailPhoneNo {
+  color: #181423;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.connectHealthsyEmail {
+  margin-bottom: 12px;
+}
+
+.locationPinImg {
+  width: 213px;
+}
+
+.indiaText {
+  font-weight: 700;
+  font-size: 40px;
+  color: #CB1B5B;
+  align-self: end;
+  padding-bottom: 22px;
+}
+
+.registeredOffice,
+.connectWithUs {
+  color: #4D4D4D;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contactUsSocialMedia {
+  margin: 3rem auto;
+}
+
+.connectWithUs {
+  font-size: 24px;
+}
+
+.socialMediaTexts {
+  font-size: 40px;
+}
+
+.addressSection {
+  margin: 3rem auto;
+}
+
+.addressTexts {
+  color: #4D4D4D;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 445px;
+}
+
+.axaoneTechnologies {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.subscribtionSection {
+  background: #CB1B5B;
+  border-radius: 24px;
+  padding: 4.5rem 0;
+}
+
+.inputButtonWrapper {
+  position: relative;
+}
+
+.subscribtionInput {
+  width: 601px;
+  height: 64px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 40px;
+  margin-top: 2.5rem;
+  padding: 0 24px;
+}
+
+.stayConnect {
+  font-weight: 600;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.subscribtionTitle {
+  font-weight: 700;
+  font-size: 48px;
+  color: #FFFFFF;
+  max-width: 645px;
+  text-align: center;
+  line-height: 1.1;
+  margin-top: 20px;
+}
+
+.subscribtionInput::placeholder {
+  color: #4B4853;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.subscribeBtn {
+  width: 196px;
+  height: 51px;
+  background: #E9E9E9;
+  border-radius: 40px;
+  position: absolute;
+  right: 8px;
+  bottom: 7px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.lastLabel,
+.healthcareBannerAnim {
+  font-weight: 700;
+  font-size: 48px;
+  color: #D5497C;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.show {
+  opacity: 1;
+}
+
+.advantagesSection {
+  background: #FAE8EF;
+  border-radius: 30px;
+
+}
+
+.advantagesHeading {
+  max-width: 620px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.advantageDescription {
+  max-width: 320px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.bookingSteps,
+.healthcareStepsTitleWrapper {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.bookingStepsContent {
+  max-width: 820px;
+}
+
+.healthcareStepsTitle {
+  max-width: 1025px;
+}
+
+.stepTitle {
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 450px;
+  line-height: 40.16px;
+}
+
+.stepExplanation {
+  font-size: 24px;
+  font-weight: 600;
+  color: #797979;
+  max-width: 400px;
+}
+
+.stpesImageRow {
+  width: 458px;
+}
+
+.faqContainer {
+  background: #F9F9F9;
+  padding-bottom: 72px;
+}
+
+.orderMedicineFAQ {
+  background: #fff;
+}
+
+.faqTitle {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50.16px;
+}
+
+.faqDesc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #797979;
+}
+
+.faqOverView {
+  text-align: center;
+}
+
+.questionWrapper {
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.faqAnswer {
+  font-weight: 400;
+  font-size: 18px;
+  color: #4D4D4D;
+}
+
+.viewAll {
+  font-weight: 700;
+  font-size: 18px;
+  color: #CB1B5B;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.healthcareAdvantagecontent .advantageImage {
+  width: 70px !important;
+}
+
+// .homeHealthcareBannerImg
+.inclinicBannerImg {
+  max-width: 465px;
+}
+
+
+.homeHealthcareBannerSection,
+.homeHealthcareBreadcrumb,
+.commonBreadcrumb {
+  background: #CB1B5B;
+}
+
+.commonBreadcrumb {
+  padding-top: 16px;
+}
+
+.questionWrapper {
+  border: 1px solid #C8C8C8;
+  border-radius: 16px;
+}
+
+@media only screen and (min-device-width: 769px) {
+  .mobContent {
+    display: none !important;
+  }
+
+  .questionWrapper {
+    padding: 24px;
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-device-width: 1399px) and (min-device-width: 993px) {
+  .advantagesContentWrapper {
+    margin: 0% !important;
+  }
+}
+
+@media only screen and (max-device-width: 1200px) and (min-width: 769px) {
+  .typingAnimationWrapper {
+    max-width: 50%;
+  }
+
+  .serviceBannerTwoWrapper {
+    height: 530px;
+  }
+}
+
+@media only screen and (max-device-width: 992px) {
+  .customerSupportBox {
+    margin: auto 5px;
+  }
+
+  // .homeHealthcareBannerImg 
+  .inclinicBannerImg {
+    width: 50%;
+  }
+
+  // .healthcareBannerTitle,
+  .healthcareBannerAnim {
+    font-size: 42px;
+  }
+
+  // .homeHealthcareTopSection,
+  .serviceBannerTwoWrapper {
+    height: auto;
+    position: relative;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .customerSupportSection {
+    padding: 2rem 0;
+  }
+
+  .questionWrapper {
+    padding: 20px 16px;
+    margin-top: 24px;
+  }
+
+  .customerSupportBox {
+    width: 178px;
+    height: 148px;
+    padding: 16px;
+  }
+
+  .customerSupportBoxTitle {
+    font-size: 16px;
+  }
+
+  .shopByCategoiesTitle {
+    font-size: 28px !important;
+    margin-bottom: 38px !important;
+    text-align: center;
+  }
+
+  .shopByCategoiesDesc {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .connectHealthsyEmail,
+  .contactEmailPhoneNo,
+  .ordersOnCall,
+  .contactEmailPhoneNo div,
+  .calluson {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ordersOnCall {
+    font-weight: 400;
+  }
+
+  .calluson {
+    margin-bottom: 12px;
+  }
+
+  .contactUsBannerTitle {
+    font-size: 32px;
+    width: 100%;
+    max-width: 285px;
+    margin-left: 10px;
+    align-self: flex-start;
+  }
+
+  .contactUsDesc,
+  .contactUsSubDesc {
+    font-size: 14px;
+  }
+
+  .contactUsSubDesc {
+    margin-bottom: 1.5rem;
+    margin-top: 8px;
+  }
+
+  .addressSection {
+    margin: 1rem auto;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .addressSection>div {
+    width: 100% !important;
+  }
+
+  .addressTitle,
+  .indiaText {
+    font-size: 24px;
+    font-weight: 700px;
+  }
+
+  .addressTitle {
+    max-width: 216px;
+  }
+
+  .locationPinImg {
+    width: 133px;
+  }
+
+  .registeredOffice,
+  .axaoneTechnologies,
+  .addressTexts {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .addressTexts {
+    font-weight: 400;
+    line-height: 1.8;
+    max-width: 356px;
+  }
+
+  .subscribtionSection {
+    margin: 24px;
+    width: auto;
+  }
+
+  .stayConnect {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .subscribtionTitle {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1.5;
+    max-width: 332px;
+  }
+
+  .inputButtonWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscribtionInput::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .subscribtionSection {
+    padding: 3rem 0 2rem 0;
+  }
+
+  .subscribtionInput {
+    max-width: 335px;
+    height: 50px;
+    text-align: center;
+  }
+
+  .subscribtionInput::placeholder {
+    color: #65626C;
+  }
+
+  .subscribeBtn {
+    position: relative;
+    max-width: 145px;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 2rem;
+  }
+
+  .contactUsSocialMedia {
+    text-align: center;
+  }
+
+  .socialMediaTexts {
+    flex-direction: column;
+  }
+
+  .connectWithUs {
+    font-size: 16px;
+  }
+
+  .socialMediaTexts {
+    font-size: 24px;
+  }
+
+  .socialMediaTexts div {
+    margin-bottom: 18px;
+  }
+
+  // .homeHealthcareTopSection 
+  .topSection {
+    display: block !important;
+    text-align: center !important;
+    margin-top: 15px;
+  }
+
+  .contactUsContainer .padding-section {
+    height: auto;
+  }
+
+  // .homeHealthcareTopSection {
+  //   padding: 0 !important;
+  //   /* margin-right: 0px; */
+  // }
+
+  // .homeHealthcareBannerImg 
+  .inclinicBannerImg {
+    width: 80%;
+    max-width: 400px;
+  }
+
+  // .homeHealthcareBannerImg 
+  .inclinicBannerImg {
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .advantagesSection {
+    border-radius: 0;
+  }
+
+  .topsectionWrapper {
+    margin-bottom: 5%;
+  }
+
+  .topsectionWrapper div {
+    width: 100%;
+  }
+
+  .topsectionWrapper div,
+  .bookingStepsContent,
+  .healthcareStepsTitle {
+    font-size: 32px;
+
+  }
+
+  .advantagesHeading {
+    font-size: 25px;
+  }
+
+  .advantagesContentWrapper {
+    margin-top: 0 !important;
+  }
+
+  .advantagesContentWrapper {
+    display: flex !important;
+    /* justify-content: space-between !important; */
+    align-items: center;
+  }
+
+  .advantageAndImage {
+    width: 100% !important;
+  }
+
+  .advantageImage {
+    width: 72px;
+  }
+
+  .advantageDescription {
+    max-width: 600px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: flex-start;
+
+    margin-left: 5%;
+
+  }
+
+  .bookingStep1,
+  .faqContentWrapper,
+  .healthcareStepWrapper {
+    flex-direction: column !important;
+  }
+
+  .bookingStep1 {
+    padding: 5px 0 !important;
+  }
+
+  .bookingStep1.healthcareProductStepContainer {
+    padding-bottom: 0px !important;
+
+  }
+
+  .stepTitle {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .stepExplanation {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .stpesImageRow,
+  .stpesImageRowReverse {
+    width: 100% !important;
+    max-width: 235px !important;
+  }
+
+  .stpesImageRow {
+    max-width: 350px !important;
+  }
+
+  .desktopContent {
+    display: none !important;
+  }
+
+  .faqContainer {
+    padding: 24px 24px 65px 24px;
+  }
+
+  .faqOverView,
+  .questionsAndAnswer,
+  .faqTitle,
+  .faqContentWrapper {
+    padding: 0 !important;
+  }
+
+  .faqDesc {
+    padding-bottom: 30px;
+  }
+
+  .orderMedicineFAQ {
+    background: #F9F9F9;
+  }
+
+  .faqTitle {
+    font-size: 24px;
+    line-height: 30.12px;
+  }
+
+  .questionsAndAnswer {
+    margin: 0 !important;
+  }
+
+  .viewAll {
+    margin-top: 20px !important;
+  }
+
+  .faqAnswer {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .advantagesContentWrapper {
+    margin: 0 0 3rem !important;
+  }
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(0% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(0% + 1px) !important;
+}
+
+/* 404 */
+.image404 {
+  max-width: 720px;
+  height: 250px;
+}
+
+.title404 {
+  font-size: 40px;
+  font-weight: 700px;
+  color: #181423;
+}
+
+.description404 {
+  font-size: 20px;
+  font-weight: 400px;
+  color: #65626C;
+}
+
+.goToHomeBtn {
+  color: #FFFFFF;
+  background-color: #CB1B5B;
+  border-radius: 5px;
+  height: 48px;
+  width: 201px;
+}
+
+
+.successHomeBtn {
+  width: 320px;
+  padding: 8px 24px !important;
+  font-size: 16px !important;
+  font-weight: bold;
+}
+
+.goToHomeBtn:hover {
+  color: #212529;
+  background-color: #CB1B5B;
+  border-radius: 5px;
+  height: 48px;
+  width: 201px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .image404 {
+    max-width: 90%;
+  }
+
+  .title404 {
+    font-size: 30px;
+  }
+
+  .description404 {
+    font-size: 18px;
+  }
+
+  .title404,
+  .description404 {
+    text-align: center;
+    padding: 0px 20px;
+  }
+}
+
+/* contactUS */
+@media only screen and (max-device-width: 380px) {
+  .customerSupportSection {
+    flex-direction: column;
+  }
+
+  .customerSupportBox:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+/* Online Consultaion */
+
+
+.onlineConsultationTopContent {
+  background: #FCF1F4;
+  padding-bottom: 4rem;
+  /* width: 100%; */
+}
+
+.consultationBannerImg.mobContent {
+  max-width: 380px;
+  width: 100%;
+}
+
+.consultationBannerImg.desktopContent {
+  max-width: 480px;
+}
+
+.consultationTopLabel,
+.consultationBottomLabel {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.consultationTopLabel {
+  max-width: 600px;
+}
+
+.consultationBottomLabel {
+  color: #E0769D;
+}
+
+.consultationAdvantages {
+  background: #FFFFFF;
+  padding: 4rem 0;
+}
+
+.consultationDesc {
+  font-weight: 600;
+  font-size: 18px;
+  max-width: 400px;
+  margin-left: 1.5rem;
+}
+
+.consultationAdvantageWrapper {
+  width: 50%;
+  margin: 2rem 0;
+}
+
+.stepsHeading {
+  max-width: 730px;
+  margin: auto;
+}
+
+.consultationstepsWrapper {
+  text-align: center;
+  background: #FFFFFF;
+  /* margin-top: 5%; */
+  /* margin-bottom: 5%; */
+}
+
+.consultationsteps {
+  padding: 2rem 4rem;
+  position: relative;
+  z-index: 1;
+  /* width: 100%;
+  height: 100%; */
+
+}
+
+.consultatoionStepsImage {
+  background-size: contain;
+  position: absolute;
+  /* bottom: 0;
+  top: 0; */
+  top: 492px;
+  left: 390px;
+  bottom: 400px;
+  z-index: -1;
+  /* display: none; */
+}
+
+.consultatoionStepsImage img {
+  height: 100%;
+}
+
+.consultationstepesSectionImage {
+  /* width: 300px; */
+  height: 580px;
+}
+
+.stepsImageWrapper {
+  border-radius: 8px;
+  background: #FAE8EF;
+  /* padding: 3%; */
+  width: 126px;
+  min-width: 126px;
+  height: 126px;
+}
+
+.consultationStepsTilte,
+.consultationStepsDesc {
+  max-width: 600px;
+}
+
+.faqIcon {
+  width: 25px;
+  position: absolute;
+}
+
+@media only screen and (max-device-width: 1399px) {
+  .consultationsteps {
+    padding: 2rem 0rem;
+  }
+
+  .consultatoionStepsImage {
+    left: 330px;
+  }
+
+}
+
+@media only screen and (max-device-width: 1199px) {
+  .consultationStepsContent {
+    padding: 3rem 0rem 0rem !important;
+  }
+
+  .consultatoionStepsImage {
+    left: 265px;
+  }
+
+  .consultationStepsWrapper {
+    padding: 1rem;
+  }
+
+}
+
+@media only screen and (max-device-width: 992px) and (min-device-width: 769px) {
+  .subscribtionSection {
+    /* margin: auto 1.5rem; */
+    width: 95% !important;
+  }
+
+  .serviceBannerTwoTitle {
+    max-width: 60% !important;
+  }
+
+  .serviceBannerTwoWrapper {
+    height: 425px;
+  }
+}
+
+@media only screen and (max-device-width: 992px) {
+  .consultationStepsContent {
+    padding: 1.5rem 1rem 0rem !important;
+  }
+
+  .consultatoionStepsImage {
+    left: 170px;
+    top: 425px;
+  }
+
+  .consultationBannerImg.desktopContent {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .OnlineConsultation_bannerImage {
+    flex-direction: column;
+  }
+
+  .consultatoionStepsImage {
+    display: none;
+  }
+
+  .consultationstepesSectionImage {
+    height: auto;
+    max-width: 380px;
+    width: 100%;
+  }
+
+  .stepsImageWrapper {
+    width: 72px;
+    min-width: 72px;
+    height: 72px;
+  }
+
+  .consultationTopLabel,
+  .consultationBottomLabel,
+  .consultationAnimeLabel {
+    font-size: 32px;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+  }
+
+  .consultationAnimeLabel {
+    padding: 0 50px;
+  }
+
+  .consultationBottomLabel {
+    font-size: 24px;
+  }
+
+  .consultationTextWrapper {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .consultationAdvantageWrapper {
+    width: 80%;
+    /* align-items: flex-start !important; */
+  }
+
+  .consultationAdvantages {
+    flex-direction: column;
+  }
+
+  .stepsHeading {
+    padding: 2rem 1rem 5px;
+  }
+
+  .consultationstepsWrapper .stepTitle {
+    text-align: center !important;
+  }
+
+  .consultationstepsWrapper .stepExplanation {
+    text-align: center !important;
+  }
+
+  .consultationstepsWrapper .bookingStep1 {
+    margin: 0rem 1rem !important;
+  }
+
+  .OnlineConsultation_bannerImage {
+    margin-top: 0 !important;
+  }
+
+  .consultationDesc {
+    font-size: 15px;
+  }
+
+  .stepsImageWrapper img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .faqIcon {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  .consultationAdvantageWrapper {
+    width: 95%;
+  }
+}
+
+/* home healthcare */
+.healthcareAdvantageConatiner {
+  position: relative;
+  height: 1000px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.healthcareAdvantagecontent {
+  position: absolute;
+}
+
+.healthcareAdvantageBox1 {
+  left: 100px;
+  top: 54px;
+}
+
+.healthcareAdvantageBox1 .advantageContent {
+  padding: 0px 40px 0 20px;
+}
+
+.healthcareAdvantageBox2 {
+  left: 433px;
+  top: 230px;
+}
+
+.healthcareAdvantageBox4 {
+  right: 284px;
+}
+
+.healthcareAdvantageBox3 {
+  right: 100px;
+  top: 345px;
+
+}
+
+.healthcareAdvantageBox3 .advantageContent {
+  padding-left: 40px;
+}
+
+.healthcareAdvantageBox5 {
+  top: 534px;
+  left: 117px;
+}
+
+.healthcareAdvantageBox6 {
+  top: 570px;
+  right: 420px;
+
+}
+
+@media only screen and (max-device-width: 1350px) {
+  .healthcareAdvantageConatiner {
+    height: 1300px;
+    max-width: 770px;
+  }
+
+  .healthcareAdvantageBox1 {
+    left: 5px;
+    top: 25px;
+  }
+
+  .healthcareAdvantageBox1 .advantageContent {
+    padding: 0px 40px 0 20px;
+  }
+
+  .healthcareAdvantageBox2 {
+    left: 150px;
+    top: 350px;
+  }
+
+  .healthcareAdvantageBox4 {
+    right: 5px;
+    top: 45px;
+
+  }
+
+  .healthcareAdvantageBox3 {
+    right: 10px;
+    top: 655px;
+
+  }
+
+  .healthcareAdvantageBox3 .advantageContent {
+    padding-left: 40px;
+  }
+
+  .healthcareAdvantageBox5 {
+    top: 654px;
+    left: 2px;
+  }
+
+  .healthcareAdvantageBox6 {
+    top: 950px;
+    right: 250px;
+
+  }
+}
+
+/* Order Medicine */
+/* Banner section */
+.OrderMedicineConatiner {
+  background: #FAFAFA;
+}
+
+.serviceBannerTwoTitle {
+  font-weight: 800;
+  font-size: 48px;
+  max-width: 450px;
+  line-height: 60.24px;
+}
+
+.orderMedicineAnimationText {
+  font-weight: 600;
+  font-size: 40px;
+  color: #CB1B5B;
+}
+
+/* Advantage section */
+.orderMedicineAdvantageConatiner {
+  background: #FAFAFA;
+  width: 100%;
+}
+
+.orderMedicineAdvantagecontent,
+.healthcareAdvantagecontent {
+  border-radius: 24px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 0px 14px 34px #d4d4d440;
+  /* padding: 0% 2% !important; */
+}
+
+.healthcareAdvantagecontent {
+  justify-content: center;
+  padding: 0% 2% !important;
+}
+
+.orderMedicineAdvantageConatiner {
+  max-width: 1500px;
+}
+
+.orderMedicineAdvantagecontent {
+  width: 335px;
+  height: 376px;
+}
+
+.orederMedicineCarousel .carousel .slide img {
+  width: 55px;
+  height: 55px;
+  margin-top: 25%;
+}
+
+.orderMedicineAdvantagecontent .advantageDeskImage,
+.orderMedicineAdvantagecontent .advantageMobileImage {
+  height: 178px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.orderMedicineAdvantagecontent .advantageContent {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 30px;
+  ;
+}
+
+.orderMedicineAdvantageConatiner .carousel .slide {
+  min-width: 390px;
+}
+
+@media only screen and (max-device-width: 1250px)and (min-device-width:1075px) {
+  .orederMedicineCarousel .carousel .slider-wrapper.axis-horizontal .slider .slide {
+    min-width: 35% !important;
+  }
+}
+
+@media only screen and (max-device-width: 1074px)and (min-device-width:960px) {
+  .orederMedicineCarousel .carousel .slider-wrapper.axis-horizontal .slider .slide {
+    min-width: 43% !important;
+  }
+}
+
+.healthcareAdvantagecontent {
+  width: 369px;
+  height: 356px;
+}
+
+.advantageContent {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.advantageContent {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.advantageContentWrapper,
+.healthcareAdvantagecontentBox {
+  background: #CB1B5B;
+  color: #FFFFFF;
+}
+
+.advantageText {
+  color: #CB1B5B;
+  ;
+}
+
+.orderMedicineAdvantageConatiner::-webkit-scrollbar {
+  height: 7px;
+}
+
+/*OrderMedicineSteps  */
+
+.OrderMedicineStepsContainer {
+  background: #FAFAFA;
+}
+
+.OrderMedicineStepsTitle {
+  text-align: center;
+  max-width: 746px;
+}
+
+.OrderMedicineStepsContentWrapper {
+
+  background: #FFFFFF;
+  border-radius: 24px;
+  width: 45%;
+  margin: 2% !important;
+  padding: 2rem;
+}
+
+.OrderMedicineStepTexts {
+  background: #FFF3F8;
+  border-radius: 8px;
+  width: 159px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 19px;
+  color: #CB1B5B;
+  margin-bottom: 2rem;
+}
+
+.orderMedicineStepsTitles {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.orderMedicineStepsExplanation {
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 550px;
+}
+
+
+.dynamicOrderSteps {
+  padding-bottom: 2.5rem;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+
+  25% {
+    top: -40px;
+  }
+
+  50% {
+    top: -80px;
+  }
+}
+
+/*OrderMedicineSteps  */
+@media only screen and (max-device-width: 991px) {
+  .OrderMedicineStepsContentWrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 961px) {
+  .mediumMobContent {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-device-width: 960px) {
+  .mediumDesktopContent {
+    display: none !important;
+  }
+
+}
+
+/* Banner section */
+@media only screen and (max-device-width: 768px) {
+  .dynamicOrderSteps {
+    padding-bottom: 48px;
+  }
+
+  .serviceBannerTwoTitle {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .OrderMedicineStepsContentWrapper {
+    padding: 24px;
+    max-width: 380px;
+    margin: 20px auto !important;
+    text-align: center;
+  }
+
+  .OrderMedicineStepTexts {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    width: 130px;
+    height: 32px;
+  }
+
+  .orderMedicineStepsTitles {
+    margin-bottom: 10px !important;
+  }
+
+  .orderMedicineStepsExplanation {
+    margin-bottom: 8px !important;
+  }
+
+  .serviceBannerTwoWrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .advantageContent {
+    font-size: 24px;
+  }
+
+  .OrderMedicineStepsTitle {
+    max-width: 380px;
+  }
+
+  .orderMedicineStepsTitles {
+    font-size: 20.81px;
+  }
+
+  .orderMedicineStepsExplanation {
+    font-size: 15.61px;
+  }
+
+  .aboutUsBannerImg {
+    min-height: 253px;
+    object-fit: cover;
+  }
+}
+
+/* common styles */
+.viewMoreBtn:hover {
+  border: 1px solid #a50c44;
+  background: #cb1b5b;
+  color: #fff;
+}
+
+.stepsArrowText {
+  font-size: 25px;
+  margin: 0 10px;
+  color: #CB1B5B;
+  font-family: Shadows Into Light !important;
+}
+
+.orederMedicineCarousel .carousel.carousel-slider,
+.homeHealthcareCarousel .carousel.carousel-slider {
+  width: 100%;
+  display: flex;
+  position: inherit;
+  flex-direction: column-reverse;
+}
+
+.orederMedicineCarousel ul,
+.homeHealthcareCarousel ul {
+  position: inherit !important;
+}
+
+.orederMedicineCarousel ul.control-dots li {
+  width: 19px !important;
+  height: 19px !important;
+}
+
+.orederMedicineCarousel ul li,
+.homeHealthcareCarousel ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orederMedicineCarousel .carousel .control-dots .dot,
+.homeHealthcareCarousel .carousel .control-dots .dot {
+  background: #CB1B5B !important;
+  box-shadow: none !important;
+}
+
+/* membership page */
+.plusMembershipContainer {
+  background: #FAFAFA;
+}
+
+.membershipBannerContainer {
+  background: #FFFFFF;
+  padding-bottom: 116px;
+}
+
+.membershipBannerImage video {
+  width: 263px;
+}
+
+.membershipBannerContentOne {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.membershipBannerContentTwo {
+  font-size: 32px;
+  font-weight: 600;
+  color: #797979;
+  max-width: 500px;
+}
+
+.MembershipBenifitsContainer {
+  background: #FAE8EF;
+  border-radius: 20px;
+  width: 90%;
+  position: relative;
+  top: -56px;
+}
+
+.MembershipBenifitsTextOne,
+.shopByCategoiesTitle,
+.healthcareProductsBannerFirstContent {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.MembershipBenifitsTextTwo {
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 300px;
+
+}
+
+.membershipBenifitImage {
+  background: #FFF5F9;
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+}
+
+.membershipBenifitImage img {
+  width: 48px;
+}
+
+.MembershipPlansContentwrapper img {
+  width: 160px;
+}
+
+.MembershipPlansTitle {
+  font-size: 48px;
+  font-weight: 700;
+  color: #CB1B5B;
+  max-width: 320px;
+}
+
+.MembershipPlansDesc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #4D4D4D;
+  max-width: 350px;
+}
+
+.MembershipPlansDesc span {
+  color: #CB1B5B;
+}
+
+.MembershipPlansExplanation {
+  /* border: 1px solid #000000; */
+  border-radius: 16px;
+  background: #FFFFFF;
+  width: 400px;
+}
+
+.MembershipPlanAmountExplanationContent {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 300px;
+}
+
+.MembershipPlanAmountExplanation img {
+  width: 25px;
+}
+
+.MembershipPlanAmount {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.MembershipPlanAmountDetail {
+  font-size: 18px;
+  font-weight: 500;
+  color: #CB1B5B;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.MembershipPlansExplanationConatiner {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  margin: auto;
+  overflow-x: scroll;
+}
+
+.MembershipPlansExplanationConatiner::-webkit-scrollbar {
+  height: 7px;
+}
+
+/* downloadModalContainer */
+.downloadModalContainer .modal-content {
+  right: 0px !important;
+}
+
+.downloadModalContainer .modal-dialog {
+  max-width: 863px !important;
+}
+
+.closeIcone {
+  background: #F2F2F2;
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+
+}
+
+.qrcodeContent {
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 470px;
+  text-align: center;
+}
+
+.appleIcon,
+.playstore {
+  width: 96px;
+  height: 96px;
+  border: 1px solid #E6E6E6;
+  border-radius: 16px;
+}
+
+.app {
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 350px !important;
+}
+
+.breadcrumbText {
+  font-size: 14px;
+}
+
+.ctaBannerImageWrapper {
+  position: fixed;
+  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+
+  .bannerCloseIcon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
+  .ctaBannerImage {
+    width: 350px;
+    height: 178px;
+    cursor: pointer;
+  }
+}
+
+.ctaBannerMobWrapper {
+  position: fixed;
+  z-index: 99;
+  bottom: 0px;
+  background: #181423;
+  width: 100%;
+  min-height: 67px;
+  padding: 8px 13px 8px 15px;
+
+  .ctxBannerText {
+    font-size: 14px;
+    color: #fff;
+    max-width: 200px;
+  }
+
+  .borderLine {
+    border: 1px solid #565656;
+    width: 2px;
+    height: 45px;
+    margin: 0 8px 0 10px;
+  }
+
+  .getCallbackBtn,
+  .downloadBtn {
+    width: 110px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 13px;
+    color: #1C1C1C;
+    border-radius: 31px;
+    border: none;
+  }
+
+  .downloadBtn {
+    width: 116px;
+  }
+
+  .logoH {
+    margin-right: 8px;
+  }
+}
+
+.relationShipModalContainer .modal-dialog {
+  max-width: 720px !important;
+}
+
+.relationShipModalContainer .modal-content {
+  right: 0px !important;
+}
+
+.callModelContainer .modal-dialog {
+  max-width: 552px !important;
+}
+
+.callModelContainer .modal-content {
+  right: 0px !important;
+}
+
+.bookNowModalContainer .modal-content {
+  right: 0px !important;
+  width: 635px;
+}
+
+.bookNowModalContainer .modal-dialog {
+  max-width: 635px !important;
+  width: 100%;
+}
+
+.bookNowModalContainer {
+
+  input,
+  select {
+    border: 1.248px solid #E3E3E3 !important;
+    background: #FFF;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-device-width: 959px) {
+  .healthcareAdvantageConatiner {
+    height: auto;
+  }
+
+  .advantageMobileImage {
+    height: 163px !important;
+  }
+
+  .healthcareMobileAdvantagecontent {
+    width: 380px;
+    height: 376px;
+    justify-content: space-around;
+    padding: 60px 0;
+  }
+
+  .healthcareMobileAdvantagecontent img {
+    width: 70px !important;
+  }
+
+  .orederMedicineCarousel ul.control-dots li,
+  .homeHealthcareCarousel ul.control-dots li {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .homeHealthcareCarousel .carousel .control-dots {
+    margin-top: 24px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .membershipBannerImage video {
+    width: 223px;
+  }
+
+  .relationShipModalContainer .modal-dialog {
+    max-width: 380px !important;
+    margin: auto;
+  }
+
+  .bookNowModalContainer .modal-dialog {
+    max-width: 380px !important;
+  }
+
+  .membershipBannerContentOne {
+    font-weight: 800;
+    font-size: 32px;
+    max-width: 225px;
+
+  }
+
+  .membershipBannerContentTwo {
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .MembershipBenifitsTextOne {
+    display: none;
+  }
+
+  .membershipBeniftMob {
+    display: block !important;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .membershipBeniftMob span {
+    color: #CB1B5B;
+  }
+
+  .MembershipBenifitsContentWrapper {
+    flex-direction: column;
+    align-items: center !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .MembershipBenifitsTextTwo {
+    margin-bottom: 5%;
+    font-size: 16px;
+    max-width: 225px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .MembershipPlansContentwrapper {
+    flex-direction: column;
+  }
+
+  .MembershipPlansTitle {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .MembershipPlansDesc {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 8%;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .MembershipPlansExplanationConatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% !important;
+    overflow-x: hidden;
+    width: 100%;
+
+  }
+
+  .MembershipPlansExplanation {
+    margin-left: 0% !important;
+    max-width: 372px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+
+  .subscribtionInput {
+    width: 100%;
+  }
+
+  .subscribtionTitle {
+    padding: 0 10px;
+  }
+
+  .form-label.text-white {
+    display: none;
+  }
+
+  .MembershipBenifitsContainer {
+    top: -118px;
+    margin-bottom: 0 !important;
+  }
+
+  .membershipBannerContainer {
+    padding-bottom: 182px;
+  }
+
+  .MembershipPlansContainer {
+    position: relative;
+    top: -36px;
+    margin-bottom: 0 !important;
+  }
+
+  .MembershipPlansExplanation:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .membershipFAQ {
+    .faqOverView {
+      margin-top: 0 !important;
+    }
+
+    .faqTitle {
+      padding-top: 20px !important;
+    }
+  }
+
+  .faqTitle {
+    margin-bottom: 16px !important;
+  }
+
+  .callModelContainer .modal-content {
+    max-width: 380px !important;
+  }
+}
+
+@media only screen and (min-device-width: 1100px) {
+
+  #jobapply {
+    .modal-dialog .modal-content {
+      width: 1000px !important;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 1100px) and (min-device-width: 600px) {
+
+
+  #jobapply {
+    .modal-dialog .modal-content {
+      width: 800px !important;
+      right: 150px;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 850px) and (min-device-width: 600px) {
+  #jobapply {
+    .modal-dialog .modal-content {
+      width: 580px !important;
+      right: 50px;
+    }
+  }
+}
+
+@media only screen and (max-device-width: 380px) {
+  .inClinicStepSmallMobImage {
+    right: -40px;
+    width: 85px;
+    height: auto;
+  }
+
+  // OTP
+  .verifyOTP {
+    flex-direction: column;
+  }
+}
+
+
+.widestRangeContentWrapper {
+  margin: 96px auto 0;
+  padding: 100px 0;
+
+  .rangeContentWrapper {
+    padding: 32px 0 16px;
+  }
+
+  .widestRangeProductWrapper {
+    max-width: 510px;
+  }
+
+  .widestRangeTitle {
+    padding-left: 24px;
+  }
+
+  .topBrandsList {
+    padding-bottom: 24px;
+  }
+
+  .btn-learnMore {
+    color: #FFFFFF !important;
+    background-color: #CB1B5B !important;
+    font-weight: 700 !important;
+    border-radius: 12px !important;
+    height: 48px;
+    width: 164px;
+  }
+
+  .btn-learnMore:hover {
+    background-color: #D5497C !important;
+    color: #FFFFFF;
+  }
+
+  .home_page_learn_more a {
+    padding: 11px;
+  }
+
+  .widestRangeHealthcareProduct {
+    padding-bottom: 8px;
+  }
+
+  .topBrandImg {
+    max-width: 536px;
+  }
+
+  @media only screen and (max-device-width: 768px) {
+    margin: 40px 0;
+    padding: 40px 32px;
+    text-align: center;
+    flex-direction: column;
+
+    .rangeContentWrapper {
+      padding: 0;
+    }
+
+    .topBrandImg {
+      max-width: 350px;
+    }
+
+    .topBrandsList {
+      padding-top: 24px;
+    }
+
+    .widestRangeTitle {
+      padding-left: 16px;
+    }
+
+    .widestTopBrandWrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center !important;
+    }
+
+    .widestTopBrandImg {
+      padding: 57px 0 23px;
+    }
+  }
+
+  @media only screen and (max-device-width: 400px) {
+    .topBrandImg {
+      max-width: 300px;
+    }
+  }
+}
+
+
+@media only screen and (max-device-width: 768px) {
+  .instaDocContentWrapper {
+    margin-bottom: 48px;
+  }
+}

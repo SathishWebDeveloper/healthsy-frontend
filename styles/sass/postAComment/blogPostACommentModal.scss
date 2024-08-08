@@ -1,0 +1,14 @@
+/* #blogpostacomment .modal{
+    display: block !important;
+} */
+
+#blogpostacomment{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#blogpostacomment .modal-content{
+    width: 863px;
+}

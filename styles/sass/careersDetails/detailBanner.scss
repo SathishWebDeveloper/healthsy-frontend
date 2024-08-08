@@ -1,0 +1,158 @@
+.we-hire {
+    overflow: hidden !important;
+    margin-top: 40px;
+    margin-bottom: 56px;
+}
+
+/* .career-banner {
+    background: #E9E9FF;
+    border-radius: 16px;
+} */
+
+.career-banner .banner {
+    padding: 50px 0px 0px 0px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.career-banner .banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #4B4AF9;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.career-banner .sub-banner-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #4B4AF9;
+    padding-left: 3rem;
+    padding-bottom: 4rem;
+}
+
+.career-banner button {
+    background-color: rgb(2, 112, 75);
+    color: white;
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+.CareerImage {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.CareerImage img {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 768px) {
+    .we-hire {
+        width: 90%;
+        margin: auto;
+        overflow: hidden !important;
+    }
+
+    /* .career-banner {
+        background-color: #E9E9FF;
+        overflow: hidden;
+    } */
+
+    .banner {
+        padding: 25px 0px 25px 15px !important;
+    }
+
+    .career-banner .banner-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .career-banner button {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 150px;
+        border-radius: 15px;
+    }
+
+    .CareerImage {
+        display: flex;
+        /* width: 380px; */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CareerImage img {
+        /* height: 100%; */
+        height: 100%;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /* .career-banner{
+        height: 20vh;
+    } */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .CareerImage img {
+        /* height: 100%; */
+        height: 100%;
+        width: 100%;
+        margin-top: 40px;
+        /* width: 116.57px; */
+        /* height: 120px; */
+    }
+
+    .career-banner .banner-title {
+        font-size: 20px;
+        line-height: 25px;
+        padding-left: 2rem;
+    }
+
+    .career-banner .sub-banner-title {
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 2rem;
+    }
+
+    .we-hire .career-banner .w60 {
+        width: 62%;
+    }
+
+    .we-hire .career-banner .w40 {
+        width: 38%;
+    }
+
+    .career-banner button {
+        width: 96px;
+        height: 32px;
+        border-radius: 8px;
+    }
+
+    .mob-hire-bg {
+        background: #F5F5F5;
+    }
+
+    .career-banner .sub-banner-title {
+        padding-bottom: 0rem;
+    }
+
+    /* .career-banner{
+        height: 20vh;
+    } */
+}

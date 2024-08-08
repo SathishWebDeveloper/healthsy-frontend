@@ -1,0 +1,1352 @@
+.star {
+    color: #CB1B5B;
+}
+
+.doctorBookNowBtn {
+    border-radius: 12px !important;
+}
+
+.doctorregisterheader {
+    width: 100%;
+    height: 10vh;
+}
+
+.doctorregistration1-container .form-banner-line {
+    margin: 0px 10px;
+}
+
+.doctorregisterheader-logo {
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.doctorregistration1-container {
+    width: 100%;
+}
+
+.doctorregistration2-container {
+    width: 100%;
+}
+
+.doctorregistration2-box {
+    width: 100%;
+}
+
+.doctorregistration1-banner {
+    width: 100%;
+}
+
+.doctorregistration1-banner>img {
+    width: 100%;
+    height: 100%;
+}
+
+.doctorregistration2-banner {
+    width: 100%;
+    height: 50vh;
+}
+
+.doctorregistration2-banner>img {
+    width: 100%;
+    height: 100%;
+}
+
+.doctorregistration1-form {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 3.5%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: rgba(209, 213, 216, 0.2) 0px 8px 24px;
+    margin-top: -4.5%;
+    position: relative;
+}
+
+.doctorregistration2-form {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: -4.5%;
+    position: relative;
+}
+
+.doctorregistration1-form-banner {
+    height: 112px;
+    margin-bottom: 40px;
+}
+
+.doctorregistration1-form-banner>img {
+    width: 85%;
+}
+
+.doctorregistration2-form-banner {
+    width: 100%;
+    margin: auto;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(152, 150, 157, 0.3);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.doctorregistration2-form-banner>img {
+    width: 85%;
+}
+
+.doctorregistration1-form-container {
+    margin: 20px 5%;
+}
+
+.doctorregistration1-form-title1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.doctorregistration1-form-title2 {
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #4B4853;
+    display: flex;
+    align-items: center;
+}
+
+.doctorregistration1-form-banner .form-lines {
+    padding: 0px 20px 0px 10px;
+}
+
+.doctorregistration1-form-name-email {
+    width: 100%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+
+.doctorregistration1-form-mobile-dummy {
+    width: 100%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+
+.doctorregistration1-form-name {
+    width: 100%;
+    height: 100%;
+}
+
+.doctorregistration1-form-name>div:nth-child(1) {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.doctorregistration1-form-name>div:nth-child(2) {
+    width: 100%;
+    height: 50%;
+}
+
+.doctorregistration1-form-name>div:nth-child(2)>input {
+    width: 100%;
+    height: 95%;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+
+.doctorregistration1-form-email {
+    width: 100%;
+    height: 100%;
+}
+
+.doctorregistration1-form-email>div:nth-child(1) {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.doctorregistration1-form-email>div:nth-child(2) {
+    width: 100%;
+    height: 50%;
+}
+
+.doctorregistration1-form-email>div:nth-child(2)>input {
+    width: 100%;
+    height: 95%;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+
+.doctorregistration1-form-mobile {
+    width: 100%;
+    height: 100%;
+}
+
+.doctorregistration1-form-dummy {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.doctorregistration1-form-dummy>div:nth-child(1) {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.doctorregistration1-form-dummy>div:nth-child(2) {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doctorregistration1-form-dummy>div:nth-child(2)>div:nth-child(1) {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doctorregistration1-form-dummy>div:nth-child(2)>div:nth-child(1)>input {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 6%;
+    border: 1px solid #65626C;
+}
+
+.doctorregistration1-form-dummy>div:nth-child(2)>div:nth-child(2) {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verify-button {
+    width: 55%;
+    height: 55%;
+    border-radius: 8px;
+    border: 1px solid #98969D;
+    background: #98969D;
+    color: #fff;
+    font-size: 16px;
+}
+
+.doctorregistration1-form-mobile>div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.doctorregistration1-form-mobile>div:nth-child(2) {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+
+.doctorregistration1-form-mobile>div:nth-child(2)>div {
+    width: 95%;
+    height: 80%;
+    display: flex;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.flag>div {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #98969D;
+    border-radius: 8px;
+}
+
+.input {
+    width: 70%;
+}
+
+.input>input {
+    width: 100%;
+    height: 95%;
+    border: 1px solid transparent;
+    padding-left: 15px;
+}
+
+.getcode {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getcode>button {
+    width: 100% !important;
+    height: 70% !important;
+    background: #98969D;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.button-next {
+    background-color: white;
+    border: none;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.button-next .doctorregistration1-form-button {
+    width: 100%;
+    height: 64px;
+    background: #98969D;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.doctorregistration2-form-container {
+    width: 100%;
+    height: 1152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctorregistration2-form-container>div {
+    width: 85%;
+    height: 90%;
+}
+
+.doctorregistration2-form-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.doctorregistration2-form-box-left {
+    width: 100%;
+}
+
+.doctor-register2-gender {
+    width: 100%;
+}
+
+.doctor-register2-gender>div:nth-child(1) {
+    width: 100%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+}
+
+.doctor-register2-gender>div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.reg2-male {
+    display: flex;
+}
+
+.reg2-male>div:nth-child(2) {
+    margin-left: 10%;
+    margin-top: 2%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+
+}
+
+.reg2-female {
+    display: flex;
+}
+
+.reg2-female>div:nth-child(2) {
+    margin-left: 10%;
+    margin-top: 2%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+
+.reg2-other {
+    display: flex;
+}
+
+.reg2-other>div:nth-child(2) {
+    margin-left: 10%;
+    margin-top: 2%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+
+.doctor-register2-specialisation {
+    width: 100%;
+}
+
+.doctor-reg2-name {
+    width: 100%;
+}
+
+.doctor-reg2-input-container {
+    width: 100%;
+}
+
+.doctor-reg2-input {
+    width: 100%;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+}
+
+.doctor-register2-experience {
+    width: 100%;
+}
+
+.doctor-register2-education {
+    width: 100%;
+}
+
+.doctor-register2-pincode {
+    width: 100%;
+}
+
+.doctor-register2-telemedicine {
+    width: 100%;
+}
+
+.doctor-register2-establishment {
+    width: 100%;
+}
+
+.doctorregistration2-form-box-right {
+    width: 100%;
+}
+
+.doctorregistration2-terms {
+    width: 100%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB1B5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctorregistration2-submit {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.doctorregistration2-submit-back {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctorregistration2-submit-back>button {
+    width: 100%;
+    border: 1px solid transparent;
+    border: 3px solid #CB1B5B;
+    border-radius: 8px;
+    background: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #CB1B5B;
+}
+
+.doctorregistration2-submit-register {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctorregistration2-submit-register>button {
+    width: 100%;
+    border: 1px solid transparent;
+    background: #98969D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.doc-reg2-radio-name {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.doc-reg2-radio-container {
+    width: 100%;
+    display: flex;
+    gap: 5%;
+}
+
+.doc-reg2-radio-name-vertical {
+    width: 100%;
+}
+
+.doc-reg2-radio-container-vertical {
+    width: 100%;
+}
+
+.doc-reg2-radio-box {
+    display: flex;
+}
+
+.doc-reg2-radio-box>div:nth-child(2) {
+    margin-top: 5%;
+    margin-left: 10%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+
+.doc-reg2-radio-box-vertical {
+    display: flex;
+}
+
+.doc-reg2-radio-box-vertical>div:nth-child(2) {
+    margin-top: 1%;
+    margin-left: 2%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+
+.doctorregistration2-terms .black-content {
+    font-size: 16px;
+    color: #65626C;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 4px;
+}
+
+.gray {
+    color: #98969D;
+}
+
+.doctor-register2-primary {
+    width: 100%;
+}
+
+.doctor-register2-mci {
+    width: 100%;
+}
+
+.doctor-register2-membership {
+    width: 100%;
+}
+
+.doctor-register2-location {
+    width: 100%;
+}
+
+.doctor-register2-inclinic {
+    width: 100%;
+}
+
+.doctor-register2-tele2 {
+    width: 100%;
+}
+
+.select-container {
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    color: #98969D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-reg2-input-container>select {
+    width: 95%;
+    margin: auto;
+    border: 1px solid transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #65626C;
+
+}
+
+select:focus {
+    outline: none;
+}
+
+.doctorregistration1-form-banner>div {
+    width: 90%;
+    display: flex;
+}
+
+.redround {
+    background: #CB1B5B;
+}
+
+.grayround {
+    background: #98969D;
+}
+
+.establishment-doctor {
+    margin-bottom: 2%;
+}
+
+.platform-doctor {
+    font-size: 15px;
+}
+
+.no {
+    margin-left: 30%;
+}
+
+.top {
+    margin-top: 2%;
+}
+
+.rad-name {
+    padding-left: 2%;
+}
+
+.rad-name-yes {
+    padding-left: 15%;
+}
+
+.w-55 {
+    /* width: 55%; */
+    width: 100%;
+}
+
+.p-90 {
+    padding: 90px 0 !important;
+}
+
+#successModal {
+    width: 100%;
+}
+
+#successModal .modal-dialog {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: unquote("calc(100vh - 20px)"); */
+}
+
+#successModal .modal-content {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#successModal h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+}
+
+#successModal a {
+    width: 40%;
+    height: 48px;
+    background: #CB1B5B;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff !important;
+    line-height: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    .doctorregistration2-form-box {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2px;
+    }
+
+    .doctorregistration2-form-box-left {
+        width: 100%;
+    }
+
+    .doctorregistration2-form-box-right {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    .doctorregistration2-banner {
+        width: 100%;
+    }
+
+    .doctorregistration1-banner {
+        width: 100%;
+    }
+
+    .doctorregistration2-banner>img {
+        width: 100%;
+    }
+
+    .doctor-reg2-name {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .doc-reg2-radio-name {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .doc-reg2-radio-box>div:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .doc-reg2-radio-box-vertical>div:nth-child(2) {
+        font-size: 11px;
+        margin-top: 0;
+        margin-left: 2%;
+    }
+
+    .doctor-register2-gender>div:nth-child(1) {
+        font-size: 12px;
+    }
+
+    .reg2-male>div:nth-child(2) {
+        font-size: 12px;
+
+    }
+
+    .reg2-female>div:nth-child(2) {
+        font-size: 12px;
+
+    }
+
+    .reg2-other>div:nth-child(2) {
+        font-size: 12px;
+
+    }
+
+    .doc-reg2-radio-name-vertical {
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+
+    .doctor-reg2-input-container>select {
+        width: 100%;
+        height: 75%;
+        border: 1px solid #98969D;
+        border-radius: 8px;
+        color: #98969D;
+        padding-left: 2%;
+    }
+
+    .doctor-reg2-name {
+        margin-top: 2%;
+    }
+
+    .doc-reg2-radio-container {
+        margin-top: 10%;
+    }
+
+    .doctorregistration2-terms {
+        font-size: 12px;
+    }
+
+    .doctorregistration2-submit-back>button {
+        font-size: 15px;
+    }
+
+    .doctorregistration2-submit-register>button {
+        font-size: 15px;
+    }
+
+    .doctorregistration2-submit {
+        gap: 10px;
+    }
+
+    .doctorregistration1-form-title1 {
+        font-size: 15px;
+        margin-bottom: 3%;
+    }
+
+    .doctorregistration1-form-title2 {
+        font-size: 15px;
+    }
+
+    .doctorregistration1-form-name-email {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .doctorregistration1-form-mobile-dummy {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .doctorregistration1-form-mobile {
+        margin-top: 5%;
+    }
+
+    .flag {
+        width: 20%;
+    }
+
+    .getcode {
+        width: 30%;
+    }
+
+    .getcode>button {
+        font-size: 10px;
+    }
+
+    .doctorregistration1-form-submit {
+        height: 20%;
+        margin-top: 5%;
+    }
+
+    .doctorregistration1-form-button {
+        font-size: 15px;
+    }
+
+    .doctorregistration1-form-banner {
+        height: 72px;
+    }
+
+    .modal-content {
+        width: 90%;
+        margin: auto;
+        left: 0.5%;
+        top: 150px;
+    }
+
+    .doctor-reg2-input-container>select {
+        font-size: 10px;
+    }
+
+    .doctor-register2-establishment {
+        margin-top: 5%;
+    }
+
+    #successModal .modal-dialog {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: unquote("calc(100vh - 20px)"); */
+    }
+
+    #successModal .modal-content {
+        width: 100%;
+    }
+
+    #successModal h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #000000;
+    }
+
+    #successModal a {
+        width: 190px;
+        height: 40px;
+        background: #CB1B5B;
+        border-radius: 8px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        color: #ffffff !important;
+        line-height: 25px;
+    }
+
+    #successModal .modal-body img {
+        width: 82px;
+        height: 82px;
+    }
+
+    .reg-next-btn {
+        width: 100% !important;
+    }
+
+    .doctorregistration1-form-banner {
+        height: 72px;
+        border: 1px solid #eee;
+    }
+}
+
+.otp-box {
+    float: left;
+    width: 50px;
+    margin: 0 10px;
+    border: 1px solid #ced4da;
+}
+
+.otp-box:focus {
+    border: 1px solid #000;
+}
+
+/*------------------------------------------*/
+.label-msg {
+    color: rgba(75, 72, 83, 1);
+    font-size: 20px;
+}
+
+.label-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #181423;
+    margin-bottom: 18px;
+}
+
+input[type="radio"]:checked {
+    background: #FFFFFF;
+    /* border-color: #CB1B5B; */
+    border: 3px solid #CB1B5B;
+}
+
+.registration-form .form-control {
+    border-radius: 12px;
+    color: #141414;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.healthsynergyFormInput {
+    max-width: 472px;
+    height: 50px;
+}
+
+.textAreaControl {
+    height: 130px !important;
+}
+
+.mobile-verify {
+    position: relative;
+}
+
+.verified {
+    position: absolute;
+    z-index: 2;
+    right: 50px;
+    color: #1B9C51;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgba(249, 249, 249, 1) !important;
+}
+
+.reg-next-btn {
+    width: 55%;
+}
+
+.doctorregistration1-form-banner>.bbottom {
+    border-bottom: 1px solid #181423;
+}
+
+.doctorregistration1-box {
+    background: #F9F9F9;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .doctorregistration1-form {
+        margin-top: -4.5% !important;
+        width: 94%;
+    }
+
+    .doctorregistration1-form-banner .mob-bbottom {
+        border-bottom: 0px !important;
+    }
+}
+
+
+/*---------Languages Dynamic Dropdown----------*/
+.dynamic-languages {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background: #F9F9F9;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.dynamic-languages>div:nth-child(1) {
+    width: 90%;
+    display: flex;
+}
+
+.dynamic-language-label {
+    margin-left: 2%;
+    display: flex;
+}
+
+.dynamic-language-label>div:nth-child(2)>button {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CB1B5B;
+    color: #CB1B5B;
+    font-size: small;
+    background: transparent;
+}
+
+.dynamic-languages>div:nth-child(2) {
+    width: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.dynamic-languages-dropdown {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px 10px;
+    transition: 2s;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+}
+
+.dynamic-languages-dropdown-container {
+    display: flex;
+    padding: 10px 10px;
+}
+
+.dynamic-languages-dropdown-text {
+    width: 90%;
+}
+
+.dynamic-languages-dropdown-input {
+    width: 10%;
+}
+
+.dynamic-languages-dropdown-radio {
+    width: 100%;
+    height: 100%;
+    accent-color: #CB1B5B;
+}
+
+.dynamic-languages-apply {
+    width: 100%;
+    height: 8vh;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.dynamic-languages-apply div {
+    border: 1px solid transparent;
+    background: transparent;
+    cursor: pointer;
+}
+
+.newlocation {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #f9f9f9;
+    background: #f9f9f9;
+}
+
+.pac-container {
+    position: absolute !important;
+    z-index: 10000;
+    border-radius: 2px;
+    font-family: Arial, sans-serif;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-top: 1%;
+    padding: 10px 10px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.pac-container::after {
+    background-image: none !important;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.pac-logo:after {
+    content: "";
+    padding: 1px 1px 1px 0;
+    height: 16px;
+    text-align: right;
+    display: block;
+    background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 120px 14px
+}
+
+.hdpi.pac-logo:after {
+    background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png)
+}
+
+.pac-item {
+    cursor: default;
+    padding: 0 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 30px;
+    text-align: left;
+    border-top: 1px solid #f9f9f9;
+    font-size: 11px;
+    color: #999
+}
+
+.pac-item:hover {
+    background-color: #f9f9f9
+}
+
+.pac-item-selected,
+.pac-item-selected:hover {
+    background-color: #f9f9f9
+}
+
+.pac-matched {
+    font-weight: 700
+}
+
+.pac-item-query {
+    font-size: 13px;
+    padding-right: 3px;
+    color: #000
+}
+
+.pac-icon {
+    width: 15px;
+    height: 20px;
+    margin-right: 7px;
+    margin-top: 6px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png);
+    background-size: 34px;
+    display: none;
+
+}
+
+.hdpi .pac-icon {
+    background-image: url(https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png)
+}
+
+.pac-icon-search {
+    background-position: -1px -1px
+}
+
+.pac-item-selected .pac-icon-search {
+    background-position: -18px -1px
+}
+
+.pac-icon-marker {
+    background-position: -1px -161px
+}
+
+.pac-item-selected .pac-icon-marker {
+    background-position: -18px -161px
+}
+
+.doctorNxtBtn {
+    max-width: 496px;
+}
+
+.mobileNoFieldWrapper {
+    max-width: 496px;
+}
+
+.doctorLangArrow {
+    top: 28%;
+    left: 435px;
+}
+
+.addDoctorDegree {
+    border: none;
+    color: #CB1B5B;
+    background: white;
+}
+
+.degreeFieldLabel {
+    max-width: 472px;
+}
+
+.addDoctorPlusImg {
+    background: #CB1B5B;
+    border-radius: 50%;
+}
+
+@media only screen and (min-device-width: 1500px) {
+    .otpFieldWrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media only screen and (max-device-width: 1250px) and (min-device-width: 1000px) {
+    .doctorLangArrow {
+        left: 350px;
+    }
+}
+
+@media only screen and (max-device-width: 999px) and (min-device-width: 768px) {
+    .doctorLangArrow {
+        left: 255px;
+    }
+}
+
+@media only screen and (max-device-width: 600px) and (min-device-width: 399px) {
+    .doctorLangArrow {
+        left: 330px;
+    }
+}
+
+@media only screen and (max-device-width: 400px) {
+    .doctorLangArrow {
+        left: 250px;
+    }
+}
+
+.doctorFormThankyou {
+    .healthsySucessLogo {
+        max-width: 130px;
+        height: 130px;
+        margin: 72px 0 32px !important;
+    }
+
+    .subSucessTxt {
+        padding: 13px 0 56px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .healthsySucessLogo {
+            margin: 58px 0 32px !important;
+            max-width: 70px;
+            height: 70px;
+        }
+
+        .subSucessTxt {
+            padding: 10px 0 25px;
+        }
+    }
+}
+
+.pharmacyTimingsWrapper {
+    max-width: 472px !important;
+
+    .pharmacyTimings {
+        .rc-time-picker-input {
+            width: 100% !important;
+        }
+    }
+    .rc-time-picker{
+        margin-right: 12px;
+    }
+}
+
+.rc-time-picker-clear {
+    width: 30px !important;
+    height: 30px !important;
+    z-index: 10;
+    top: 14px !important;
+    right: 10px !important;
+}
+
+.rc-time-picker-clear-icon:after {
+    font-size: 18px !important;
+}

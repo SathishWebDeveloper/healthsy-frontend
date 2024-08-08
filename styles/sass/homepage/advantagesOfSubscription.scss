@@ -1,0 +1,106 @@
+.advOfsubs {
+    padding: 84px 0 0;
+
+    .advOfsubsTitle {
+        margin-bottom: 40px;
+    }
+
+    .subsAdvantages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 33px 45px;
+    }
+
+    .subsAdvText {
+        margin-left: 16px;
+    }
+
+    .subsAdvBtn {
+        width: 192px;
+        height: 56px;
+        background: #fff;
+        color: #D5497C;
+        border: none;
+        border-radius: 12px;
+        margin: 64px 0;
+    }
+
+    .advSubsTopImg {
+        // position: absolute;
+        // top: -3px;
+        // left: 100px;
+        margin-bottom: 40px;
+    }
+
+    .advOfsubsContentWrapper {
+        max-width: 851px
+    }
+
+    .healthsyAdvSubs {
+        position: absolute;
+        top: -5px;
+    }
+
+    @media screen and (max-width:768px) {
+        padding: 74px 20px 0;
+
+        .advOfsubsTitle {
+            margin-bottom: 26px;
+            text-align: center;
+            line-height: 36px;
+        }
+
+        .healthsyAdvSubs {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .subsAdvantages {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px 32px;
+            // margin-bottom: 21px;
+        }
+
+        .subsAdvText {
+            margin-left: 12px;
+        }
+
+        .advSubsTopImg {
+            top: -5px;
+            left: 22px;
+            // left: 282px !important;
+        }
+
+        .advOfsubsWrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .manWithParcelMobImg {
+            object-fit: contain;
+        }
+
+        .subsAdvBtn {
+            width: 192px;
+            height: 48px;
+            margin: 40px 0 30px;
+        }
+
+        .subsAdvBtnWrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width:400px) {
+        .advSubsTopImg {
+            width: 295px;
+            height: auto;
+        }
+
+        .manWithParcelMobImg {
+            width: 270px;
+        }
+    }
+}

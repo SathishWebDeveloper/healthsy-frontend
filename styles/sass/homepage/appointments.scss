@@ -1,0 +1,151 @@
+.in-clinic-doc-appointment-section {
+  padding: 100px 0 99px;
+}
+
+// .inClinicAppointmentWrapper{
+//   padding-top: 100px;
+// }
+
+.in-clinic-doc-appointment-section .row {
+  display: flex;
+  align-items: center;
+}
+
+.in-clinic-doc-appointment-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.in-clinic-doc-appointment-content-section .sub-title {
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #CB1B5B;
+  margin-bottom: 8px;
+}
+
+.in-clinic-doc-appointment-content-section .title {
+  line-height: 50px;
+  color: #181423;
+  margin-bottom: 24px;
+}
+
+.in-clinic-doc-appointment-content-section p {
+  line-height: 29px;
+  color: #4B4853;
+  max-width: 589px;
+  margin-bottom: 24px;
+}
+
+.doc-appointment-image {
+  max-width: 600px;
+  width: 100%;
+}
+
+.in-clinic-doc-appointment-content-section {
+  width: 100%;
+  max-width: 510px;
+}
+
+@media only screen and (max-device-width: 1399px) and (min-device-width: 1100px) {
+
+  .in-clinic-doc-appointment-content-section p {
+    max-width: 580px;
+  }
+
+  .in-clinic-doc-appointment-section {
+    padding: 100px 0px;
+  }
+
+  .doc-appointment-image {
+    max-width: 450px;
+  }
+}
+
+@media only screen and (max-device-width: 1100px) and (min-device-width: 769px) {
+
+  .doc-appointment-image,
+  .circleBg {
+    max-width: 350px;
+  }
+
+  .in-clinic-doc-appointment-section {
+    padding: 80px 0px;
+
+  }
+
+  .in-clinic-doc-appointment-content-section {
+    max-width: auto;
+  }
+}
+
+@media only screen and (max-device-width: 992px) and (min-device-width: 769px) {
+  .in-clinic-doc-appointment-section {
+    padding: 80px 0px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .doc-appointment-content-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .in-clinic-doc-appointment-section {
+    padding: 0;
+  }
+
+  .appointmentMobImage {
+    display: block;
+    max-width: 400px;
+  }
+
+  .in-clinic-doc-appointment-image-section img:first-child {
+    width: 320px;
+    height: 320px;
+  }
+
+  // .in-clinic-doc-appointment-image-section {
+  //   margin-top: 72px;
+  //   margin-bottom: 76px;
+  // }
+
+  .in-clinic-doc-appointment-content-section .sub-title {
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .in-clinic-doc-appointment-content-section .title {
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .in-clinic-doc-appointment-content-section p {
+    line-height: 23px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .in-clinic-doc-appointment-image-section .mob-width-size {
+    width: 100%
+  }
+
+  .learnMoreBtn {
+    margin: 0 0 67px !important;
+  }
+
+  .inClinicAppointmentWrapper {
+    padding: 0 32px;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+
+  .in-clinic-doc-appointment-image-section img:first-child {
+    width: 271px;
+    object-fit: contain;
+  }
+
+}

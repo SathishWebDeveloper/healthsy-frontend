@@ -1,0 +1,169 @@
+.contactUsFormSection {
+    margin-bottom: 64px;
+
+    .c-input-group--phn input {
+        border: 1px solid #CFCFCF;
+        background: #FFF;
+    }
+
+    label {
+        margin: 24px 0 8px;
+    }
+
+    .contactUsFormSection .c-input-group--phn input {
+        border-right: 1px solid #CFCFCF !important
+    }
+
+    .verification-btn {
+        margin-bottom: 0 !important;
+    }
+}
+.ctaBannerModelSection{
+    .c-input-group--phn input {
+        border: 1px solid #CFCFCF;
+        background: #FFF;
+    }
+
+    label {
+        margin: 24px 0 8px;
+    }
+    .form-label.text-white{
+        display: none;
+    }
+
+    .contactUsFormSection .c-input-group--phn input {
+        border-right: 1px solid #CFCFCF !important
+    }
+
+    .verification-btn {
+        margin-bottom: 0 !important;
+    }
+
+}
+
+.contactUsFormSection .contactUsFormTitle {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+    width: 100%;
+    max-width: 503px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.contactUsFormSection,
+textarea {
+    margin-bottom: 24px;
+}
+
+.contactUsFormSection label {
+    font-weight: 400;
+    font-size: 18px;
+    // line-height: 35px;
+    color: #000000;
+}
+
+.contactUsFormSection textarea {
+    height: 100px !important;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.contactUsFormSection label span {
+    color: #CB1B5B;
+}
+
+.contactUsBtn {
+    width: 100%;
+    max-width: 224px !important;
+    height: 48px !important;
+    padding: 0 !important;
+    color: white !important;
+}
+
+.contactUsInput {
+    border: 1px solid #CFCFCF !important;
+    border-radius: 8px !important;
+    width: 100%;
+    max-width: 630px !important;
+    height: 49px !important;
+    background: #FFF !important;
+    padding-left: 18px !important;
+}
+
+.selectIntrest {
+    background-image: url("/assets/careers/drop-down.png") !important;
+}
+
+.contactUsForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forInquires {
+    display: none;
+}
+
+.contactMobile {
+    border: none !important;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .contactUsFormSection .contactUsFormTitle {
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 36px;
+        text-align: left;
+        // width: auto;
+        // margin: 0 0 26px;
+        // max-width: 304px;
+    }
+
+    .customerSupportSection {
+        margin-bottom: 0px !important;
+    }
+
+    .contactUsInput {
+        width: 100%;
+        max-width: 650px !important;
+    }
+
+    .contactUsBtn {
+        width: 100%;
+        max-width: 650px !important;
+    }
+
+    .contactUsFormSection label,
+    select,
+    input,
+    textarea {
+        margin-bottom: 8px;
+    }
+
+    .contactUsFormSection label {
+        margin-top: 18px;
+    }
+
+    .writeToUs {
+        display: none;
+    }
+
+    .forInquires {
+        display: block;
+    }
+
+    .contactUsFormTitle,
+    .contactUsForm {
+        max-width: 650px !important;
+        width: 95% !important;
+        margin: auto;
+    }
+
+    .contactUsFormTitle {
+        margin-bottom: 6px !important;
+    }
+
+}

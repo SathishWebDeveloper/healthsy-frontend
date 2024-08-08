@@ -1,0 +1,106 @@
+.aboutTeamMembersSection {
+    margin-bottom: 50px;
+
+    .aboutTeamMembersTitle {
+        h3 {
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 60px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        span {
+            color: #cb1b5b;
+            font-weight: 800;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            margin-bottom: 70px;
+        }
+    }
+
+    .teamimg-section {
+        padding: 0 15px;
+        margin-bottom: 63px;
+
+        .li-icon {
+            height: 16px;
+        }
+
+        .team-img {
+            background: #F8F8F8;
+            border-radius: 10px;
+            margin-bottom: 11px;
+            padding: 34px 18px 0 18px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .aboutTeamMembersSection {
+        margin-bottom: 50px;
+        padding: 0 5px;
+
+        .aboutTeamMembersTitle {
+            h3 {
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 35px;
+                margin-bottom: 16px;
+            }
+
+            span {
+                color: #cb1b5b;
+                font-weight: 800;
+                font-size: 32px;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                width: 90%;
+                margin: auto;
+                margin-bottom: 40px;
+            }
+        }
+
+        .teamimg-section {
+            padding: 0;
+            margin-bottom: 63px;
+
+            .li-icon {
+                height: 16px;
+            }
+
+            .team-img {
+                background: #F8F8F8;
+                border-radius: 10px;
+                margin-bottom: 11px;
+                padding: 34px 7px 0 7px;
+            }
+
+            h6 {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 0;
+            }
+
+            .team-mob-align {
+                align-items: flex-end;
+            }
+        }
+    }
+}

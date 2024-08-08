@@ -1,0 +1,367 @@
+.career-banner-section .banner-img {
+    width: 100%;
+}
+
+.career-banner-section img {
+    display: block;
+}
+
+.banner_title {
+    position: absolute;
+    width: auto;
+    height: 59px;
+    padding-left: 0px;
+    padding-top: 60px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    color: #181423;
+}
+
+.banner_subtitle {
+    position: absolute;
+    width: auto;
+    height: 35px;
+    padding-left: 0px;
+    padding-top: 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #4B4853;
+}
+
+.banner_title span {
+    color: #CB1B5B;
+}
+
+.banner_subtitle span {
+    color: #CB1B5B;
+}
+
+.banner_right_image {
+    position: absolute;
+    width: auto;
+    height: 238.57px;
+    right: 0;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
+.select-control {
+    border: 0;
+    text-align: center;
+}
+
+#department,
+#location,
+#jobtype {
+    border: none;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.input-option {
+    display: flex;
+}
+
+.w100 {
+    width: 100%;
+}
+
+/* Search Section */
+.search-section {
+    position: relative;
+    width: 85%;
+    height: 96px;
+    /* right: 100px;
+    left: 100px;
+    top: 286px; */
+    top: -50px;
+    margin: auto;
+}
+
+.search-box {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px -30px rgba(204, 25, 91, 0.15);
+    backdrop-filter: blur(2.5px);
+    border-radius: 16px;
+    align-items: center;
+    display: flex;
+}
+
+.select-box select option:checked,
+option:hover {
+    background-color: white;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0px;
+    top: 16.67%;
+    bottom: 16.67%;
+}
+
+.search-icon-bg {
+    position: absolute;
+    right: 15px;
+    top: 0%;
+    bottom: 0%;
+    border-radius: 8px;
+    width: 35%;
+    border: none;
+}
+
+.br1 {
+    border-right: 1px solid rgb(189, 186, 186);
+    height: 65px;
+    vertical-align: middle;
+}
+
+.search-icon button {
+    background: #CB1B5B;
+}
+
+@media screen and (max-width: 959px) {
+    .banner_bg {
+        width: 100%;
+        height: 158px;
+        left: 0px;
+        top: 95px;
+        background-image: url("/assets/career_banner_mobile.png");
+        background-size: cover;
+        background: #FEE6EE;
+    }
+
+    .banner_bg>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner_title {
+        position: absolute;
+        width: auto;
+        height: 59px;
+        padding-left: 30px;
+        padding-top: 20px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #181423;
+    }
+
+    .banner_subtitle {
+        position: absolute;
+        width: auto;
+        height: 35px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        padding: 130px 0 0px 30px;
+        color: #4B4853;
+    }
+
+    .banner_right_image {
+        position: absolute;
+        width: 100%;
+        height: 186.57px;
+        top: 260px;
+        right: 0;
+    }
+
+    .search-section {
+        width: 90%;
+        margin: auto;
+        height: 70px;
+        right: 20px;
+        left: 2px;
+        top: -10px;
+        font-size: 15px !important;
+    }
+
+    .search-box>div>div>div {
+        width: 25%;
+        /* font-size: 10px !important; */
+    }
+
+    .car-search-fil {
+        height: 117px;
+        position: relative;
+        /* top: -70%; */
+        top: -100%;
+        background: #fff;
+        box-shadow: 0px 30px 60px -30px rgba(204, 25, 91, 0.15);
+        backdrop-filter: blur(2.5px);
+        border-radius: 8px;
+        margin-bottom: 10%;
+        margin-top: 3%;
+    }
+
+    .car-search-top {
+        width: 100%;
+        height: 30%;
+        display: flex;
+    }
+
+
+    .car-search-top>div:nth-child(1),
+    .car-search-top>div:nth-child(5) {
+        width: 32%;
+        height: 100%;
+    }
+
+    .car-search-top>div:nth-child(3) {
+        width: 26%;
+    }
+
+
+    .car-search-top>div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+    }
+
+    #department,
+    #location,
+    #jobtype {
+        width: 80%;
+        height: 100%;
+        border: none;
+        margin-left: 2%;
+        margin-top: 0px;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: left;
+        padding-left: 0px !important;
+        color: #000000;
+    }
+
+    #department {
+        width: 80% !important;
+    }
+
+    #jobtype {
+        width: 80%;
+        /* margin-left: 10% !important; */
+    }
+
+    .car-search-top>div:nth-child(2),
+    .car-search-top>div:nth-child(4) {
+        width: 5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .car-search-bottom {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .car-search-bottom>button {
+        background: #CB1B5B;
+        border: 1px solid #e71f68;
+        color: #fff;
+        border-radius: 8px;
+        width: 92%;
+        height: 48px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .search-icon {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-icon-bg {
+        width: 60%;
+        height: 80%;
+        margin-top: 2% !important;
+    }
+
+    .c-menu-dropdown__trigger {
+        width: 85%;
+        margin-left: 10%;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .car-search-top ul.c-menu-dropdown__list {
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-device-width: 768px) and (min-device-width: 600px) {
+    .car-search-fil {
+        margin-top: 6%;
+    }
+}
+
+@media only screen and (max-device-width: 600px) {
+    .car-search-fil {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-device-width: 450px) {
+    .car-search-fil {
+        margin-top: 14%;
+    }
+}
+
+@media only screen and (max-device-width: 350px) {
+    .car-search-fil {
+        margin-top: 18% !important;
+    }
+}
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .banner_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 44px;
+        padding-left: 24px;
+    }
+    .mob-career-img{
+        width: 141.45px;
+        height: 134px;
+        margin-top: 24px;
+    }
+    .banner_bg {
+        width: 100%;
+        height: 158px;
+    }
+    .banner_subtitle {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 75px 0 0px 24px;
+    }
+    .search-section {
+        top: 222px;
+        display: none
+    }
+} */

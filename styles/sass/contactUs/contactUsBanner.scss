@@ -1,0 +1,102 @@
+$theme-color: #CB1B5B;
+
+
+.contactUsBannerContainer {
+    background-image: url('../../../public/assets/contactUs/contact_us_banner.png');
+    background-size: cover;
+    height: 904px;
+}
+
+.svg-color {
+    filter: brightness(0) invert(1);
+}
+
+.contactUsBreadcrumb {
+    color: white !important;
+}
+
+.contactUsText {
+    font-size: 248px;
+    text-align: center;
+    font-weight: 700;
+    -webkit-text-stroke: 1px grey;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contactUsBannerSectionWrapper {
+    background: $theme-color;
+    height: 376px;
+}
+
+.contactUsBannerSection {
+    padding-top: 35px !important;
+    margin-bottom: 72px;
+    margin-top: 0 !important;
+    .padding-section{
+        top: 18px
+    }
+}
+
+.contactUsBannerImg {
+    max-width: 255px;
+
+}
+
+.customerSupportTitle {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.customerSupportTitle::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 80px;
+    background: $theme-color;
+    margin-bottom: 5px;
+}
+
+.customerSupportDesc {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .customerSupportTitle {
+        font-size: 20px;
+    }
+
+    .customerSupportTitle::before {
+        content: "";
+        display: block;
+        width: 57px;
+        background: $theme-color;
+    }
+
+    .contact-mb45 {
+        margin-bottom: 45px;
+    }
+
+    .customerSupportDesc {
+        font-size: 16px;
+        font-weight: 300;
+        max-width: 258px;
+    }
+
+    .contactUsBannerSectionWrapper{
+        height: auto;
+    }
+
+    .contactUsBannerSection {
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }  
+
+    .contactUsBannerImg{
+        max-width: 205px;
+        height: 185px;
+        margin: 0 auto 24px 12px;
+    }
+}

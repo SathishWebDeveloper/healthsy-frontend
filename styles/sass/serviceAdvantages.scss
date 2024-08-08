@@ -1,0 +1,74 @@
+.serviceAdvantages {
+    margin: 100px auto 28px;
+
+    .serviceAdBox {
+        margin-bottom: 72px;
+    }
+
+    .serviceAdImgWrapper {
+        height: 78px;
+        max-width: 78px;
+        width: 100%;
+        background: #FFF9FB;
+        border-radius: 22px;
+    }
+
+    .serviceAdDesc {
+        font-size: 18px;
+        max-width: 354px;
+        margin-top: 24px;
+    }
+
+    .serviceAdBoxContent {
+        padding: 0 20px;
+    }
+
+
+    @media only screen and (max-device-width: 1200px) and (min-device-width: 769px) {
+        .serviceAdBoxContent {
+            max-width: 280px;
+            margin: auto;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        margin-top: 43px;
+
+        .serviceAdImgWrapper {
+            max-width: 72px;
+            height: 72px;
+        }
+
+        .serviceAdDesc {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .serviceAdBox {
+            width: 100%;
+            padding: 0 26px 40px 26px;
+            margin-bottom: 0;
+        }
+
+        .serviceAdBoxContent {
+            display: flex;
+            align-items: center;
+            padding: 0;
+        }
+
+        .serviceAdImgWrapper {
+            margin-right: 15px;
+
+            .serviceAdvantageImg {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    @media only screen and (max-device-width: 420px) {
+        .serviceAdBox {
+            padding: 0 15px 40px 20px;
+        }
+    }
+}

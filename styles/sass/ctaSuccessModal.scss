@@ -1,0 +1,53 @@
+  .ctaSuccessModalSection {
+      padding: 40px 40px 54px 40px;
+    //   margin: auto;
+
+      .success-gif-pict {
+          margin: 10px 0 0;
+      }
+
+      .ctaSuccessModelThanks {
+          font-weight: 700;
+          font-size: 32px;
+          margin: 24px 0 18px;
+      }
+
+      .ctaSuccessModelText {
+          font-weight: 500;
+          font-size: 24px;
+      }
+
+      @media only screen and (max-device-width: 768px) {
+          padding: 28px 16px 94px 16px;
+
+          .success-gif-pict {
+              width: 165px;
+              height: 165px;
+              margin: 0;
+          }
+
+          .ctaSuccessModelThanks {
+              font-size: 25px;
+              margin: 18px 0 13px;
+          }
+
+          .ctaSuccessModelText {
+              font-size: 18px;
+          }
+          .modal-dialog{
+            margin: auto !important;
+          }
+
+      }
+      @media only screen and (max-device-width: 480px) {
+        max-height: fit-content;
+        padding: 28px 16px 40px 16px;
+        .modal-content {
+            width: 95% !important;
+        }
+        .success-gif-pict{
+            margin-top: 0;
+        }
+      }
+
+  }

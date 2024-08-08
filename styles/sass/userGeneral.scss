@@ -1,0 +1,521 @@
+.userGeneralBanner {
+
+    .adBannerTopText {
+        padding: 11px 0;
+        background: #FAE8EF;
+    }
+
+    .userBannerContentWrapper {
+        width: 100%;
+    }
+
+    .userBannerCountWrapper:first-child {
+        padding-right: 25px;
+        border-right: 2px solid #F886AF;
+    }
+
+    .userBannerCountWrapper:last-child {
+        padding-left: 25px;
+    }
+
+    .healthcarebanner {
+        padding: 113px 0 64px;
+    }
+
+    .bannerTitle {
+        font-style: italic;
+    }
+
+    .bannerDesc {
+        margin: 16px 0 48px;
+    }
+
+    .downloadAppBtn {
+        width: 100%;
+        max-width: 350px;
+        height: 72px;
+        background: #fff;
+        color: #CC1C5C;
+        border: none;
+        border-radius: 16px;
+    }
+
+    .videoFrame {
+        width: 543px;
+        height: 336.991px;
+        border-radius: 30px;
+    }
+
+    .adsLandingUserbanner {
+        margin-top: 126px;
+    }
+
+    .adLandingUserTitle {
+        padding-bottom: 11px;
+    }
+
+    // .bannerContentWrapper{
+    //     padding: 126px 0 16px;
+    // }
+
+    @media screen and (max-width:768px) {
+
+        .downloadAppBtn {
+            max-width: 380px;
+        }
+
+        .topDownload {
+            font-size: 13px !important;
+        }
+
+        .healthcarebanner {
+            padding: 40px 24px 32px;
+            text-align: center;
+        }
+
+        .healthcarebanner {
+            flex-direction: column;
+        }
+
+        .adsLandingUserbanner {
+            background: #A21649;
+            margin-top: 32px;
+            gap: 20px;
+            padding: 14px;
+            border-radius: 12px;
+            border: 1px dashed #FC73A5;
+            max-width: 380px;
+        }
+
+        .adLandingUserTitle {
+            padding-bottom: 10px;
+        }
+
+        .bannerDesc {
+            line-height: 27px;
+            margin: 18px 0 32px;
+        }
+
+        .userAppDownload {
+            margin-top: 24px;
+        }
+
+        .adBannerTopText {
+            padding: 16px 0;
+        }
+
+        .userBannerCountWrapper:first-child {
+            padding-right: 20px;
+            border-right: 2px solid #F886AF;
+        }
+
+        .userBannerCountWrapper:last-child {
+            padding-left: 0;
+        }
+    }
+}
+
+.medicalConsultation {
+    background: #F9F9F9;
+}
+
+@media screen and (max-width:768px) {
+
+    .medicalConsultation {
+        padding: 0 24px;
+    }
+}
+
+.OnlineMedicineConsultation {
+    padding: 56px 0 33px;
+
+    .medicalDetailsCard {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        background: #fff;
+        border-radius: 16px;
+        padding: 16px 8px 16px 24px;
+    }
+
+    .usersDoctorMedicine {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
+        margin-top: 32px;
+    }
+
+    .medicineDoctorWeb {
+        margin-top: 8px;
+    }
+
+    @media screen and (max-width:920px) {
+        .usersDoctorMedicine {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        padding: 32px 0 40px;
+
+        .usersDoctorMedicine {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 29px 13px;
+        }
+
+        .medicalDetailsCard {
+            width: 115px;
+            padding: 16px 12px 22px 16px;
+        }
+
+        .medicineDoctorWeb {
+            margin-top: 16px;
+        }
+
+        .userGeneralBtn {
+            width: 100%;
+            height: 64px;
+            max-width: 380px;
+            margin-top: 32px;
+            border-radius: 16px;
+            background: url(../../public/assets/btn-bg.gif) lightgray 50% / cover no-repeat;
+        }
+    }
+
+    @media screen and (max-width:380px) {
+
+        .usersDoctorMedicine {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .medicalDetailsCard {
+            padding: 16px 8px 22px 9px;
+        }
+    }
+}
+
+.healnthcareService {
+    border-radius: 24px;
+    background: linear-gradient(107deg, #CB1B5B 16.98%, #DA628F 99.14%);
+    padding: 53px 0 57px 80px;
+}
+
+
+.DoctorsAdFQA {
+    margin-top: 80px;
+}
+
+@media screen and (max-width:768px) {
+
+    .DoctorsAdFQA {
+        margin-top: 62px;
+    }
+}
+
+.reasonSection {
+    padding: 80px 0;
+
+    .reasonsWrapper {
+        margin-top: 56px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 47px;
+    }
+
+    .reason {
+        max-width: 382px;
+        height: auto;
+        border-radius: 24px;
+        border: 1px solid var(--eerie-black-50, #E9E9E9);
+        background: var(--White, #FFF);
+        box-shadow: 0px 0px 40px 0px rgba(147, 147, 147, 0.15);
+        padding: 24px 24px 32px;
+    }
+
+    .reasonTitle {
+        margin: 16px 0 12px;
+    }
+
+    .servicesNowBtn {
+        max-width: 350px;
+        height: 72px;
+        border-radius: 16px;
+        color: #FFF;
+        background: url(../../public/assets/btn-bg.gif) lightgray 50% / cover no-repeat;
+        margin: 56px auto 0;
+    }
+
+    .reasonsDesc {
+        line-height: 30px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 40px 24px;
+
+        .reasonsWrapper {
+            margin-top: 32px;
+            gap: 16px
+        }
+
+        .reason {
+            padding: 24px;
+        }
+
+        .reasonImgWrapper {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .reasonTitle {
+            margin: 0 0 0 16px;
+            white-space: nowrap;
+        }
+
+        .reasonImg {
+            width: 40px;
+            height: auto;
+        }
+
+        .servicesNowBtn {
+            max-width: 380px;
+            height: 64px;
+            margin: 48px auto 0;
+        }
+    }
+
+    @media only screen and (max-device-width: 410px) {
+        .reasonTitle {
+            font-size: 12px;
+        }
+    }
+}
+
+.userGeneralMembershipSection {
+    padding: 40px 0 56px;
+    overflow: hidden;
+
+    .plusMembership {
+        position: absolute;
+        top: -4px;
+        left: 319px;
+    }
+
+    .membershipDownloadBtn {
+        width: 283px;
+        height: 72px;
+        color: #CB1B5B;
+        background: #FFF;
+        border-radius: 16px;
+        border: none;
+    }
+
+    .whoWeAre {
+        padding: 40px 56px;
+        background: #DD3472;
+        border-radius: 24px;
+        margin-top: 40px;
+    }
+
+    .whoWeAreQus {
+        margin-bottom: 18px;
+    }
+
+    .circle-1 {
+        position: absolute;
+        left: 0;
+        top: 65px;
+    }
+
+    .circle-2 {
+        position: absolute;
+        right: 0;
+        top: 86px;
+    }
+
+    .membershipTitle {
+        margin-bottom: 16px;
+    }
+
+    .userGeneralMembership {
+        line-height: 37px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 60px 24px 32px;
+
+        .membershipHeaderWrapper {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .membershipTitleWrapper {
+            margin: 16px auto 24px;
+        }
+
+        .membershipTitle {
+            margin-bottom: 12px;
+        }
+
+        .circle-1 {
+            left: -20px;
+            top: 77px;
+            width: 77px;
+            height: 77px;
+        }
+
+        .circle-2 {
+            right: -10px;
+            top: 161px;
+            width: 35px;
+            height: 35px;
+        }
+
+        .plusMembership {
+            width: 219px;
+            height: 43px;
+            top: -4px;
+            left: 104px;
+        }
+
+        .hexogonHealthsy {
+            width: 140px;
+            height: 145px;
+        }
+
+        .whoWeAre {
+            padding: 32px 16px;
+            margin-top: 32px;
+        }
+
+        .whoWeAreQus {
+            margin-bottom: 16px;
+        }
+
+        .membershipDownloadBtn {
+            max-width: 380px;
+            height: 64px;
+        }
+
+        .userGeneralMembership {
+            line-height: 36px;
+        }
+
+    }
+}
+
+.userGeneralService {
+    margin-top: 115px;
+    border-radius: 24px;
+    background: linear-gradient(107deg, #CB1B5B 16.98%, #DA628F 99.14%);
+    position: relative;
+    padding: 0;
+
+    .healthCareService {
+        padding: 53px 0 57px 80px;
+    }
+
+    .healthCareServiceTitle {
+        margin-bottom: 16px;
+        line-height: 48px;
+    }
+
+    .healthcareServiceBtn {
+        width: 100%;
+        max-width: 350px;
+        height: 72px;
+        background: #fff;
+        margin-top: 25px;
+    }
+
+    .healthcareServiceImg {
+        position: absolute;
+        bottom: 0;
+        right: 60px;
+        width: 100%;
+        max-width: 405px;
+        height: auto;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        flex-direction: column;
+        text-align: center !important;
+        // position: inherit;
+        // margin: 0 24px 0 24px;
+        margin-top: 40px;
+
+        .healthCareService {
+            padding: 32px 24px 13px;
+        }
+
+        .healthcareServiceImg {
+            width: 100%;
+            width: 291px;
+            height: 288px;
+            position: inherit;
+        }
+
+        .healthcareServiceBtn {
+            max-width: 332px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            background: #FAE8EF;
+        }
+
+        .CallBackBtnWrapper {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -34px;
+        }
+
+        .healthCareServiceTitle {
+            line-height: 31px;
+        }
+    }
+}
+
+.userGeneralFormWrapper {
+    margin: 40px auto 56px;
+
+    .instaDocAgree {
+        padding: 48px 0 13px !important;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        margin: 32px auto 40px;
+
+        .instaDocAgree {
+            padding: 32px 0 25px !important;
+        }
+
+        .qrCodeBannerTitle {
+            white-space: nowrap;
+        }
+
+    }
+}
+
+.userGeneralFormBanner {
+    @media only screen and (max-device-width: 768px) {
+        .qrCodeBannerTitle {
+            white-space: nowrap;
+        }
+    }
+
+    @media only screen and (max-device-width: 380px) {
+        .qrCodeBannerTitle {
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .userGeneralServiceWrapper {
+        padding: 0 24px;
+    }
+}

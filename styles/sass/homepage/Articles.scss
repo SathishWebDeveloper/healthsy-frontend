@@ -1,0 +1,190 @@
+.home-more-blogs,
+.more-blogs {
+    /* width: 100%; */
+    /* max-width: 1320px; */
+    margin: auto;
+    margin-top: 1rem;
+    // padding-bottom: 4rem;
+
+    .more-blog-title {
+        padding-bottom: 10px;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 45px;
+        color: #181423;
+    }
+
+    .home-more-blog-card-img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .home-more-blog-card-img>img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px 5px 0px 0px !important;
+        padding: 0 !important;
+        object-fit: contain;
+    }
+
+    .home-more-blog-card-title {
+        height: 30%;
+        // margin-top: 2%;
+        margin: 14px 0 16px;
+        // font-size: 24px;
+        // font-weight: 700;
+        padding: 5px 15px;
+        color: #181423;
+        max-height: 3em;
+        /* Set the maximum height for two lines */
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        /* Limit to 2 lines of text */
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+    }
+
+    .home-articles-title {
+        font-weight: 800;
+        font-size: 36px;
+    }
+
+    .view_all_articles a {
+        color: rgb(203, 27, 91) !important;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .home-more-blog-card {
+        // height: 396px;
+        height: 395px;
+        width: 396px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0px 4px 14px 8px rgba(135, 135, 135, 0.05);
+    }
+
+    .related-blog-post-card {
+        height: 380px;
+    }
+
+    .home-more-blog-card-img {
+        height: 240px;
+        height: auto;
+    }
+
+    .home-more-blog-category {
+        color: #CB1B5B;
+        // font-size: 16px;
+        // font-weight: 700;
+        margin-top: 16px;
+    }
+
+    .home-more-blog-card p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .homepage-blog {
+        padding: 0 16px;
+    }
+
+    .home-more-blog {
+        padding-bottom: 16px;
+    }
+
+    .react-multi-carousel-item {
+        width: 422px !important;
+        // height: 395px;
+        padding-left: 80px;
+    }
+
+    @media only screen and (max-width: 1399px) and (min-width: 1200px) {
+        .home-more-blog-card {
+            width: 396px !important;
+        }
+    }
+
+    @media only screen and (max-width: 1199px) and (min-width: 1025px) {
+        .home-more-blog-card {
+            width: 290px !important;
+        }
+    }
+
+    @media only screen and (max-width: 1199px) and (min-width: 769px) {
+        .react-multi-carousel-item {
+            padding-left: 290px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .home-articles-title {
+            /* font-weight: 700; */
+            font-size: 20px;
+        }
+
+        .view_all_articles a {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .home-more-blog-card {
+            width: 220px;
+            height: 239px;
+        }
+
+        .related-blog-post-card {
+            height: 295px;
+        }
+
+        .singleArticle {
+            .related-blog-post-card {
+                margin: auto;
+            }
+        }
+
+        .home-more-blog-card-img {
+            // height: 200px;
+        }
+
+        .home-more-blog-card-title {
+            // font-size: 15px;
+            margin: 10px 0 14px;
+        }
+
+        .homepage-blog {
+            padding: 0 8px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        .react-multi-carousel-item {
+            width: 244px !important;
+            padding-left: 150px;
+        }
+
+        .home-more-blog-card {
+            width: 220px !important;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .react-multi-carousel-item {
+            padding-left: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 320px) {
+        .react-multi-carousel-item {
+            padding-left: 150px;
+        }
+    }
+}

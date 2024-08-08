@@ -1,0 +1,198 @@
+.blog-news{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.blog-news-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    background: #f8f8f8;
+}
+.blog-news-box{
+    width: 360px;
+    /* height: 345px; */
+    height: 369px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.blog-news-logo{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blog-news-logo > img {
+    width: 93%;
+    height: 100%;
+    border-radius: 4px;
+    margin-top: 15px !important;
+    padding-top: 0px !important;
+}
+.blog-news-bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-news-bottom-box{
+    width: 95%;
+    height: 95%;
+}
+.blog-news-title{
+    width: 95%;
+    height: 40%;
+    margin: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: #181423;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.blog-news-foot{
+    width: 95%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-news-share{
+    width: 10%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-news-date{
+    /* width: 40%; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-left: 1px solid #98969D;
+    color: #98969D;
+    padding-left: 3%;
+    margin-left: -5%;
+}
+.blog-news-button{
+    width: 40%;
+}
+.blog-news-readmore{
+    background: #FFE6EF;
+    border: 1px solid #FFE6EF;
+    border-radius: 8px 0px;
+    width: 70%;
+    height: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #CB1B5B;
+
+}
+.blog-news-viewmore{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.blog-news-viewmore > button {
+    border: 1px solid #CB1B5B;
+    background: #fff;
+    border-radius: 5px;
+    font-size: small;
+    width: 124px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #CB1B5B;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .blog-news-mob{
+        margin-bottom: 10%;
+    }
+    .blog-innews-container-mob{
+        width: 92%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .blog-innews-box-mob{
+        /* height: 221px; */
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    }
+    .blog-in-the-news-mob{
+        width: 90%;
+        height: 90%;
+    }
+    .blog-news-image-mob{
+        height: 60%;
+    }
+    .blog-news-image-mob img{
+        width: 100%;
+        height: 100%;
+    }
+    .blog-news-title-mob{
+        height: 30%;
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #181423;
+        padding-top: 5%;
+    }
+    .blog-news-share-mob{
+        height: 7%;
+        margin-top: 5%;
+        display: flex;
+    }
+    .blog-news-share-mob > div:nth-child(1){
+        width: 10%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blog-news-share-mob > div:nth-child(1) img{
+        width: 12px;
+        height: 12px;
+    }
+    .blog-news-share-mob > div:nth-child(2){
+        width: 5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #98969D;
+    }
+    .blog-news-share-mob > div:nth-child(3){
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 5%;
+        color: #98969D;
+        font-family: 'Mulish';
+        font-size: 12px;
+    }
+}

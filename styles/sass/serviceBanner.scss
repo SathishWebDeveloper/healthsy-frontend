@@ -1,0 +1,1255 @@
+.serviceBannerSection,
+.serviceBannerTwoWrapper {
+    .downloadAppBtn {
+        width: 207px;
+        height: 48px;
+        border-radius: 12px;
+        background: #fff;
+        font-weight: 700;
+        font-size: 16px;
+        color: #CB1B5B;
+        margin: 64px 0;
+    }
+
+    .bookNowBtn {
+        width: 190px;
+        height: 55px;
+        font-size: 18px;
+    }
+
+    .bookArrow {
+        margin-left: 14px;
+    }
+
+    .downloadAppBtn:active {
+        color: #CB1B5B;
+        background: #f4f4f4;
+    }
+}
+//inclinic section
+.serviceBannerSection{
+    .servicetopcontentWrapper{
+        max-width: 765px;
+        width: 765px;
+        height: 508px;
+        // border: 1px solid yellow;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .topsection_1{
+            width: 100%;
+            height: 249px;
+            // border: 1px solid green;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .serviceBannerTitle{
+                width: 100%;
+                height: 210px;
+            }
+            .bannerTitle_points{
+                height: 23px;
+                width: 743px;
+                display: flex;
+                justify-content: space-between;
+                & div{
+                    .banner_icon{
+                        margin-right: 9px;
+                    }
+                }
+            }
+        }
+        .topsection_2{
+            width: 100%;
+            height: 99px;
+            // border: 1px solid green;
+            .searchFieldWrapper {
+                height: 100%;
+                background-color: #FFFFFF;
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                padding: 15px;
+                justify-content: space-between;
+                width: 100%;
+                .location_field{
+                    width: 204px;
+                    height: 51px;
+                    position: relative;
+                    margin: 0;
+                    padding: 0%;
+                    // .select__control--is-focused{
+                    //     border: none !important;
+                    // }
+                    .select__indicators{
+                        margin-right: 16px;
+                        background-color: #f5f5f5;
+                        z-index: 3;
+                        height: 51px;
+                        max-height: 51px;
+                    }
+                    .select__control--menu-is-open{
+                       border-radius:  15px 15px 0px 0px !important;
+                    }
+                    .css-1nmdiq5-menu{
+                        width: 99%;
+                        margin:0 0 0 1px !important;
+                       .select__group{
+                          padding: 0px !important;
+                        }
+                        .select__menu-list{
+                            padding: 0%;
+                        }
+                        .select__group-heading{
+                            margin: 0;
+                            height: 20px;
+                            font-size: 16px;
+                            font-weight: 600;
+                            border-radius: 0px !important;
+                            padding: 20px 10px;
+                            background-color: #f5f5f5;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            text-transform: none !important;   
+                        }
+                         .select__option{
+                            width: 100%;
+                            // border: 1px solid rgb(47, 0, 255);
+                            display: flex !important;
+                            justify-content: space-between !important;
+                            border-radius: 0 !important;
+                            padding: 0% !important;
+                           & div{
+                                display: flex;
+                                justify-content: space-between;
+                                margin:0px 20px 0px 5px;
+                                // background-color: red;
+                                width: 100%;
+                                cursor: pointer;
+                                & :hover{
+                                    background-color: #f5f5f5;
+                                }
+                            }
+                        }
+                    }
+                    .css-1hb7zxy-IndicatorsContainer{
+                        > :not(:first-child) {
+                            display: none !important;   
+                        }
+                        > div:first-child {
+                            border-radius: 50%;
+                            padding: 1px !important;
+                            cursor: pointer;
+                            & svg {
+                                & path {
+                                    fill: #000000 !important;
+                                }
+                            }
+                          }
+                        & span{
+                            display: none !important;
+                        }
+                    }
+                    .location_icon{
+                        position: absolute;
+                        top: 50%;
+                        left: 91%;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                        z-index: 2;
+
+                    }
+                }
+                .docter_field{
+                    width: 492px;
+                    height: 51px;
+                    position: relative;
+                    margin: 0;
+                    padding: 0%;
+                    .select__control--menu-is-open{
+                        border-radius:  15px 15px 0px 0px !important;
+                     }
+                    .css-1nmdiq5-menu{
+                        width: 99%;
+                        margin:0 0 0 1px !important;
+                       .select__group{
+                          padding: 0px !important;
+                        }
+                        .select__menu-list{
+                            padding: 0%;
+                        }
+                        .select__group-heading{
+                            margin: 0;
+                            height: 20px;
+                            font-size: 16px;
+                            font-weight: 600;
+                            border-radius: 0px !important;
+                            padding: 20px 10px;
+                            background-color: #f5f5f5;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            text-transform: none !important;
+                        }
+                         .select__option{
+                            width: 100%;
+                            display: flex !important;
+                            justify-content: space-between !important;
+                            border-radius: 0 !important;
+                            padding: 0% !important;
+                           & div{
+                                display: flex;
+                                justify-content: space-between;
+                                width: 100%;
+                                cursor: pointer;
+                                margin:0px 20px 0px 5px;
+                                & :hover{
+                                    background-color: #f5f5f5;
+                                }
+                            }
+                        }
+                    }
+                    .css-1hb7zxy-IndicatorsContainer{
+                        & span{
+                            display: none !important;
+                        }
+                    }
+                    .css-1i4neno-placeholder{
+                        display: flex;
+                    }
+                    .specialization-lgcontent-text{
+                        width: 110px;
+                        color: #CB1B5B;
+                        position: absolute;
+                        top: 50%;
+                        left: 30%;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+
+        }
+        .mobileSearchField{
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 380px;
+            max-width: 380px;
+            margin: 0 auto 16px auto;
+            .mobileScreenInput{
+                margin: auto;
+                width: 380px;
+                max-width: 380px;
+                .css-qbdosj-Input{
+                    margin-left: 45px !important;
+                }
+                 .css-1nmdiq5-menu{
+                    display: none;
+                     width: 99%;
+                     margin:0 0 0 1px !important;
+                 }
+                 .css-1hb7zxy-IndicatorsContainer{
+                     > :not(:first-child) {
+                         display: none !important;   
+                     }
+                     > div:first-child {
+                        //  border: 1px solid #000000;
+                         border-radius: 50%;
+                         padding: 1px !important;
+                         cursor: pointer;
+                         & svg {
+                             & path {
+                                 fill: #000000 !important;
+                             }
+                         }
+                       }
+                     & span{
+                         display: none !important;
+                     }
+                 }
+                 .css-1i4neno-placeholder{
+                   display: flex;
+                 }
+                 .css-1i4neno-placeholder{
+                    display: flex;
+                }
+            }
+            .search_icon{
+                position: absolute;
+                top: 50%;
+                left: 9%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            @media only screen and (max-device-width: 425px) {
+                padding: 0px 5px;
+                width: 100%;
+                max-width: 100%;
+                .mobileScreenInput{
+                    width: 100%;
+                    // margin: auto;
+                }
+            }
+        }
+        .topsection_3{
+            width: 100%;
+            height: 80px;
+            // border: 1px solid green;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .popularSearchWrapper{
+                width:669px;
+                height: 41px;
+                column-gap: 15px;
+                
+                .popularConsultationSearch{
+                    cursor: pointer;
+                    flex-grow: 1;
+                    backdrop-filter: blur(0px) saturate(90%);
+                    -webkit-backdrop-filter: blur(0px) saturate(90%);
+                    background-color: rgba(226, 92, 141, 0.86);
+                    border-radius: 10px;
+                    padding: 9px;
+                    
+                    & span{
+                      margin-left: 10px;
+                    }
+                    // border: 1px solid rgba(255, 255, 255, 0.125);
+                }
+            }
+        }
+    }
+    .serviceimagesectionwrapper{
+        height: 100%;
+        display: flex;
+        // width: 100%;
+        .serviceBannerImg{
+            // width: 540px;
+            // height: 540px;
+            object-fit: cover;
+        }
+    }
+    @media only screen and (min-device-width: 769px) and (max-device-width: 1399px) {
+        .servicetopcontentWrapper{
+            max-width: none;
+            width: 58%;
+            .topsection_1{
+                justify-content: space-evenly;
+                // .serviceBannerTitle{
+                //     font-size: 36px;
+                // }
+                .bannerTitle_points{
+                    width: 100%;
+                }
+                .serviceBannerTitle{
+                    font-size: 44px;
+                    height: 180px;
+                }
+            }
+            .topsection_2{
+                height: 150px;
+                .searchFieldWrapper {
+                    flex-direction: column;
+                    .location_field{
+                        width: 100% !important;
+                        margin-right: 0% !important;
+                        .select__indicators{
+                            margin-right: 36px;
+                        }
+                    }
+                    .docter_field{
+                        width: 100% !important;
+                        .specialization-lgcontent-text{
+                            width: 65%;
+                            color: #CB1B5B;
+                            position: absolute;
+                            top: 50%;
+                            left: 60%;
+                            -ms-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+                }
+            }
+            .topsection_3{
+                .popularSearchWrapper{
+                    width:100%;
+                    column-gap: 5px;
+                    height: 45px;
+                    .popularConsultationSearch{
+                        font-size: 16px !important;
+                        padding: 1px;
+                        & span{
+                            margin-left: 3px;
+                          }
+                    }
+                } 
+            }
+            
+        }
+        .serviceimagesectionwrapper{
+            height: 100%;
+            width: 42%;
+            .serviceBannerImg{
+                width: 100%;
+                // height: 80%;
+            }
+        }
+    }
+    @media only screen and (min-device-width: 769px) and (max-device-width: 992px) {
+        .servicetopcontentWrapper{
+            .topsection_1{
+                .serviceBannerTitle{
+                    font-size: 36px;
+                    height: 140px;
+                }
+            }
+            .topsection_2{
+                .searchFieldWrapper{
+                    .location_field{
+                        .select__indicators{
+                            margin-right: 24px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+    @media only screen and (max-device-width: 768px) {
+        .servicetopcontentWrapper{
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin-top: 30px;
+            .topsection_1{
+                height: auto;
+                border: none !important;
+                .serviceBannerTitle{
+                    // height: 80px; need to implement here
+                    height: auto;
+                    margin-bottom: 15px;
+                }
+                .bannerTitle_points{
+                    width: 40%;
+                    max-width: 100%;
+                    height: 100px;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: start;
+                    margin:0px auto 30px auto;
+                    @media only screen and (max-device-width: 589px){
+                        width: 50% !important;
+                    }
+                    @media only screen and (max-device-width: 470px){
+                        width: 65% !important;
+                    }
+                    @media only screen and (max-device-width: 400px){
+                        width: 75% !important;
+                    }
+
+                    & div{
+                        width: 100%;
+                        // margin: auto;
+                    }
+                }
+            }
+            .topsection_2{
+                height: auto;
+            }
+            .topsection_3{
+                max-width: 95%;
+                margin: auto;
+                border: none;
+                .popularSearchContainer{
+                    width: 100%;
+                    overflow-x: scroll;
+                    scrollbar-width: none;
+                    border: none;
+
+                    .popularSearchWrapper{
+                        width:669px;
+                        height: 41px;
+                        max-width: 669px;
+                        border: none;
+                        
+                    }
+                }
+                .popularSearchContainer::-webkit-scrollbar {
+                    width: 0;
+                    height: 0;
+                  }
+
+            }
+        }
+        .serviceimagesectionwrapper{
+            height: auto;
+            width: 400px;
+            max-width: 400px;
+            border: none;
+            // height: 100%;
+            // display: flex;
+            // // width: 100%;
+            .serviceBannerImg{
+                width: 400px;
+                height: 400px;
+                max-width: 100% !important;
+            }
+        }
+    }
+    @media only screen and (max-device-width: 425px) {
+            .serviceimagesectionwrapper{
+                height: auto;
+                width: 100%;
+                // width: 400px;
+                // max-width: 400px;
+                height: 100%;
+                // display: flex;
+                // // width: 100%;
+                .serviceBannerImg{
+                    // width: 400px;
+                    // height: 400px;
+                    height: auto;
+                    width: 100%;
+                    max-width: 100% !important;
+                }
+        }
+    }
+}
+.serviceInclinicSection{
+    height: 667px;
+    @media only screen and (min-device-width: 769px) and (max-device-width: 1399px) {
+        height: 610px;
+    }
+    @media only screen and (max-device-width: 768px) {
+        height: 870px;
+    }
+    .location_field, .searchFieldWrapper .docter_field {
+        width: 362px !important;
+    }
+    .location_field{
+        margin-right: 10px !important;
+        .select__single-value .option-label {
+            flex-direction: row !important;
+        }
+    }
+     .select__single-value{
+         .doctor-option-label .specializationText, .clinic-option-label .specializationText{
+            display: none;
+         }   
+     } 
+    .inclinicField{
+        align-items: center;
+        justify-content:center;
+        padding:0% !important;
+        height: 100%;
+        @media only screen and (min-device-width: 769px) and (max-device-width: 1399px) {
+         padding: 0px 10px !important;
+         align-items: flex-start;
+        }
+        @media only screen and (max-device-width: 768px) {
+            justify-content: space-between;
+        }
+    }
+}
+.option-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.option-mobile-label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.doctor-option-label, .clinic-option-label {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+
+    .label-top {
+        margin-bottom: 8px;
+    }
+}
+
+.serviceBannerSection {
+    background: #CB1B5B;
+
+    .container {
+        padding-top: 35px;
+    }
+
+    .listPoints {
+        margin-top: 32px;
+        max-width: 400px;
+
+        span {
+            padding-left: 10px;
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+
+
+    .serviceBannerImg {
+        height: auto;
+    }
+
+    .orderMedicineBanner {
+        .serviceBannerTitle {
+            max-width: 480px;
+        }
+    }
+
+    @media only screen and (max-device-width: 1199px) and (min-device-width: 769px) {
+        .serviceBannerImg {
+            width: 500px;
+        }
+    }
+
+    @media only screen and (max-device-width: 991px) and (min-device-width: 769px) {
+        .serviceBannerImg {
+            width: 380px;
+            align-self: end;
+        }
+
+        .serviceBannerTitle {
+            line-height: 1.2;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .container {
+            flex-direction: column !important;
+            padding: 35px 0 0;
+        }
+
+        .serviceBannerTitle {
+            text-align: center;
+            max-width: 95%;
+            margin: auto;
+        }
+
+        .serviceBannerImg {
+            max-width: 95%;
+            align-self: end;
+        }
+
+        .listPoints {
+            margin: 32px auto 48px;
+            text-align: center;
+        }
+
+        .servicetopsectionWrapper {
+            text-align: center;
+        }
+
+        .downloadAppBtn {
+            margin: 0 auto 60px;
+        }
+    }
+
+    @media only screen and (max-device-width: 380px) {
+        .listPoints {
+            flex-direction: column;
+
+            div {
+                margin-top: 15px !important;
+                width: 100% !important;
+                text-align: start;
+            }
+        }
+    }
+}
+
+.onlineConsultationBanner {
+    .listPoints {
+        max-width: 550px;
+    }
+
+    .serviceBannerImg {
+        margin-bottom: 54px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .serviceBannerImg {
+            margin-bottom: 36px;
+        }
+
+        .listPoints {
+            margin: 30px auto 48px;
+        }
+    }
+
+    @media only screen and (max-device-width: 600px) {
+
+        .listPoints {
+            flex-direction: column;
+
+            div {
+                margin-top: 15px !important;
+                text-align: center;
+                width: auto !important;
+            }
+        }
+    }
+}
+
+.inclinicBanner {
+    .serviceBannerImg {
+        align-self: end;
+    }
+
+    .listPoints {
+        max-width: 600px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+
+        .listPoints {
+            flex-direction: column;
+            margin: 32px auto 48px;
+            text-align: center;
+
+            div {
+                text-align: start;
+                margin: 15px auto 0 !important;
+                width: 292px !important;
+                // width: 100%;
+            }
+        }
+    }
+}
+
+.serviceBannerTwoWrapper {
+    .listPoints {
+        margin-top: 16px;
+
+        >div {
+            margin-right: 32px;
+        }
+
+        img {
+            margin-right: 10px;
+        }
+    }
+
+    .serviceBannerTwoContent {
+        max-width: 637px;
+    }
+
+
+    .serviceBannerImgTypeTwo {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 675px;
+        width: 50%;
+    }
+
+    .chatOne {
+        right: 344px;
+        width: 100px;
+        height: 39px;
+        bottom: 335px;
+        animation: zoomInOut 4s infinite alternate;
+    }
+
+    .chatTwo {
+        right: 413px;
+        width: 82px;
+        height: 35px;
+        bottom: 143px;
+        animation: zoomInOut 4s infinite alternate;
+    }
+
+    @keyframes zoomInOut {
+
+        0%,
+        100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(0.8);
+        }
+    }
+
+    @media only screen and (max-device-width: 1700px) {
+        .chatOne {
+            right: 20%;
+            bottom: 325px;
+        }
+
+        .chatTwo {
+            right: 25%;
+        }
+    }
+
+    @media only screen and (max-device-width: 1500px) {
+        .chatOne {
+            right: 20%;
+            bottom: 272px;
+
+        }
+
+        .chatTwo {
+            right: 25%;
+            bottom: 114px;
+
+        }
+    }
+
+    @media only screen and (max-device-width: 1300px) {
+        .chatOne {
+            right: 20%;
+            bottom: 232px;
+            width: 90px;
+            height: 35px;
+        }
+
+        .chatTwo {
+            right: 25%;
+            bottom: 114px;
+            width: 75px;
+            height: 33px;
+
+        }
+    }
+
+    @media only screen and (max-device-width: 1350px) {
+        .serviceBannerTwoContent {
+            max-width: 600px;
+        }
+
+        .serviceBannerImgTypeTwo {
+            height: auto;
+        }
+    }
+
+    @media only screen and (max-device-width: 1199px) {
+        .serviceBannerTwoContent {
+            max-width: 500px;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .serviceBannerImgTypeTwo {
+            max-width: 650px;
+            padding-left: 2rem;
+            width: 100%;
+            position: relative;
+        }
+
+        .listPoints>div {
+            margin-right: 20px;
+        }
+
+        .serviceBannerTwoContent {
+            max-width: 100%;
+            padding: 0 12px;
+        }
+
+        .bookNowBtn {
+            font-size: 14px;
+            width: 148px;
+            height: 43px;
+        }
+
+        .bookArrow {
+            width: 10px;
+            height: 10px;
+            margin-left: 10px;
+        }
+
+        .chatOne {
+            right: 40%;
+            bottom: 262px;
+            width: 60px;
+            height: 25px;
+        }
+
+        .chatTwo {
+            right: 32%;
+            bottom: 84px;
+            width: 55px;
+            height: 23px;
+        }
+    }
+
+    @media only screen and (max-device-width: 400px) {
+
+        .chatOne {
+            bottom: 190px;
+        }
+
+        .chatTwo {
+            bottom: 60px;
+        }
+    }
+
+    @media only screen and (max-device-width: 400px) {}
+
+}
+
+.physioCitiesBanner {
+    @media only screen and (max-device-width: 768px) {
+        padding: 40px 0 0 !important;
+
+        .cityBanner {
+            padding: 0 24px !important;
+        }
+
+        .bookNowBtn {
+            margin: 42px 0 0;
+        }
+
+        .serviceBannerImgTypeTwo {
+            max-width: 650px;
+            padding-left: 0;
+            margin: auto
+        }
+    }
+}
+
+.newInstaDocBanner.serviceBannerTwoWrapper {
+    .serviceBannerTwoContent {
+        align-self: flex-start;
+    }
+
+    .listPoints {
+        max-width: 470px;
+    }
+
+    .serviceBannerImgTypeTwo {
+        height: auto;
+        max-width: 850px !important;
+    }
+
+    .serviceBannerTitle {
+        margin-top: 40px;
+    }
+
+    .serviceBannerTitle {
+        line-height: 1.2;
+    }
+
+    .serviceBannerImg {
+        align-self: flex-end;
+    }
+
+    .QRcodeContent {
+        color: #fff;
+        max-width: 250px;
+    }
+
+    .bannerImgWrapper {}
+
+    @media only screen and (max-device-width: 1199px) and (min-device-width: 993px) {
+        .downloadAppBtn {
+            margin: 32px;
+        }
+    }
+
+    @media only screen and (max-device-width: 992px) {
+        .QRcodeWrapper {
+            display: none !important;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .listPoints {
+            max-width: auto !important;
+            margin: 16px auto 0;
+        }
+
+
+        .serviceBannerTwoContent {
+            text-align: center;
+        }
+
+        .serviceBannerTitle {
+            margin-top: 25px;
+            max-width: 340px;
+
+        }
+
+        .downloadAppBtn {
+            margin-top: 22px;
+        }
+
+        .serviceBannerTwoContent {
+            align-self: center;
+        }
+    }
+
+}
+.search_field_mobileContainer{
+  width: 100%;
+  height: 100vh;
+//   position: absolute;
+  z-index: 1000;
+  top: 0;
+  background-color: #f3f3f3;
+  position: fixed;
+}
+
+.expanding-container {
+    // position: fixed;
+    left: 0;
+    width: 0;
+    height: 279px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    animation: expandAnimation 0.5s ease forwards;
+    background-color: white;
+  }
+  
+  @keyframes expandAnimation {
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
+
+  .mobileselectField_Container{
+    .search_title{
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+        .leftarrowIcon{
+            cursor: pointer;
+        }
+    }
+    .multipleSelect_Container{
+        width: 100%;
+        .mobileSearchField{
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: 380px;
+            max-width: 380px;
+            margin: 0 auto 16px auto;
+            .mobileScreenInput{
+                margin: auto;
+                width: 380px;
+                height: 60px;
+                max-width: 380px;
+                .css-166bipr-Input{
+                    margin-left: 45px !important;
+                }
+                .css-qbdosj-Input{
+                    margin-left: 45px !important;
+                }
+                .css-1dimb5e-singleValue{
+                    background-color: #f5f5f5;
+                    z-index: 3;
+                }
+                .select__indicators {
+                    margin-right: 16px;
+                }
+                .select__control--menu-is-open{
+                    
+                 }
+                 .css-1nmdiq5-menu{
+                    width: 99%;
+                    margin:0 0 0 1px !important;
+                   .select__group{
+                      padding: 0px !important;
+                    }
+                    .select__menu-list{
+                        padding: 0%;
+                    }
+                    .select__group-heading{
+                        margin: 0;
+                        height: 20px;
+                        font-size: 16px;
+                        font-weight: 600;
+                        border-radius: 0px !important;
+                        padding: 20px 10px;
+                        background-color: #f5f5f5;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        text-transform: none !important;
+                    }
+                     .select__option{
+                        width: 100%;
+                        display: flex !important;
+                        justify-content: space-between !important;
+                        border-radius: 0 !important;
+                        padding: 0% !important;
+                       & div{
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                            cursor: pointer;
+                            margin:0px 20px 0px 5px;
+                            & :hover{
+                                background-color: #f5f5f5;
+                            }
+                        }
+                    }
+                }
+                 .css-1hb7zxy-IndicatorsContainer{
+                     > :not(:first-child) {
+                         display: none !important;   
+                     }
+                     > div:first-child {
+                         border-radius: 50%;
+                         padding: 1px !important;
+                         cursor: pointer;
+                         & svg {
+                             & path {
+                                 fill: #000000 !important;
+                             }
+                         }
+                       }
+                     & span{
+                         display: none !important;
+                     }
+                 }
+            }
+            .search_icon{
+                position: absolute;
+                top: 50%;
+                left: 8%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            .specialization-content-text{
+                color: #CB1B5B;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+            @media only screen and (max-device-width: 425px) {
+                width: 100%;
+                max-width: 100%;
+                .mobileScreenInput{
+                    width: 100%;
+                    margin: 0% !important;
+                    max-width: 100%;
+                    .css-dlifxd-control{
+                        margin: 0px 20px;
+                    }
+                    .select__control--is-focused{
+                        // margin: 0px 20px !important;
+                    }
+                }
+                .search_icon{
+                    left: 8%;
+                }
+            }
+        }
+    }
+    @media only screen and (max-device-width: 425px) {
+        width: 100%;
+        .search_title{
+            padding: 0px 20px;
+        }
+    }
+  }
+  .mobileselectField_Container{
+    .locationPath_container{
+        .mobileSearchField{
+            .mobileScreenInput{
+                .css-1nmdiq5-menu{
+                    width: 100% !important;
+                    padding: 0% !important;
+                    margin: 145px 35px 0px 0px !important;
+                 }
+            } 
+        }
+    }
+    .specilizationPath_container{
+        .mobileSearchField{
+            .mobileScreenInput{
+                .css-1nmdiq5-menu{
+                    width: 100% !important;
+                    padding: 0% !important;
+                    margin: 73px 35px 0px 0px !important;
+                 }
+            } 
+        }
+    }
+  }
+  
+//   .placeholder-second-part {
+//     position: absolute;
+//     top: 0;
+//     transform: translateX(-50%);
+//     opacity: 0;
+//     margin-bottom: 5px;
+//     animation: fadeInOut 2s ease-out infinite;
+//   }
+  
+//   @keyframes fadeInOut {
+//     0% {
+//       opacity: 0;
+//       transform: translateY(0px); 
+//     }
+//     80% {
+//       opacity: 1;
+//       transform: translateY(0); 
+//     }
+//     100% {
+//       opacity: 0;
+//       transform: translateY(-30px); 
+//     }
+//   }
+.placeholder-second-part{
+    width: 150px;
+    height: 20px;
+    overflow: hidden;
+    .child-text{
+        width: 150px;
+        height: 125px;
+        // border: 1px solid blue;
+        animation: fadeInOut 10s cubic-bezier(0.5,0.5,0,1) infinite; 
+        & div {
+            height: 25px;
+            display: flex;
+            align-items: center;
+        }
+    }
+    @keyframes fadeInOut {
+        0% {
+          transform: translateY(0px); 
+        }
+        25% {
+          transform: translateY(-25px);
+        }
+        50% {
+          transform: translateY(-52px); 
+        }
+        75% {
+          transform: translateY(-75px); 
+        }
+        95% {
+          transform: translateY(-100px); 
+        }
+        100% {
+          transform: translateY(0px); 
+        }
+} 
+}
+.servicebanner-inclinicdoctorprofile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,107 @@
+.aboutCTOSection {
+    margin-bottom: 100px;
+
+    .aboutUsCTOTitle {
+        h3 {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        span {
+            color: #cb1b5b;
+            font-weight: 800;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            margin-bottom: 54px;
+        }
+    }
+
+    .ctoimg-section {
+        padding: 10px;
+
+        h6 {
+            font-weight: 700;
+            font-size: 21.3726px;
+            line-height: 27px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 21.3726px;
+            line-height: 27px;
+            color: #4B4853;
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .cto-img {
+        height: 438px;
+        border-radius: 8px;
+        margin-bottom: 32px;
+    }
+
+    .li-icon {
+        height: 22px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .aboutCTOSection {
+        margin-bottom: 50px;
+
+        .aboutUsCTOTitle {
+            h3 {
+                font-size: 28px;
+                line-height: 35px;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 40px;
+                color: #4B4853;
+            }
+        }
+
+        .ctoimg-section {
+            padding: 0px;
+
+            h6 {
+                font-size: 11px;
+                line-height: 21px;
+                margin-bottom: 0;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 21px;
+            }
+
+            p>div {
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+        }
+
+        .cto-img {
+            height: 220px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+
+        .li-icon {
+            height: 12px;
+        }
+    }
+}

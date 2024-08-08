@@ -1,0 +1,26 @@
+[
+    {
+        "label" : "Bank / NBFC",
+        "value" : "Bank / NBFC"
+    },
+    {
+        "label" : "Brand",
+        "value" : "Brand"
+    },
+    {
+        "label" : "Seller",
+        "value" : "Seller"
+    },
+    {
+        "label" : "Influencer",
+        "value" : "Influencer"
+    },
+    {
+        "label" : "Company",
+        "value" : "Company"
+    },
+    {
+        "label" : "Individual",
+        "value" : "Individual"
+    }
+]

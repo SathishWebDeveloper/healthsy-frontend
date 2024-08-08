@@ -1,0 +1,170 @@
+.cityLandingSection {
+    background: #FFF9FD;
+    margin-top: 80px;
+}
+
+.cityServiceSection {
+    padding: 80px 0;
+}
+
+.cityDesc {
+    margin-top: 24px;
+}
+
+.cityBookArrow {
+    filter: brightness(0) invert(1);
+    margin-left: 14px;
+}
+
+.cityBookBtn {
+    height: 50px;
+    width: 189px;
+    border: none;
+    margin-top: 32px;
+}
+
+.cityLandingContent {
+    margin-left: 79px;
+}
+
+.cityLandingDesc {
+    margin: 15px 0 45px;
+}
+
+.citycontentSpacing {
+    margin-left: 24px;
+}
+
+.circleSpacing {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width:768px) {
+
+    .cityLandingSection {
+        margin-top: 40px;
+        ;
+    }
+
+    .cityServiceSection {
+        flex-direction: column;
+        padding: 40px 24px;
+    }
+
+    .citycontentSpacing {
+        margin-left: 10px;
+    }
+
+    .cityDesc {
+        margin-top: 13px;
+    }
+
+    .cityLandingDesc {
+        margin: 10px 0 32px;
+    }
+
+    .cityLandingContent {
+        margin-left: 0px;
+    }
+
+    .cityBookBtn {
+        width: 100%;
+        max-width: 380px;
+        margin: 24px 0 32px;
+    }
+
+    .circleSpacing {
+        width: 32px;
+        height: 32px;
+        margin-bottom: 0px;
+    }
+
+}
+
+.otherCities {
+    margin: 88px 0 24px 0;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.healthCareSection {
+    margin-bottom: 80px;
+}
+
+
+@media screen and (max-width:768px) {
+    .otherCities {
+        margin: 50px 0 0 0;
+    }
+
+    .cityServices {
+        margin-top: 25px;
+    }
+
+    .healthCareSection {
+        padding: 0 24px;
+        margin-bottom: 40px;
+    }
+}
+
+.cityBanner {
+    max-width: 680px;
+}
+
+.cityBannerList {
+    margin-top: 40px;
+}
+
+///TextContent///
+.contentSpacing {
+    margin: 80px 0 24px 0;
+}
+
+@media screen and (max-width:768px) {
+    .contentSpacing {
+        margin: 40px 0 16px 0;
+    }
+}
+
+///
+
+///Physiotherapy//
+
+// .physioHealthCare{
+//     margin-top: 80px;
+// }
+
+////PhysioService///
+
+.physioServiceCare {
+    margin-top: 88px;
+}
+
+.physioServiceTitle {
+    margin-bottom: 80px;
+}
+
+
+@media screen and (max-width:768px) {
+    .physioServiceCare {
+        margin-top: 40px;
+    }
+}
+
+
+///textcontent for cost for home///
+.textContentSpacing {
+    // margin-top: 40px;
+    margin: 40px 0 16px 0;
+}
+
+@media screen and (max-width:768px) {
+    .textContentSpacing {
+        margin-top: 66px;
+    }
+}

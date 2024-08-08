@@ -1,0 +1,163 @@
+.home-sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* background: rgba(0,0,0,0.2); */
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.home-sidebar-content {
+    width: 100%;
+    position: relative;
+    right: 0;
+    margin-left: auto;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.home-sidebar-head {
+    height: 90px;
+    background-color: #CB1B5B;
+    position: relative;
+}
+
+.home-sidebar-body {
+    padding: 16px 25px 20px;
+    overflow: scroll;
+}
+
+.home-sidebar-body::-webkit-scrollbar {
+    display: none !important;
+}
+
+.home-sidebar-logo {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.home-sidebar-close {
+    width: 24px;
+    height: 24px;
+    bottom: 20px;
+    margin-top: auto;
+    position: absolute;
+    margin-left: auto;
+    right: 20px;
+}
+
+.home-sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+/* .home-sidebar ul > li .content{
+    font-weight: bold;
+} */
+
+.home-sidebar ul .sub-drop-down a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.home-sidebar li {
+    padding: 16px 0px;
+}
+
+.home-sidebar li .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-sidebar li .sub-drop-down {
+    display: none;
+}
+
+.home-sidebar li.active .sub-drop-down {
+    display: grid;
+    padding-top: 6px;
+}
+
+.home-sidebar li.active .content {
+    color: #CB1B5B !important;
+}
+
+.f-sz-18 {
+    font-size: 18px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .home-sidebar ul .sub-drop-down a {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .home-sidebar li {
+        padding: 12px 0px;
+        font-size: 18px;
+    }
+}
+
+.left-right {
+    animation: movelr 3s infinite;
+    position: absolute;
+    right: 4%;
+    margin-top: -2%;
+    /* top: 58.5%; */
+}
+
+@keyframes movelr {
+
+    0%,
+    50% {
+        right: 5%;
+    }
+
+    100% {
+        right: 4%;
+    }
+}
+
+.mob-pl0 {
+    padding-left: 0 !important;
+}
+
+.mobile-btn-join-us {
+    padding: 10px 40px !important;
+}
+
+.downloadNowBtn {
+    margin-top: 40px;
+    width: 100% !important;
+    border-radius: 40px;
+    max-width: 380px;
+    height: 48px;
+    padding: 0 !important;
+    border: none;
+}
+
+@media screen and (max-width: 960px) {
+    .home-sidebar-body {
+        height: 100%;
+    }
+
+    .healthsyLifeMobHeaderSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        height: calc(100% - 90px);
+    }
+}

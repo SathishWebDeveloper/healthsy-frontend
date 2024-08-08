@@ -1,0 +1,204 @@
+.ordering-medicines-sections {
+  // padding-top: 100px;
+  // padding-bottom: 96px;
+  padding: 100px 0;
+  overflow: hidden;
+}
+
+.ordering-medicines-sections .sub-title {
+  // font-weight: 600;
+  // font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+  color: #CB1B5B;
+  padding-bottom: 8px;
+}
+
+.ordering-medicines-sections .title {
+  // font-weight: 700;
+  // font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.01em;
+  color: #181423;
+  width: 513px;
+  padding-bottom: 32px;
+}
+
+.ordering-medicines-image {
+  float: right;
+  position: relative;
+}
+
+.ordering-medicines-image img {
+  // right: 50px;
+  position: relative;
+}
+
+.ordering-medicines-image .ordering-mockup {
+  max-width: 536px;
+  height: 518px;
+  z-index: 99;
+}
+
+.ordering-medicines-image .ordering-gif {
+  width: 246px;
+  height: 529px;
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+
+.ordering-box {
+  background: #FCFCFC;
+  border-radius: 8px;
+  width: 227px;
+  height: 144px;
+  padding: 19px 24px;
+}
+
+.ordering-box .mb-32 {
+  margin-bottom: 32px;
+}
+
+.ordering-box img {
+  margin-bottom: 16px;
+}
+
+.learnMoreBtn {
+  display: flex;
+  justify-content: space-around;
+  padding: 13px;
+}
+
+.orderingMedicineImg {
+  width: 100px;
+  max-width: 530px;
+}
+
+@media only screen and (min-device-width: 769px) {
+  .ordering-medicines-image {
+    right: 45px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+
+  .ordering-medicines-image {
+    padding-bottom: 23px;
+  }
+
+  .ordering-medicines-sections .title {
+    padding-bottom: 25px;
+  }
+
+  .ordering-medicines-padding>div {
+    flex-direction: column-reverse !important;
+  }
+
+  .ordering-medicines-image-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .get-health-care-products-list {
+    text-align: initial;
+    padding: 0 10px;
+  }
+
+  /* }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) { */
+  .ordering-medicines-image .ordering-mockup {
+    z-index: 99;
+    width: 350px;
+    height: 338px;
+    // height: auto;
+    // position: absolute;
+  }
+
+  .ordering-medicines-image .ordering-gif {
+    left: -15px;
+    top: 17px;
+    width: 207px;
+    height: 430px;
+    position: relative;
+  }
+
+  .ordering-medicines-padding {
+    // padding-left: 24px;
+    text-align: center;
+  }
+
+  .ordering-medicines-sections .sub-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .ordering-medicines-sections .title {
+    width: auto;
+    // font-weight: 700;
+    // font-size: 24px;
+    line-height: 30px;
+  }
+
+  .ordering-box {
+    width: 174px;
+    height: 135px;
+    padding: 16px 12px;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .ordering-box h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+  }
+
+  .ordering-box img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .ordering-align-mob {
+    display: inline-flex;
+  }
+
+  .ordering-align-mob .mb-32 {
+    margin-bottom: 0;
+  }
+
+  .ordering-medicines-sections {
+    padding: 40px 20px;
+  }
+
+  .ordering-medicines-image img {
+    right: 0px;
+  }
+
+  .orderingMedicineWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ordering-medicines-sections .btn-learnMore-wrapper {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-device-width: 1200px) and (min-device-width: 769px) {
+  .ordering-medicines-image .ordering-mockup {
+    max-width: 409px !important;
+    height: auto;
+  }
+}
+
+@media only screen and (max-device-width: 400px) {
+  .ordering-medicines-image .ordering-mockup {
+    max-width: 253px !important;
+    height: auto;
+  }
+}

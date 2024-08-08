@@ -1,0 +1,355 @@
+.membership-section {
+  padding-top: 100px;
+  padding-bottom: 124px;
+}
+
+.membership-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.membership-image-section .membership-image {
+  width: 300px;
+}
+
+.membership-image-section .animate-up-down {
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 2s infinite alternate;
+}
+
+.membership-content-section .sub-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #CB1B5B;
+  margin-bottom: 8px;
+}
+
+.membership-content-section .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #181423;
+  margin-bottom: 32px;
+}
+
+.membership-lists ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.membership-lists ul li img {
+  width: 18px;
+  height: 18px;
+  margin-right: 24px;
+}
+
+.membership-lists ul li {
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4B4853;
+}
+
+.membershipContentWrapper {
+  // padding-top: 40px;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+.membershipLine {
+  width: 324px;
+  border-bottom: 1px dashed #DCDCDC;
+}
+
+.membershipImg {
+  position: absolute;
+  top: -59px;
+  left: -37px;
+  // transform: rotate(23.669deg);
+}
+
+.membershipImage {
+  position: absolute;
+  right: 0;
+  top: 144px;
+}
+
+.membershipLearnMoreBtn {
+  width: 197px;
+  height: 56px;
+  border-radius: 12px;
+  background: #fff;
+  border: none;
+  color: #CC1C5C;
+  margin-right: 29px !important;
+}
+
+.healthsyMembership {
+  position: absolute;
+  top: -5px;
+  z-index: 1;
+}
+
+.healthsyMembershipWrapper {
+  padding-left: 33px;
+}
+
+.membershipServiceImg {
+  justify-content: end;
+}
+
+.healthsyMembershipBtn {
+  padding-right: 28px !important;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-40px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-40px);
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .membership-section-content {
+    flex-direction: column;
+  }
+
+  .healthsyPlusMembership {
+    flex-direction: column;
+  }
+
+  .membership-image {
+    width: 234px !important;
+    height: 466px;
+  }
+
+  .membership-image-section {
+    align-self: center;
+    margin-bottom: 6rem;
+    overflow: hidden;
+  }
+
+  .membership-image-section img:first-child {
+    width: 343px;
+    height: 343px;
+  }
+
+  .membership-image-section img:last-child {
+    width: 257px;
+  }
+
+  .membership-content-section {
+    padding: 0px 14px;
+    margin-top: 65px;
+  }
+
+  .membership-content-section .sub-title {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 16px;
+  }
+
+  .membership-content-section .title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 32px;
+  }
+
+  .membership-lists ul li {
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+  }
+
+  .membership-lists ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+  }
+
+  .membership-section {
+    padding-bottom: 48px;
+  }
+
+  .healthsyMembership {
+    // right: 97px;
+    // top: 0;
+    width: 219px;
+    height: 43px;
+  }
+
+  .membershipContentWrapper {
+    // padding-top: 27px;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .healthsyMembershipWrapper {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  .membershipLearnMoreBtn {
+    width: 165px;
+    height: 48px;
+    margin-top: 40px;
+  }
+
+  .membershipServiceImg {
+    justify-content: center;
+  }
+}
+
+.healthsyPlusMembertship {
+  padding-bottom: 100px;
+  padding-top: 58px;
+  // background: linear-gradient(107deg, #CB1B5B 0%, #DA628F 99.14%);
+  box-shadow: 0px 0px 30px 0px rgba(217, 217, 217, 0.20) inset;
+  overflow: hidden;
+
+  .healthsyMembershipSubTitle {
+    margin: 16px auto;
+  }
+
+  .plansWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 52px;
+  }
+
+  .healthsyPlusPlans {
+    padding: 30px 22px 5px 24px;
+    margin-top: 64px;
+    width: 372px;
+    height: auto;
+    border-radius: 16px;
+    background: #FFF;
+  }
+
+  .planPeriod {
+    width: 110px;
+    height: 35px;
+    border-radius: 10px;
+    background: linear-gradient(98deg, #F42970 18.56%, #92186D 60.11%);
+    margin: 0 auto 10px;
+  }
+
+  .planSavings {
+    margin: 12px 0 28px;
+    text-transform: uppercase;
+  }
+
+  .planBenefits {
+    margin: 20px 0 32px;
+    text-transform: uppercase;
+  }
+
+  .planPoints {
+    margin-left: 14px;
+    line-height: 18px;
+  }
+
+  .planPointsWrapper {
+    margin-bottom: 20px;
+  }
+
+  .planBtn {
+    max-width: 251.489px;
+    padding: 14px 53px;
+    border-radius: 12px;
+    border: 1px solid #CB1B5B;
+    background: #fff;
+  }
+
+  .plansWrapper {
+    overflow: scroll;
+  }
+
+  .plansWrapper::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  @media screen and (max-width:768px) {
+    padding: 67px 0 40px 32px;
+
+    .healthsyMembershipSubTitle {
+      margin: 8px auto 40px;
+    }
+
+    .plansWrapper {
+      gap: 24px;
+    }
+
+    .healthsyPlusPlans {
+      width: 316px;
+      padding: 29px 20px 10px;
+      margin-top: 0;
+    }
+
+    .planPeriod {
+      width: 103px;
+      height: 30px;
+      border-radius: 6px;
+      margin: 0 auto 5px;
+    }
+
+    .planSavings {
+      margin: 6px 0 19px;
+    }
+
+    .planBenefits {
+      margin: 18px 0 24px;
+    }
+
+    .planPoints {
+      margin-left: 12px;
+      line-height: 16px;
+    }
+
+    .planPointsWrapper {
+      margin-bottom: 16px;
+    }
+
+    .planBtn {
+      max-width: 213.588px;
+      padding: 11.89px 45.012px;
+      border-radius: 37.369px;
+      border: 0.849px solid #CB1B5B;
+    }
+
+    .planPointsTickImg {
+      width: 9px;
+      height: auto;
+    }
+
+    .membershipLine {
+      width: 276px;
+    }
+
+    .healthsyMembershipImg {
+      width: 122px;
+      height: 135px;
+    }
+  }
+}

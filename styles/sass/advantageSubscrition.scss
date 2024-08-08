@@ -1,0 +1,351 @@
+.benefitsAdvantageSubscritionSection {
+    margin: 64px auto 85px;
+
+    .benefitsTitle {
+        margin-bottom: 50px;
+    }
+
+    .benefitsContent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0 115px;
+
+        .benefitsContentTitle {
+            padding: 30px 0 16px;
+        }
+
+        .benefitsImage {
+            width: 17.126px;
+            height: 12.24px;
+            margin-right: 12.5px;
+        }
+
+        .benefitsDesc {
+            line-height: 25px;
+            max-width: 333px;
+            margin-bottom: 37px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .benefitsAdvantageSubscritionSection {
+        .benefitsTitle {
+            margin-bottom: 0px;
+        }
+
+        .benefitsContent {
+            display: flex;
+            flex-direction: column;
+
+            .benefitsDesc {
+                margin-bottom: 2px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.AdvSubscriptionTestimonialsSection {
+    background: #FFF9FD;
+    padding: 72px 0 152px 100px;
+    position: relative;
+
+    .advantageTestimonialsTitle {
+        margin-bottom: 55px;
+    }
+
+    .advTestimonialBox {
+        width: 478px;
+        height: 323px;
+        border-radius: 16px;
+        background: #FFF;
+        padding: 32px;
+    }
+
+    .userFeedBack {
+        margin: 19px 0 60px;
+    }
+
+    .userInfo {
+        margin-left: 16px;
+    }
+
+    .react-multi-carousel-track {
+        li {
+            width: 520px !important;
+        }
+    }
+
+    .react-multi-carousel-list {
+        position: inherit;
+    }
+
+    .react-multi-carousel-dot-list {
+        bottom: 64px;
+    }
+
+    .react-multi-carousel-dot--active button {
+        background-color: #CB1B5B !important;
+    }
+
+    .react-multi-carousel-dot button {
+        background: #C9C9C9;
+        width: 18px;
+        height: 18px;
+        border: none;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 40px 0 61px 24px;
+
+        .userInfo {
+            margin-left: 11px;
+        }
+
+        .advTestimonialBox {
+            width: 350px;
+            height: 236.506px;
+            border-radius: 11px;
+            padding: 30px 23px 23px;
+        }
+
+        .doubleQuotation {
+            width: 22.5px;
+            height: 15.874px;
+        }
+
+        .testimonialUserImage {
+            width: 41.004px;
+            height: 41.004px;
+        }
+
+        .userFeedBack {
+            margin: 21px 0 43px;
+        }
+
+        .advantageTestimonialsTitle {
+            margin-bottom: 24px;
+        }
+
+        .react-multi-carousel-dot-list {
+            bottom: 24px;
+        }
+
+        .react-multi-carousel-dot button {
+            width: 14px;
+            height: 14px;
+        }
+
+        .react-multi-carousel-track {
+            li {
+                width: 375px !important;
+            }
+        }
+
+    }
+}
+
+.applyStyle .react-multi-carousel-track {
+    transform: translate3d(0, 0px, 0px) !important;
+}
+
+.healthsySubscription {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px 31px;
+    margin: 56px 0 43px;
+}
+
+.healthSyAdvantageSubsctiption {
+    padding: 30px;
+    line-height: 20px;
+}
+
+.healthsySubscriptionTitle {
+    padding: 0 0 13px 12px;
+}
+
+.healthSyContent {
+    line-height: 23px;
+}
+
+.healthSySubscriptionContianer {
+    padding: 0;
+}
+
+.healthSySubscriptionBenefits {
+    margin-top: 72px;
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    .healthSySubscriptionContianer {
+        padding: 0 24px;
+    }
+
+    .healthsySubscription {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .healthSyAdvantageSubsctiption {
+        padding: 0px;
+    }
+
+    .healthsySubscription {
+        margin: 40px 0 40px;
+        gap: 32px;
+    }
+
+    .healthsySubscriptionTitle {
+        padding: 0 0 15px 14px;
+    }
+
+    .healthSySubscriptionBenefits {
+        margin-top: 40px;
+    }
+}
+
+.newHealthsyBannerSection {
+    height: unset !important;
+}
+
+.newHealthsyBannerSection {
+
+    .AdvantageHealthsySection {
+        margin-top: 90px !important;
+        min-width: 652px;
+    }
+
+    .AdvantageCityBanner {
+        margin: 40px 0 53px;
+    }
+
+    .downloadAppBtn {
+        width: 203px;
+        height: 48px;
+        margin: 0 0 118px;
+    }
+
+    .QRCodeScanText {
+        line-height: 32px;
+        width: 297px;
+    }
+
+    .QRcodeWrapper {
+        margin-bottom: 204px;
+    }
+
+    .serviceBannerImgTypeTwo {
+        max-width: 875px;
+        height: auto;
+    }
+
+    .healthsyBulbImg {
+        right: 99px;
+        top: 290px;
+    }
+
+    @media only screen and (max-device-width: 1440px) {
+        .healthsyBulbImg {
+            right: 91px;
+            top: 366px;
+
+        }
+    }
+
+    @media only screen and (max-device-width: 1200px) {
+        .healthsyBulbImg {
+            right: 91px;
+            top: 432px;
+        }
+    }
+
+    @media only screen and (max-device-width: 1024px) {
+        .healthsyBulbImg {
+            right: 69px;
+            top: 515px;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .AdvantageHealthsySection {
+            margin-top: 34px !important;
+            min-width: 387px;
+        }
+
+        .downloadAppBtn {
+            margin-bottom: 74px;
+        }
+
+        .AdvantageCityBanner {
+            margin: 24px 0 40px;
+            justify-content: center;
+            gap: 10px;
+            flex-direction: column;
+        }
+
+        .flexCenter {
+            justify-content: initial;
+        }
+
+        .healthSySubscriptionPointList {
+            display: flex;
+            justify-content: center;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+        }
+
+        .serviceBannerImgTypeTwo {
+            width: 420px;
+        }
+
+        .healthsyBulbImg {
+            right: 384px;
+            top: 479px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    @media only screen and (max-device-width: 480px) {
+        .healthsyBulbImg {
+            right: 206px;
+            top: 518px;
+        }
+
+    }
+
+    @media only screen and (max-device-width: 380px) {
+        .AdvantageHealthsySection {
+            margin-top: 34px !important;
+            min-width: 291px;
+        }
+
+        .serviceBannerImgTypeTwo {
+            width: 318px;
+        }
+
+        .healthsyBulbImg {
+            right: 155px;
+            top: 529px;
+        }
+
+    }
+}
+
+.AdvInstaDoc {
+    margin: 72px auto 112px !important;
+
+    @media only screen and (max-device-width: 768px) {
+        margin: 40px 24px 16px !important;
+
+        .instaDocMobBtn {
+            right: 28px;
+        }
+    }
+}

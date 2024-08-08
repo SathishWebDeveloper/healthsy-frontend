@@ -1,0 +1,101 @@
+.section-advantages .container {
+    margin-bottom: 50px;
+}
+
+.section-advantages .advantages-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    margin: 20px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 0px !important;
+
+}
+
+.section-advantages .outer-layer {
+    padding: 25px 28px 0px 28px;
+}
+
+.section-advantages .advantage-content p {
+    font-size: 16px;
+    line-height: 28px;
+    width: 88%;
+}
+
+.section-advantages .advantage-content {
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    height: 130px;
+    padding: 36px 66px;
+}
+
+.section-advantages .advantage-1 {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+@media screen and (max-width:768px) {
+    .section-advantages .container {
+        background-color: white;
+        padding-bottom: 40px !important;
+    }
+
+    .section-advantages {
+        background-color: #f9f9f9;
+        padding-bottom:10px !important;
+        overflow-x: hidden !important;
+    }
+
+    .section-advantages .outer-layer {
+        padding: 20px 28px 0px 28px !important;
+       
+    }
+    .section-advantages .advantage-content img{
+        margin: auto;
+        left: 45%;
+        position: relative;
+        padding-bottom: 18px;
+    }
+    .section-advantages .advantages-title {
+        font-size: 24px;
+        font-weight: 700;
+        color:  #181423;
+        margin: 20px 0px 20px 0px;
+        text-align: center;
+        padding-top: 30px;
+        line-height: 35px;
+        font-style: normal;
+        height: auto;
+    }
+    .section-advantages .outer-layer {
+        padding: 25px 28px 0px 28px !important;
+    }
+    .section-advantages .advantage-content {
+        border: 1px solid #eeeeee;
+        border-radius: 15px;
+        height:auto;
+        padding: 20px;
+        margin: 0 5px;
+    }
+    .section-advantages .advantage-1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center !important;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .section-advantages .advantages-title {
+        font-size: 24px;
+        font-weight: 700;
+        color:  #181423;
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        padding-top: 30px;
+        line-height: 35px;
+        font-style: normal;
+}
+}

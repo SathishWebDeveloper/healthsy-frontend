@@ -1,0 +1,17 @@
+.success-container{
+    width: 100%;
+    height: 80vh;
+}
+.success-pop-img{
+    width: 30%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .success-container{
+        height: 50vh;
+    }
+    .success-pop-img{
+        width: 55%;
+    }
+  }

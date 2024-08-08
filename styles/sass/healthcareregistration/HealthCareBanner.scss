@@ -1,0 +1,38 @@
+.healthcare-breadcrumb-section .padding-section {
+    padding-top: 22px;
+    padding-bottom: 48px;
+}
+
+.healthcare-banner-section {
+    padding-bottom: 56px;
+}
+
+.bredcrump_mobile {
+    display: none;
+}
+
+@media screen and (max-width:602px) {
+    .bredcrump_mobile {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 2%;
+    }
+
+    .bredcrump_mobile a {
+        text-decoration: none;
+        color: gray;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bredcrump_desktop {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .healthcare-breadcrumb-section .padding-section {
+        padding-top: 20px;
+        padding-bottom: 32px;
+    }
+}

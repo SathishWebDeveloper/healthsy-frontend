@@ -1,0 +1,130 @@
+[
+    {
+        "label" : "Andrologist",
+        "value" : "Andrologist"
+    },
+    {
+        "label" : "Ayurveda ",
+        "value" : "Ayurveda "
+    },
+    {
+        "label" : "Allergist / Clinical Immunologist",
+        "value" : "Allergist / Clinical Immunologist"
+    },
+    {
+        "label" : "Bariatrics",
+        "value" : "Bariatrics"
+    },
+    {
+        "label" : "Cardiologist",
+        "value" : "Cardiologist"
+    },
+    {
+        "label" : "Cosmetologist",
+        "value" : "Cosmetologist"
+    },
+    {
+        "label" : "Dentist",
+        "value" : "Dentist"
+    },
+    {
+        "label" : "Dermatologist",
+        "value" : "Dermatologist"
+    },
+    {
+        "label" : "Dietetics",
+        "value" : "Dietetics"
+    },
+    {
+        "label" : "ENT",
+        "value" : "ENT"
+    },
+    {
+        "label" : "Endocrinologist",
+        "value" : "Endocrinologist"
+    },
+    {
+        "label" : "Family Physician",
+        "value" : "Family Physician"
+    },
+    {
+        "label" : "Gastroenterologist",
+        "value" : "Gastroenterologist"
+    },
+    {
+        "label" : "General Physician",
+        "value" : "General Physician"
+    },
+    {
+        "label" : "General Surgeon / Laparoscopic Surgeon",
+        "value" : "General Surgeon / Laparoscopic Surgeon"
+    },
+    {
+        "label" : "Gynaecologist",
+        "value" : "Gynaecologist"
+    },
+    {
+        "label" : "Hepatology",
+        "value" : "Hepatology"
+    },
+    {
+        "label" : "Infertility",
+        "value" : "Infertility"
+    },
+    {
+        "label" : "Neonatologist",
+        "value" : "Neonatologist"
+    },
+    {
+        "label" : "Oncologist",
+        "value" : "Oncologist"
+    },
+    {
+        "label" : "Ophthalmologist",
+        "value" : "Ophthalmologist"
+    },
+    {
+        "label" : "Orthopaedics",
+        "value" : "Orthopaedics"
+    },
+    {
+        "label" : "Paediatrician",
+        "value" : "Paediatrician"
+    },
+    {
+        "label" : "Psychiatrist",
+        "value" : "Psychiatrist"
+    },
+    {
+        "label" : "Psychologist",
+        "value" : "Psychologist"
+    },
+    {
+        "label" : "Pulmonologist",
+        "value" : "Pulmonologist"
+    },
+    {
+        "label" : "Pathologist",
+        "value" : "Pathologist"
+    },
+    {
+        "label" : "Radiologist",
+        "value" : "Radiologist"
+    },
+    {
+        "label" : "Rheumatologist",
+        "value" : "Rheumatologist"
+    },
+    {
+        "label" : "Sexologist",
+        "value" : "Sexologist"
+    },
+    {
+        "label" : "Urologist",
+        "value" : "Urologist"
+    },
+    {
+        "label" : "Veterinary",
+        "value" : "Veterinary"
+    }
+]

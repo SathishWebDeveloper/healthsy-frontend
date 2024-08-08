@@ -1,0 +1,86 @@
+.cityTestimonialSection {
+    background: #FFF9FD;
+    padding-bottom: 72px;
+    .cityTestimonialHeading {
+        margin: 0 0 48px 0;
+        padding-top: 72px;
+    }
+
+    .cityTestimonialGridBox {
+        background: #FFF;
+        border-radius: 32px 0px;
+        padding: 24px;
+        margin-bottom: 32px;
+    }
+
+    .cityTestimonialTitle {
+        margin: 16px 0 12px 0;
+    }
+
+    .cityTestimonialColumnOne,
+    .cityTestimonialColumnTwo,
+    .cityTestimonialColumnThree {
+        height: 640px !important;
+        width: 600px;
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    .marquee-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .marquee-content-2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        animation: marquee2 40s linear infinite;
+        animation-delay: -40s;
+    }
+    .cityTestimonialColumnTwo{
+        .marquee-content-2 {
+            animation: marquee2 60s linear infinite;
+            animation-delay: -60s;
+        }
+    }
+    
+    @keyframes marquee2 {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-100%);
+        }
+    }
+
+    .cityTestimonialColumnTwo,
+    .cityTestimonialColumnThree {
+        margin-left: 32px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 0 12px 56px;
+
+        .cityTestimonialGridBox {
+            padding: 24px 10px 24px 20px;
+        }
+
+        .cityTestimonialGrid {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .cityTestimonialHeading {
+            margin: 0 0 24px 0;
+            padding-top: 40px;
+        }
+    }
+}
+

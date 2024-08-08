@@ -1,0 +1,86 @@
+:root {
+    --color-white: #fff;
+    --backgound-white: #fff;
+    --text-dark-gray: #4D4D4D;
+    --text-dark-blue-magenta: #181423;
+    --bg-gray: #F8F8F8;
+    --text-green: #165630;
+    --theme-pink-color: #CB1B5B;
+}
+
+// spacing css
+.pr16 {
+    padding-right: 16px;
+}
+
+// Instadoc Android App Download
+.instaDocBannerSection {
+    .instaDocBannerpt {
+        padding-top: 65px;
+        padding-bottom: 75px;
+
+        .firstTitle {
+            color: var(--color-white);
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 68px;
+        }
+
+        .secondTitle {
+            color: var(--color-white);
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 68px;
+        }
+    }
+
+    .instaDocAppBanner {
+        padding-bottom: 80px;
+    }
+}
+
+.instaDocDownloadLinkSection {
+    background: #FFF1F6;
+    height: 236px;
+    text-align: center;
+    padding: 48px 0;
+
+    .downloadLinkText {
+        color: var(--text-dark-gray);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+
+    .downloadLink {
+        .btn-downloadLink {
+            border-radius: 17.143px;
+            padding: 28px 36px;
+            color: var(--color-white) !important;
+            height: 80px;
+            line-height: normal;
+            text-decoration: underline !important;
+        }
+    }
+}
+
+.instaDocFooterSection {
+    background: var(--text-dark-blue-magenta);
+    height: 56px;
+    color: var(--color-white);
+    align-items: center;
+    display: grid;
+    font-size: 14px;
+    font-weight: 400;
+
+    svg {
+        margin-right: 16px;
+    }
+}
+
+
+.bg-gray {
+    background: var(--bg-gray);
+}

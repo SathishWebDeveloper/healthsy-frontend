@@ -1,0 +1,333 @@
+.bookademo-section {
+    background: #f9f9f9;
+    padding: 48px 100px;
+}
+
+.bookademo-practice-section {
+    background: #f9f9f9;
+    padding-bottom: 5rem;
+}
+
+.bookademo-section .bookademo-padding {
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.bookademo-section .left-section {
+    padding: 143px 40px 0;
+    float: left;
+}
+
+.bookademo-section .left-section .sub-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #CB1B5B;
+    margin-bottom: 24px;
+}
+
+.bookademo-section .left-section .title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    text-transform: capitalize;
+    color: #181423;
+    margin-bottom: 18px;
+}
+
+.bookademo-section .left-section .sub-para {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #4B4853;
+    margin-bottom: 65px;
+}
+
+.bookademo-section .left-section img {
+    margin-bottom: 263px;
+}
+
+.bookademo {
+    width: 100%;
+    background: #f9f9f9;
+    border: 1px solid transparent;
+}
+
+.bookademo-section .right-section {
+    padding: 56px 70px 134px 48px;
+    float: right;
+}
+
+.bookademo-section .right-section .form-box {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.bookademo-display {
+    display: inline-block;
+}
+
+.bookademo-section .mb-24 {
+    margin-bottom: 24px;
+}
+
+.bookademo-section .booking-btn {
+    background: #D6D6D6 !important;
+}
+
+.bookademo-manage-section {
+    padding-top: 61px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.bookademo-manage-section .title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #181423;
+    padding-bottom: 48px;
+    text-align: center;
+}
+
+.bookademo-manage-section .manage-image {
+    background: #fff;
+    border-radius: 8px;
+    /* margin-bottom: 72px; */
+}
+
+.bookademo-manage-section .manage-image img {
+    width: 100%;
+}
+
+
+/** Subscription **/
+.form-subs label {
+    width: calc(100% / 3);
+    cursor: pointer;
+}
+
+.form-subs span {
+    display: inline-block;
+    width: 90%;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 6px;
+    background: rgba(152, 150, 157, 0.2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4B4853;
+}
+
+.form-subs label:nth-child(1) input[type=radio]:checked+span {
+    background: #FFDFEB;
+    border-radius: 8px;
+    color: #CB1B5B;
+}
+
+.form-subs label:nth-child(2) input[type=radio]:checked+span {
+    background: #FFDFEB;
+    border-radius: 8px;
+    color: #CB1B5B;
+}
+
+.form-subs label:nth-child(3) input[type=radio]:checked+span {
+    background: #FFDFEB;
+    border-radius: 8px;
+    color: #CB1B5B;
+}
+
+.form-subs input[type=radio]:checked+span {
+    color: white;
+}
+
+.form-subs input[type=radio] {
+    display: none;
+}
+
+.bookademo-form form label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+}
+
+.w39 {
+    width: 39%;
+}
+
+.booking-btn {
+    background: #98969D !important;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.pb0 {
+    padding-bottom: 0 !important;
+}
+
+.input-group-text {
+    border: 0px solid #98969d;
+    border-radius: 8px;
+}
+
+.form-subs label {
+    margin-top: 5%;
+}
+.bookademo-top-section .otp-input{
+    padding-left: 12px;
+}
+@media only screen and (max-width: 768px) {
+    .bookademo-section {
+        background: #fff;
+        padding: 25px;
+    }
+
+    .bookademo-register-btn {
+        width: 146px !important;
+        height: 32px !important;
+        font-size: 12px;
+        line-height: 27px;
+        padding: 0 !important;
+    }
+
+    .bookademo-section .left-section .sub-title {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        max-width: 348px;
+    }
+
+    .bookademo-section .left-section .title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 37px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bookademo-section .left-section .sub-para {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .bookademo-section .left-section {
+        padding: 15px;
+        float: none;
+        width: 90vw !important;
+        margin: auto;
+        /* border: 1px solid red; */
+        margin-left: 6%;
+    }
+
+    .bookademo-section .right-section {
+        padding: 0;
+        width: 90%;
+        margin: auto !important;
+        float: none;
+        margin: 0px;
+        margin-left: 6% !important;
+        margin-bottom: 15% !important;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bookademo-section .right-section .form-box {
+        padding: 16px;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    .bookademo-section .left-section img {
+        margin-bottom: 0;
+        width: 85vw;
+        /* height: 150px; */
+        /* width: 50%; */
+        margin: auto;
+        position: absolute;
+        top: 30%;
+        opacity: 0.1;
+        /* display: none; */
+        /* overflow: hidden; */
+    }
+
+    .bookademo-section input,
+    .bookademo-section select,
+    .bookademo-section textarea {
+        width: 100%;
+        color: rgb(101, 98, 108) !important;
+    }
+
+    .form-subs label {
+        margin-top: 5%;
+    }
+
+    .form-subs span {
+        width: 76%;
+    }
+
+    .bookademo-manage-section .title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+
+    .bookademo-section .bookademo-padding {
+        margin-top: 32px;
+    }
+
+    .bookademo-display {
+        display: inline-grid;
+        width: 100vw;
+        margin-left: -12%;
+    }
+
+    .book-a-demo-mob-img {
+        display: block !important;
+    }
+
+    .book-a-demo-mob-img-card {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    .bookademo-manage-section {
+        width: 100%;
+        margin: auto;
+        padding-top: 61px;
+        background: #F5F5F5;
+        margin-bottom: -8%;
+        border: 1px solid transparent;
+    }
+
+    .bookademo-section .right-section .form-box {
+        background: #FFFFFF;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0px 1px 26px rgba(204, 25, 91, 0.1);
+    }
+
+    /* .select-demo-color-mob::after:checked{
+        color: #000 !important;
+    } */
+
+}
+
+/* .bg-light-gray{
+    background: #D6D6D6 !important;
+  } */

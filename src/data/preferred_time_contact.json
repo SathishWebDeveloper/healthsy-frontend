@@ -1,0 +1,74 @@
+[
+    {
+        "label" : "10:00 AM to 10:30 AM",
+        "value" : "10:00 AM to 10:30 AM"
+    },
+    {
+        "label" : "10:30 AM to 11:00 AM",
+        "value" : "10:30 AM to 11:00 AM"
+    },
+    {
+        "label" : "11:00 AM to 11:30 AM",
+        "value" : "11:00 AM to 11:30 AM"
+    },
+    {
+        "label" : "11:30 AM to 12:00 PM",
+        "value" : "11:30 AM to 12:00 PM"
+    },
+    {
+        "label" : "12:00 AM to 12:30 PM",
+        "value" : "12:00 AM to 12:30 PM"
+    },
+    {
+        "label" : "12:30 AM to 01:00 PM",
+        "value" : "12:30 AM to 01:00 PM"
+    },
+    {
+        "label" : "01:00 AM to 01:30 PM",
+        "value" : "01:00 AM to 01:30 PM"
+    },
+    {
+        "label" : "01:30 AM to 02:00 PM",
+        "value" : "01:30 AM to 02:00 PM"
+    },
+    {
+        "label" : "02:00 AM to 02:30 PM",
+        "value" : "02:00 AM to 02:30 PM"
+    },
+    {
+        "label" : "02:30 AM to 03:00 PM",
+        "value" : "02:30 AM to 03:00 PM"
+    },
+    {
+        "label" : "03:00 AM to 03:30 PM",
+        "value" : "03:00 AM to 03:30 PM"
+    },
+    {
+        "label" : "03:30 AM to 04:00 PM",
+        "value" : "03:30 AM to 04:00 PM"
+    },
+    {
+        "label" : "04:00 AM to 04:30 PM",
+        "value" : "04:00 AM to 04:30 PM"
+    },
+    {
+        "label" : "04:30 AM to 05:00 PM",
+        "value" : "04:30 AM to 05:00 PM"
+    },
+    {
+        "label" : "05:00 AM to 05:30 PM",
+        "value" : "05:00 AM to 05:30 PM"
+    },
+    {
+        "label" : "05:30 AM to 06:00 PM",
+        "value" : "05:30 AM to 06:00 PM"
+    },
+    {
+        "label" : "06:00 AM to 06:30 PM",
+        "value" : "06:00 AM to 06:30 PM"
+    },
+    {
+        "label" : "06:30 AM to 07:00 PM",
+        "value" : "06:30 AM to 07:00 PM"
+    }
+]

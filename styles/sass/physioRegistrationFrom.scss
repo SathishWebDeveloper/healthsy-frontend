@@ -1,0 +1,412 @@
+input[type="time"]:not(.hasTime):before {
+    content: 'Choose Time';
+}
+
+input[type="date"]:not(.hasDate):before {
+    content: 'Choose Date';
+}
+
+input[type="time"]:before,
+input[type="date"]:before {
+    color: #9d9d9d;
+    position: absolute;
+    background: #fff;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+.customDatePicker,
+.timePickerIcon {
+    position: absolute;
+    top: 12px;
+    right: 13px;
+}
+
+.timePickerIcon {
+    z-index: 1;
+    right: 10px;
+    pointer-events: none;
+}
+
+.formLevelUp {
+    width: 635px !important;
+}
+
+.physioServiceForm {
+    background-color: #FAE8EF;
+    padding: 27px 28.51px 25px 36.4px;
+    border-radius: 12.698px;
+}
+
+.formTitle {
+    margin-top: 44px;
+}
+
+.formSpacing {
+    padding: 30px 37px 50px 36px;
+}
+
+.nameField {
+    margin: 21px 0 13px 0;
+}
+
+.formControl {
+    margin: 24px 0 13px 0;
+}
+
+.textForm {
+    margin: 25px 0 7px 0;
+}
+
+.btnField {
+    margin-top: 16px;
+}
+
+.circleClr {
+    background-color: #E9E9E9;
+    width: 37.232px;
+    height: 37.248px;
+}
+
+.stepLevel,
+.vectorLine {
+    margin-left: 10px;
+}
+
+.formLevel {
+    margin: 29px 37px 0 36px;
+}
+
+.physioCloseIcon {
+    margin: 0 0 0 57px;
+}
+
+.dateTimeIcon {
+    position: absolute;
+    bottom: 15px;
+    z-index: 5;
+    right: 16px;
+}
+
+.physioImage {
+    max-width: 36.935px;
+    width: 100%;
+    height: 37.248px;
+}
+
+.locationDetails {
+    margin: 21px 0 13px 0;
+}
+
+.stepCircleImg {
+    margin-left: 8px;
+}
+
+.nextBtn {
+    margin-top: 35px;
+}
+
+.timeField {
+    margin-left: 25px;
+}
+
+.fieldSet {
+    width: 286.821px;
+}
+
+.serviceField {
+    margin: 25px 0 13px 0;
+}
+
+.nextLevel {
+    margin: 20px 0;
+}
+
+.containerSpacing {
+    padding: 30px 37px 37px 36px;
+}
+
+.serviceCategory {
+    margin: 26px 0 8px 0;
+}
+
+.bookNowModalContainer {
+    .physioServiceFormField {
+        margin-top: 16px;
+    }
+
+    .otpBoxes input {
+        height: 54px;
+        width: 54px !important;
+        background: #E9E9E9;
+        margin-right: 0px;
+        margin-left: 12px;
+    }
+
+    .verification-btn {
+        margin-bottom: 0 !important;
+        padding: 16px 16px !important;
+        color: #CB1B5B;
+        font-weight: normal;
+        opacity: 1;
+        white-space: nowrap;
+    }
+}
+
+.timeInputField {
+    color: #fff !important;
+}
+
+.formattedTime {
+    position: absolute;
+    bottom: 11px;
+    left: 20px;
+    background-color: white;
+}
+
+.rc-time-picker-panel-combobox {
+    display: flex;
+}
+
+.rc-time-picker-input {
+    width: 266px !important;
+    height: 50px !important;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    padding-left: 21px !important;
+}
+
+
+@media only screen and (min-device-width: 769px) {
+    .bookNowModalContainer {
+
+        .otpBoxes input {
+            height: 44px;
+            width: 44px !important;
+            background: #E9E9E9;
+            margin-right: 0px;
+            margin-left: 12px;
+        }
+
+        .verification-btn {
+            margin-bottom: 0 !important;
+            height: 46px;
+            padding: 8px 16px !important;
+            color: #CB1B5B;
+            opacity: 1;
+            font-weight: normal;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+
+    .bookNowModalContainer {
+        .physioServiceFormField {
+            position: relative;
+            right: 0px;
+            top: 8px;
+
+            .otpBoxes {
+                display: flex;
+            }
+        }
+
+        .otpBoxes input {
+            height: 54px;
+            width: 54px !important;
+            background-color: white;
+        }
+
+        .verification-btn {
+            margin-bottom: 0 !important;
+            padding: 16px 16px !important;
+            color: #CB1B5B;
+            opacity: 1;
+            font-weight: normal;
+            white-space: nowrap;
+            margin-left: -12px;
+        }
+    }
+
+    .physioServiceForm {
+        background-color: #FAE8EF;
+        padding-top: 27px;
+        padding: 16px 16px 16px 16px;
+    }
+
+    .physioCloseIcon {
+        margin: 0 0 0 35px;
+    }
+
+    .formSpacing {
+        padding: 16px 16px 32px 16px;
+    }
+
+    .stepLevel {
+        margin-left: 8px;
+    }
+
+    .vectorLine {
+        margin-left: 6px;
+        max-width: 51px;
+        width: 100%;
+    }
+
+    .physioImage {
+        max-width: 21px;
+        width: 100%;
+        height: 21px;
+    }
+
+    .formTitle {
+        margin-top: 23px;
+    }
+
+    .nameField,
+    .locationDetails {
+        margin: 17px 0 11px 0;
+    }
+
+    .formControl,
+    .textForm,
+    .serviceField,
+    .serviceCategory {
+        margin: 20px 0 11px 0;
+    }
+
+    .btnField,
+    .nextBtn,
+    .nextLevel {
+        margin-top: 32px;
+    }
+
+    .fieldSet {
+        width: 166px;
+    }
+
+    .physioCloseIcon {
+        margin: 0 0 0 29px;
+    }
+
+    .rc-time-picker-input {
+        width: 158px !important;
+    }
+}
+
+@media only screen and (max-device-width: 380px) {
+    .physioImage {
+        width: 20px !important;
+        // margin: -4px 0 0 9px;
+    }
+
+    .vectorSpacing {
+        margin-left: 4px;
+        max-width: 48px;
+        width: 100%;
+    }
+
+    .vectorTick {
+        width: 13px;
+    }
+
+    .fieldSet {
+        width: 323px;
+    }
+
+    .dateTimeIcon {
+        left: 88%;
+        top: 61%;
+    }
+
+    .dateTime::placeholder {
+        font-size: 12px;
+    }
+
+    .dataTimeField {
+        flex-direction: column;
+    }
+
+    .timeField {
+        margin-left: 0;
+    }
+
+    .stepLevel {
+        margin-left: 6px;
+    }
+
+    .rc-time-picker-input {
+        width: 321px !important;
+    }
+}
+
+@media only screen and (max-device-width: 320px) {
+    .vectorSpacing {
+        margin-left: 4px;
+        max-width: 23px;
+        width: 100%;
+    }
+
+    .fieldSet {
+        width: 269px;
+    }
+
+    .dateTimeIcon {
+        left: 87%;
+    }
+
+    .fs30m20fwb {
+        font-size: 16px;
+    }
+
+    .stepLevel {
+        margin-left: 4px;
+    }
+
+    .rc-time-picker-input {
+        width: 268px !important;
+    }
+}
+
+.healthConditionSection {
+    .healthConditionCheckBox {
+        width: 18px;
+        height: 18px;
+        margin-right: 12px;
+    }
+
+    .healthConditionFieldBtn {
+        width: 77px;
+        height: 33px !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        white-space: nowrap;
+    }
+
+    .applyBtn,
+    .applyBtn:hover {
+        background: #CB1B5B;
+        color: #fff;
+    }
+
+    .applyBtn {
+        font-weight: 700 !important;
+    }
+
+    .dynamic-languages-dropdown-container:last-child {
+        border-bottom: 1px solid black !important;
+    }
+
+}

@@ -1,0 +1,714 @@
+.registration-section .registration-box{
+    width: 85%;
+    border-radius: 8px;
+    left: 100px;
+    margin-right: auto;
+    position: relative;
+    padding-top: 40px;
+}
+.registration-section .registration-title-section{
+    width: 100%;
+    left: 100px;
+    border-radius: 8px 8px 0px 0px;
+    align-items: center;
+    display: grid;
+    margin-bottom: 16px;
+}
+.registration-section .registration-title{
+
+    font-style: normal;
+    text-align: left;
+    color: #181423;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.form-section .form-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #4B4853;
+}
+.form-section{
+    padding-right: 40px;
+}
+.form-section .form-tilte{
+    font-style: normal;
+    font-weight: 400;
+    color: #4B4853;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.form-section .form-fields label{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+    margin-bottom: 14px;
+}
+.form-section .form-fields input{
+    box-sizing: border-box;
+    width: 90%;
+    height: 48px;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+}
+.color-mandatory{
+    color: #CB1B5B;;
+}
+.form-section .form-fields ::placeholder{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98969D;
+}
+.form-section input {
+    padding-left: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+.form-section input.mobile-input {
+    padding-left: 60px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+    width: 88%;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.form-section .flagicon{
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    left: 110px;
+    top: 372px;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #98969D;
+    border-radius: 8px;
+}
+.form-section .flagicon img{
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 7px;
+    top: 6px;
+}
+.form-section .getcode{
+    position: absolute;
+    width: 99px;
+    height: 30px;
+    left: 430px;
+    top: 372px;
+    background: #98969D;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+.form-section .form-fields select{
+    box-sizing: border-box;
+    width: 90%;
+    height: 48px;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+.form-section .form-fields textarea{
+    box-sizing: border-box;
+    width: 95%;
+    height: 96px;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    padding-left: 10px;
+    resize: none;
+}
+.terms-link{
+    color: #CB1B5B;
+    text-align: right;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 89%;
+
+
+}
+.span-click
+{
+    color: #65626C;
+    text-decoration: none;
+
+    font-size: 16px;
+}
+.term-conditions
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.term-privacy
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.and{
+    font-weight: bold;
+}
+
+.register-btn{
+    background: #98969D;
+    border-radius: 8px;
+    width: 94%;
+    text-align: center;
+    color:white;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.register-btn:hover{
+    color: white;
+}
+textarea{
+    height: 145px !important;
+}
+.mb-56{
+    margin-bottom: 3.5rem;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.registration-section {
+    margin-bottom: 6.25rem;
+    margin-top: -60px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 16px;
+}
+.mob-other-reg-bg-color{
+    background: #f9f9f9;
+    padding-bottom: 0.25rem;
+}
+@media screen and (max-width: 768px) {
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+    .registration-section .registration-box {
+        width: 100%;
+        height: 95%;
+        right: 0;
+        background: #FFFFFF;
+        border-radius: 8px;
+        left: 0;
+        /* padding: 30px; */
+        padding: 10px;
+        /* border: 1px solid teal; */
+        /* box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px; */
+    }
+    .form-section {
+        padding: 50px 10px;
+        padding-right: 0;
+    }
+    .form-section .flagicon {
+        left: 50px;
+        top: 530px;
+    }
+    .form-section .getcode {
+        left: 220px;
+        top: 530px;
+    }
+    .registration-section {
+        margin-top: -30px;
+        margin-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .mob-other-reg-bg-color{
+        background: #f9f9f9;
+        padding-bottom: 6.25rem;
+    }
+    .mob-star{
+        color: #CB1B5B;
+    }
+    .mob-reg-container{
+        width: 90%;
+        height: 90vh;
+        margin: auto;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin-bottom: 15%;
+        margin-top: -6%;
+        position: relative;
+        background: #fff;
+        border-radius: 8px;
+    }
+    .mob-reg-header{
+        width: 100%;
+        height: 12.18vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(152, 150, 157, 0.35);
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .mob-reg-header-box{
+        width: 85%;
+        height: 45%;
+        display: flex;
+    }
+    .mob-reg-one{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #CB1B5B;
+        background: #CB1B5B;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .mob-reg-center{
+        width: 85%;
+        height: 30px;
+    }
+    .mob-reg-two{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #98969D;
+        background: #98969D;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+    .mob-grayline{
+        width: 100%;
+        padding-left: 2%;
+    }
+    .mob-reg-maincontainer{
+        width: 100%;
+        height: 60vh;
+    }
+    .mob-reg-title1{
+        width: 85%;
+        height: 5%;
+        margin: auto;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181423;
+        margin-top: 5%;
+    }
+    .mob-reg-title2{
+        width: 85%;
+        height: 5%;
+        margin: auto;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #4B4853;
+        margin-top: 3%;
+    }
+    .mob-reg-form{
+        width: 85%;
+        height: 95%;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .mob-reg-name{
+        width: 100%;
+        height: 25%;
+    }
+    .mob-reg-name-title{
+        width: 100%;
+        height: 40%;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181423;
+        display: flex;
+        align-items: center;
+    }
+    .mob-reg-name-input{
+        width: 100%;
+        height: 50%;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #98969D;
+    }
+    .mob-reg-name-input > input{
+        width: 90%;
+        height: 100%;
+        border: 1px solid transparent;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #65626C;
+    }
+    .mob-reg-email{
+        width: 100%;
+        height: 25%;
+    }
+    .mob-reg-email-title{
+        width: 100%;
+        height:40%;
+        margin-top: 2%;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181423;
+        display: flex;
+        align-items: center;
+    }
+    .mob-reg-email-input{
+        width: 100%;
+        height: 50%;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #98969D;
+    }
+    .mob-reg-email-input > input{
+        width: 90%;
+        height: 100%;
+        border: 1px solid transparent;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #65626C;
+    }
+    .mob-reg-mobile{
+        width: 100%;
+        height: 25%;
+        margin-top: 2%;
+    }
+    .mob-reg-mobile-title{
+        width: 100%;
+        height:40%;
+        margin-top: 2%;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181423;
+        display: flex;
+        align-items: center;
+    }
+    .mob-reg-mobile-input{
+        width: 100%;
+        height: 50%;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #98969D;
+    }
+    .mob-flag{
+        width: 10%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        margin-top: -0.5%;
+        margin-left: 1%;
+        border: 1px solid #98969D;
+    }
+    .mob-input{
+        width: 60%;
+        height: 100%
+    }
+    .mob-input > input{
+        width: 100%;
+        height: 100%;
+        padding-left: 2%;
+        font-size: 16px;
+        border: 1px solid transparent;
+    }
+    .mob-getcode{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mob-getcode > button{
+        width: 85%;
+        height: 85%;
+        border-radius: 8px;
+        background: #98969D;
+        border: 1px solid #98969D;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    .mob-reg-next{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mob-reg-next > button{
+        width: 100%;
+        height: 50%;
+        border-radius: 8px;
+        background: #98969D;
+        border: 1px solid #98969D;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-top: 10%;
+    }
+    .term-red{
+        color: #CB1B5B;
+        font-weight: 700;
+    }
+    .mob-reg-type{
+        width: 100%;
+        height: 20%;
+    }
+    .mob-reg-type-input{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        border: 1px solid #98969D;
+    }
+    .mob-reg-type-input > input{
+        width: 90%;
+        height: 100%;
+        border: 1px solid transparent;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #65626C;
+    }
+    .mob-reg-location{
+        width: 100%;
+        height: 20%;
+        margin-top: 3%;
+    }
+    .mob-reg-location-input{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        border: 1px solid #98969D;
+    }
+    .mob-reg-location-input > input{
+        width: 90%;
+        height: 100%;
+        border: 1px solid transparent;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #65626C;
+    }
+    .mob-reg-message{
+        width: 100%;
+        height: 30%;
+        margin-top: 3%;
+    }
+    .mob-reg-message-input{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        border: 1px solid #98969D;
+    }
+    .mob-reg-message-input > input{
+        width: 90%;
+        height: 100%;
+        border: 1px solid transparent;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #65626C;
+    }
+    .mob-reg-terms{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    .mob-reg-terms > div{
+        width: 80%;
+        height: 100%;
+        font-size: 16px;
+        margin: auto;
+        text-align: center;
+        color: #65626C;
+    }
+    .mob-reg-register{
+        width: 100%;
+        height: 15%;
+        margin-top: 5%;
+    }
+    .mob-reg-register > button:nth-child(1){
+        width: 45%;
+        height: 50px;
+        border-radius: 8px;
+        border: 2px solid #98969D;
+        background: #fff;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #98969D;
+    }
+    .mob-reg-register > button:nth-child(2){
+        width: 45%;
+        height: 50px;
+        margin-left: 10%;
+        border-radius: 8px;
+        border: 1px solid #CB1B5B;
+        background: #CB1B5B;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+    }
+    .mob-reg-type-title, .mob-reg-location-title, .mob-reg-message-title{
+        width: 100%;
+        height:30%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #181423;
+        display: flex;
+        align-items: center;
+    }
+    .levelRound {
+        height: auto;
+        width: auto;
+        padding: 15px;
+        line-height: 8px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .other-register-mobile{
+        width: 90%;
+    }
+    .other-submit-btn-mob{
+        /* width: 348px !important; */
+        width: 90% !important;
+        /* height: 48px; */
+        background: #98969D !important;
+        border-radius: 8px;
+    }
+    .registration-title{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #181423;
+        margin-top: 5%;
+    }
+    .form-section .form-tilte{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        color: #4B4853;
+        margin-top: -10%;
+    }
+    .other-label-mob{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #181423;
+    }
+}
+
+.other-green-text{
+    color: #1B9C51;
+    background: #F9F9F9;
+}
+
+
+/* location dynamic styling */
+.location-dynamic{
+    padding: 10px 10px 10px 50px;
+    /* border: 1px solid #CB1B5B; */
+    color: #65626C;
+    cursor: pointer;
+    margin-top: 4px;
+    border-radius: 4px;
+}

@@ -1,0 +1,121 @@
+.detail-content {
+    padding: 0px 0px 60px 0px;
+    overflow: hidden !important;
+}
+
+.detail-content .content-p1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 0px 0px 20px 0px;
+}
+
+.detail-content ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.detail-content ul li {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    color: #181423;
+}
+
+.detail-content .content-p2 {
+    font-size: 17px;
+    color: rgb(104, 103, 103);
+    padding-right: 40px;
+}
+
+.detail-content ul img {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.car-particular-desc {
+    width: 90%;
+}
+
+.car-particular-desc span,
+.car-particular-desc strong,
+.car-particular-desc p {
+    font-size: 18px !important;
+    font-weight: 500;
+    color: #797979;
+}
+
+@media screen and (max-width: 600px) {
+    .detail-content {
+        width: 100% !important;
+        overflow: hidden !important;
+        background: #fff;
+        padding: 10px 20px;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .mob-hire-bg {
+        background: #fff;
+    }
+
+    .detail-content .content-p1 {
+        font-size: 19px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .detail-content ul {
+        list-style: none;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .detail-content ul li {
+        font-size: 16px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+
+    .detail-content .content-p2 {
+        font-size: 18px;
+        padding-right: 0px;
+    }
+
+    .detail-content ul img {
+        height: 16px;
+        width: 16px;
+        margin-right: 10px;
+    }
+
+    .car-particular-desc span,
+    .car-particular-desc strong,
+    .car-particular-desc p {
+        font-weight: 400;
+    }
+
+}
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .detail-content .content-p2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .detail-content .content-p1 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .detail-content ul li {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .detail-content ul img {
+        height: 16px;
+        width: 16px;
+        margin-right: 16px;
+    }
+} */

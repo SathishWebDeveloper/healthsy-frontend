@@ -1,0 +1,121 @@
+.detail-card {
+    /* margin: 50px 0px 70px 0px; */
+    margin: 0px 0px 70px 0px;
+    padding: 40px 40px;
+    box-shadow: 1px 1px 18px #eeeeee;
+    overflow: hidden !important;
+    border-radius: 14px;
+    top: 0;
+    position: sticky;
+  }
+  
+  .detail-card .head {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .detail-card .response {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .detail-card .apply {
+    color: white;
+    background-color: #cb1b5b;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 44%;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 500;
+  }
+  
+  .detail-card .share {
+    color: #cb1b5b;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #cb1b5b;
+    height: 40px;
+    width: 44%;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .detail-card {
+      margin: 10px 0px 70px 0px;
+      padding: 40px 25px;
+      box-shadow: 1px 1px 18px #eeeeee;
+      overflow: hidden !important;
+    }
+  
+    .detail-card .head {
+      font-size: 16px;
+      color: black;
+    }
+  
+    .detail-card .response {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .detail-card .apply {
+      color: white;
+      background-color: #cb1b5b;
+      border-radius: 5px;
+      border: none;
+      height: 40px;
+      width: 45%;
+      font-size: 16px;
+      margin-top: 30px;
+      margin-left: 40px;
+      font-weight: 500;
+    }
+  
+    .detail-card .share {
+      color: #cb1b5b;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid #cb1b5b;
+      height: 40px;
+      width: 45%;
+      font-size: 16px;
+      margin-top: 30px;
+      font-weight: 500;
+    }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .detail-card .head {
+      font-weight: 400;
+      font-size: 16px;
+    }
+  
+    .detail-card .response {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 700;
+    }
+  
+    .mob-dflex {
+      display: flex;
+    }
+  
+    .detail-card {
+      background: #fff;
+      /* border: 1px solid red; */
+    }
+  }
+
+  .career-apply-now{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #cb1b5b;
+  }
+  .career-apply-now img{
+    margin-left: 0.5rem;
+  }

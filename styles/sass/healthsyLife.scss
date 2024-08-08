@@ -1,0 +1,621 @@
+.lifeBannerSection {
+    height: 712px;
+    position: relative;
+    .healthsyLifeBanner{
+        object-fit: cover;
+    }
+}
+
+.lifeBannerContent {
+    height: 712px;
+    position: absolute;
+
+    h1 {
+        font-weight: 700;
+        font-size: 60px;
+        max-width: 807px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.btn-open-positions {
+    margin-top: 40px;
+    width: 242.67px;
+    height: 56px !important;
+    color: #FFFFFF !important;
+    background-color: #CB1B5B !important;
+    font-weight: 800 !important;
+    font-size: 21px !important;
+    border-radius: 25px !important;
+}
+
+// join healthsy
+.joinHealthsy{
+    margin-top: 72px;
+}
+
+.why-healthsylife {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.join-reason {
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.why-healthsylife-answer {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 38px;
+    color: #4D4D4D;
+    line-height: 1.7;
+}
+
+.join-reason-answer {
+    font-weight: 400;
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+// core healthsy
+
+.coreValueContent {
+    background-color: #FFF6F9;
+}
+
+.healthsy-core {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.healthsy-core-description,
+.core-value-description {
+    font-weight: 500;
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.core-value, .core-value-description {
+    max-width: 540px;
+    width: 100%;
+}
+
+// Insiders
+
+.insiderContent {
+    position: relative;
+}
+
+.insiderHeading {
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.insider-name {
+    font-weight: 800;
+    font-size: 24px;
+    color: #CB1B5B;
+}
+
+.insiderImage {
+    width: 358px !important;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+.insider-designation,
+.insider-description {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.insider-description {
+    line-height: 2;
+}
+
+.insiderDetails {
+    padding-left: 80px;
+    text-align: left;
+    max-width: 755px;
+    width: 100%;
+    height: 334px;
+    border-radius: 16px 0px 0px 16px;
+    position: relative;
+    left: -18px;
+}
+
+.navigationArrow {
+    width: 78px !important;
+}
+
+.rightDirectionArrow {
+    transform: rotate(180deg);
+    margin-left: 80px;
+}
+
+.insiderDetails {
+    background-color: #FFFFFF;
+}
+
+.upDirectionArrow,
+.downDirectionArrow {
+    width: 72px;
+    height: 72px;
+    background: #CB1B5B;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+
+    img {
+        height: 23px;
+    }
+}
+
+.upDirectionArrow {
+    top: 40px;
+}
+
+.downDirectionArrow {
+    bottom: 40px;
+}
+
+.learnGrowTxtContent {
+    height: 700px;
+}
+
+.learnGrowCarouselWrapper {
+    .slider-wrapper {
+        height: 730px !important;
+        max-width: 607px !important;
+        width: 600px !important;
+    }
+
+    .carousel-slider {
+        padding-left: 36px;
+    }
+}
+
+.learnGrowTxtContent {
+    max-width: 500px;
+    width: 100%;
+}
+
+.carousel-wrapper {
+    max-width: 620px;
+}
+
+.careerTxt {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.learnGrowTxt {
+    font-weight: 800;
+    font-size: 56px;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-bottom: 64px;
+}
+
+.learnGrowImg {
+    margin: 10px auto;
+    // object-fit: cover;
+    // width: 100%;
+    // height: 360px;
+}
+
+.downArrowImg {
+    transform: rotate(180deg);
+}
+
+.joinHealthsyImages {
+    width: 70px;
+    height: 70px;
+    background: #FAE8EF;
+    border-radius: 50%;
+    // outline-offset: 4px;
+    // outline: 1px solid #F5D1DE;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 1px #F5D1DE;
+}
+
+.join-healthsy-content {
+    margin-bottom: 56px;
+}
+
+.learnGrowCarouselWrapper,
+.learnGrowCarouselMobileWrapper {
+    .carousel .slide img {
+        object-fit: cover;
+    }
+}
+
+.life-reason-pair:first-child {
+    margin-bottom: 55px;
+}
+
+@media only screen and (min-device-width: 1200px) {
+
+    .lifeBannerSection,
+    .lifeBannerContent {
+        height: 820px;
+    }
+}
+
+@media only screen and (min-device-width: 1500px) {
+
+    .lifeBannerSection,
+    .lifeBannerContent {
+        height: 920px;
+    }
+}
+
+
+@media only screen and (max-device-width: 1200px) {
+    .core-value-image {
+        max-width: 540px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 1199px) {
+    .learnGrowCarouselWrapper {
+
+        // height: ;
+        .slider-wrapper {
+            height: 590px !important;
+            width: 100% !important;
+        }
+    }
+
+    .learnGrowTxtContent {
+        max-width: 350px;
+        height: auto !important;
+    }
+
+    .learnGrowImg {
+        height: 285px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .learnGrowContent {
+        padding: 0 0 48px !important;
+    }
+
+    .learnGrowCarouselWrapper,
+    .webArrows {
+        display: none !important;
+    }
+
+    .mobileArrows {
+        display: flex !important;
+    }
+
+    .threeShades {
+        width: 20px;
+        height: 20px;
+    }
+
+    .joinHealthsy{
+        margin-top: 32px;
+    }
+
+    .learnGrowCarouselMobileWrapper {
+        display: block !important;
+
+        .slider-wrapper {
+            height: 300px !important;
+            max-width: 607px !important;
+            width: 100% !important;
+            // width: 334px !important;
+        }
+
+        .carousel .slide img {
+            height: 300px !important;
+            width: 334px !important;
+            width: 95% !important;
+        }
+
+        .learnGrowImg {
+            height: 300px;
+        }
+
+        .slider.animated {
+            // width: 80%;
+            margin: auto;
+        }
+
+        .carousel-slider {
+            padding-bottom: 20px;
+        }
+
+        .upDirectionArrow,
+        .downDirectionArrow {
+            height: 40px;
+            width: 40px;
+            bottom: 0px !important;
+            z-index: 3;
+            top: inherit;
+        }
+
+        .upDirectionArrow {
+            left: 30%;
+            transform: rotate(270deg);
+        }
+
+        .downDirectionArrow {
+            transform: rotate(270deg);
+            left: inherit;
+            right: 30% !important;
+        }
+    }
+
+    .learnGrowContent {
+        flex-direction: column;
+    }
+
+    .learnGrowTxt {
+        font-weight: 700;
+        font-size: 26px;
+        margin-bottom: 0px;
+        text-align: center;
+        max-width: 200px;
+        line-height: 1.6;
+    }
+
+    .learnGrowTxtContent {
+        padding-top: 45px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .learnGrowBtn {
+        width: 182px !important;
+        height: 48px !important;
+        font-weight: 700 !important;
+        font-size: 14px !important;
+        margin-bottom: 35px;
+    }
+
+    //insiders
+    .insiderContent {
+        background: #F9F9F9;
+        position: relative;
+    }
+
+    .insiderDetails {
+        padding-left: 0;
+        margin-top: 0 !important;
+        left: 0px;
+        border-radius: 16px;
+        top: -21px;
+        z-index: -1;
+    }
+
+    .insiderInfo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insider-name {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .insiderImage {
+        width: 183px !important;
+        height: 222px;
+    }
+
+    .insider-container {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        padding: 0 12px;
+    }
+
+    .insiderHeading {
+        font-weight: 700;
+        font-size: 26px;
+        padding-bottom: 40px;
+        margin-top: 0px;
+    }
+
+    .insider-designation {
+        margin-bottom: 24px !important;
+    }
+
+    .insider-description,
+    .insider-designation {
+        text-align: center;
+    }
+
+    .insider-description {
+        padding: 0 16px;
+    }
+
+    .quotationImage {
+        width: 32px;
+        height: 26px;
+        z-index: 3;
+        position: absolute;
+        bottom: 29px;
+
+    }
+
+    .lifeBannerSection,
+    .lifeBannerContent {
+        height: 580px;
+    }
+
+    .atHealthsyText {
+        padding-left: 10px !important;
+    }
+}
+
+
+@media only screen and (max-device-width: 600px) {
+    .lifeBannerSection {
+        height: 280px;
+    }
+
+    .joinHealthsyImages {
+        margin: auto;
+    }
+
+    .insiderHeading {
+        display: none;
+    }
+
+    .testimonialsHeading {
+        font-weight: 700;
+        font-size: 26px;
+        padding-bottom: 40px;
+        display: block !important;
+    }
+
+    .lifeBannerContent {
+        height: 280px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 32px;
+            max-width: 100%;
+        }
+    }
+
+    .btn-open-positions {
+        width: 140.18px;
+        height: 32.35px !important;
+        font-weight: 700 !important;
+        font-size: 12.1311px !important;
+    }
+
+    .learnGrowBtn {
+        width: 182px !important;
+        height: 48px !important;
+    }
+
+    .join-reason-answer {
+        margin: auto;
+        margin-bottom: 65px;
+        max-width: 340px;
+    }
+
+    .join-healthsy-content {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .life-reason-pair {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .life-transparent,
+    .life-ecosystem {
+        margin-left: 0 !important;
+    }
+
+    .life-question {
+        flex-direction: row !important;
+        justify-content: center;
+    }
+
+    .why-healthsylife {
+        font-size: 24px;
+    }
+
+    .why-healthsylife-answer {
+        font-weight: 400;
+        font-size: 15px;
+        margin: 19px 0 35px !important;
+    }
+
+    .join-reason {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .core-value-pair {
+        flex-direction: column;
+    }
+
+    .core-customer-centric,
+    .core-design,
+    .core-happiness,
+    .core-culture {
+        width: 100% !important;
+    }
+
+    .core-design,
+    .core-culture {
+        margin-left: 0 !important;
+    }
+
+    .healthsy-core {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .healthsy-core-description {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .core-value-description {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 32px !important;
+    }
+
+    .core-value-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .learnGrowCarouselMobileWrapper {
+
+        .slider-wrapper {
+            height: 250px !important;
+        }
+
+        .carousel .slide img {
+            height: 250px !important;
+        }
+
+        .learnGrowImg {
+            height: 250px;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 450px) {
+    .learnGrowCarouselMobileWrapper {
+
+        .slider-wrapper {
+            height: 200px !important;
+        }
+
+        .carousel .slide img {
+            height: 200px !important;
+        }
+
+        .learnGrowImg {
+            height: 200px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.mobile-num-pre span{
+    font-weight: 700;
+}
+
+
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    /* margin-left: -1px; */
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgba(249, 249, 249, 1);
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    height: 50px;
+}
+
+.btn-light-green {
+    height: 40px;
+}

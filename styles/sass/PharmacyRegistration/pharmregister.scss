@@ -1,0 +1,1183 @@
+.highlightsPharmacy {
+    .highlightPharmacyTitle {
+        font-weight: 700;
+        font-size: 36px;
+        margin: 40px 0 63px;
+    }
+
+    .highlightPharmacyContent {
+        background: #F9F9F9;
+        border-radius: 40px;
+    }
+
+    .highlightTextContent {
+        margin: 20px 70px;
+    }
+
+    .highlightList {
+        margin-bottom: 30px;
+    }
+
+    .highlightPoint {
+        max-width: 375px;
+        // font-weight: 500;
+        font-size: 30.3784px;
+        color: #4B4853;
+        line-height: 1.3;
+        text-align: flex-start;
+    }
+
+    .tickImage {
+        width: 20px !important;
+        height: 20px;
+        margin-right: 30px;
+    }
+
+
+    @media only screen and (max-device-width: 1199px) {
+        .highlightPoint {
+            font-size: 25px;
+        }
+
+        .highlightTextContent {
+            margin: 20px 40px;
+        }
+
+        .highlightsImage {
+            width: 500px;
+            height: 380px;
+        }
+    }
+
+    @media only screen and (max-device-width: 991px) {
+        .highlightsImage {
+            width: 400px;
+            height: 300px;
+        }
+
+        .highlightTextContent {
+            margin: 20px 25px 20px 40px;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .highlightPharmacyContent {
+            background: #fff;
+        }
+
+        .highlightPharmacyTitle {
+            font-size: 24px;
+            margin: 40px 0 0 0;
+        }
+
+        .highlightPharmacyContent {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .highlightsImage {
+            width: 356px;
+            height: 216px;
+            margin-bottom: 25px;
+        }
+
+        .highlightPoint {
+            font-size: 16px;
+        }
+
+        .tickImage {
+            width: 15px !important;
+            height: 15px;
+            margin-right: 22px;
+        }
+
+    }
+
+    @media only screen and (max-device-width: 380px) {
+        .highlightsImage {
+            max-width: 350px;
+            width: 100%;
+        }
+    }
+}
+
+
+.pharmacyregister {
+    width: 100%;
+    margin-bottom: 0%;
+    border: 1px solid transparent;
+}
+
+.pharmacyregister-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pharmacyregister-header>div {
+    width: 90%;
+    margin: auto;
+}
+
+.pharacyregister-container {
+    width: 100%;
+    margin-bottom: 5%;
+    position: relative;
+    background: #F9F9F9;
+}
+
+.pharacyregister-container>div:nth-child(1) {
+    width: 100%;
+}
+
+.pharacyregister-container>div:nth-child(1)>img {
+    width: 100%;
+}
+
+.pharacyregister-container-box {
+    width: 85%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: auto;
+    margin-top: -4.5%;
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.pharacyregister-container-box-header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(152, 150, 157, 0.3);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.pharacyregister-container-box-header>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharacyregister-container-box-header>div>img {
+    width: 80%;
+}
+
+.pharacyregister-container-box-container {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharacyregister-container-box-container>div {
+    width: 100%;
+    height: 80%;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(1) {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #181423;
+    margin-top: 1%;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(2) {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #4B4853;
+    margin-top: 1%;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3) {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(1) {
+    margin-top: 3%;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(1)>label {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(1)>label>span {
+    color: red;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(1)>div {
+    width: 95%;
+    height: 48px;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-right: 100px;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(1)>div>input {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(2) {
+    margin-top: 3%;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(2)>label {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 2%;
+    margin-top: 20px;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(2)>label>span {
+    color: red;
+}
+
+.pharacyregister-container-box1 {
+    padding-bottom: 30px;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(2)>div {
+    width: 95%;
+    height: 48px;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(2)>div>input {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(4) {
+    width: 50%;
+    margin-top: 3%;
+
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(4)>label {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(4)>label>span {
+    color: red;
+}
+
+.mob-flag {
+    width: 95%;
+    height: 48px;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.mob-flag>div:nth-child(1) {
+    width: 10%;
+    height: 30px;
+    margin-left: 10px;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #98969D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.mob-flag>div:nth-child(2) {
+    width: 65%;
+    height: 100%;
+}
+
+.mob-flag>div:nth-child(2)>input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+.mob-flag>div:nth-child(3) {
+    width: 25%;
+}
+
+.mob-flag>div:nth-child(3)>button {
+    width: 85%;
+    height: 30px;
+    background: #98969D;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.pharacyregister-container-box-container>div>div:nth-child(5) {
+    margin-top: 3%;
+    height: 64px;
+    width: 100%;
+}
+
+.pharmacyone-button {
+    width: 100%;
+    height: 100%;
+    background: #98969D;
+    border-radius: 8px;
+    border: 1px solid #98969D;
+    color: #fff;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    margin-top: 25px;
+}
+
+.pharmacytwo-button {
+    width: 450px !important;
+    height: 70px;
+    background: #98969D;
+    border-radius: 8px;
+    border: 1px solid #98969D;
+    color: #fff;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 5px;
+    margin-bottom: 8px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+.pharacyregister-container-box1 {
+    width: 85%;
+    height: 1096px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: auto;
+    margin-top: -4.5%;
+    background: #fff;
+    position: relative;
+    border-radius: 8px;
+}
+
+.pharacyregister-container-box-header1 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(152, 150, 157, 0.3);
+}
+
+.pharm-register2-form {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharm-register2-form-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    gap: 100px;
+}
+
+.pharm-register2-form-container-left {
+    width: 50%;
+    height: 100%;
+}
+
+.pharm2-box1 {
+    width: 100%;
+    height: 15%;
+}
+
+.pharm2-box2 {
+    width: 100%;
+    height: 15%;
+}
+
+.pharm2-box3 {
+    width: 100%;
+    height: 15%;
+}
+
+.pharm2-box4 {
+    width: 100%;
+    height: 15%;
+}
+
+.pharm2-box5 {
+    width: 100%;
+    height: 40%;
+}
+
+.pharm2-box>div:nth-child(1) {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+    height: 30%;
+}
+
+.pharm2-box>div:nth-child(1)>span {
+    color: red;
+}
+
+.pharm2-box>div:nth-child(2) {
+    height: 70%;
+}
+
+.pharm2-box>div:nth-child(2)>input[type="text"] {
+    width: 100%;
+    height: 60%;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+}
+
+.pharm2-box5>div:nth-child(1) {
+    height: 5%;
+}
+
+.pharm2-box5>div:nth-child(2)>label {
+    padding-left: 10px;
+}
+
+.pharm-register2-form-container-right {
+    width: 50%;
+    height: 100%;
+}
+
+.pharm-register2-button {
+    width: 90%;
+    margin: auto;
+    height: 10%;
+    display: flex;
+    gap: 100px;
+}
+
+.pharm-register2-button>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharm-register2-button>div:nth-child(1)>button {
+    width: 100%;
+    height: 65%;
+    border: 3px solid #CB1B5B;
+    border-radius: 8px;
+    background: transparent;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #CB1B5B;
+    margin-bottom: 2%;
+}
+
+.pharm-register2-button>div:nth-child(2)>button {
+    width: 100%;
+    height: 65%;
+    border: 3px solid #98969D;
+    border-radius: 8px;
+    background: #98969D;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.pharm-register3-form-container-left {
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.pharm-register3-form-container-right {
+    width: 50%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.pharm3-box1 {
+    width: 100%;
+    height: 12%;
+}
+
+.pharm3-box2 {
+    width: 100%;
+    height: 25%;
+}
+
+.pharm3-box3 {
+    width: 100%;
+    height: 25%;
+}
+
+.pharm3-box4 {
+    width: 100%;
+    height: 12%;
+}
+
+.pharm3-box5 {
+    width: 100%;
+    height: 25%;
+}
+
+.pharm3-box6 {
+    width: 100%;
+    height: 20%;
+}
+
+.pharm3-box1>div:nth-child(2)>input {
+    width: 100%;
+    height: 48px;
+    left: 100px;
+    top: 208px;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    margin-top: 2%;
+}
+
+.pharm3-box>div:nth-child(1) {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #181423;
+}
+
+.pharm-register3-form-container {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    gap: 80px;
+}
+
+.pharm3-box>div:nth-child(1) {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.pharacyregister-container3 {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.pharacyregister3-container-box1 {
+    width: 85%;
+    height: 1352px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: auto;
+    background: #fff;
+    margin-top: -4.5%;
+    position: relative;
+    border-radius: 8px;
+}
+
+.pharacyregister3-container-box-header1 {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(152, 150, 157, 0.3);
+}
+
+.pharm3-terms {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB1B5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -6%;
+    margin-bottom: 5%;
+}
+
+.pharm3-terms .content-blackk {
+    color: #65626C;
+    font-size: 16px;
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+.pharm2-box5>div:nth-child(2)>div {
+    margin-top: 20px;
+}
+
+.pharm-register3-button {
+    width: 90%;
+    margin: auto;
+    height: 10%;
+    display: flex;
+    gap: 100px;
+}
+
+.pharm-register3-button>div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pharm-register3-button>div:nth-child(1)>button {
+    width: 100%;
+    height: 50%;
+    border: 3px solid #CB1B5B;
+    border-radius: 8px;
+    background: transparent;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #CB1B5B;
+    margin-bottom: 2%;
+}
+
+.pharm-register3-button>div:nth-child(2)>button {
+    width: 100%;
+    height: 50%;
+    border: 3px solid #98969D;
+    border-radius: 8px;
+    background: #98969D;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 2%;
+}
+
+.pharm3-box>div:nth-child(2) {
+    margin-top: 20px;
+}
+
+.pharm3-box>div:nth-child(2)>div {
+    margin-top: 10px;
+}
+
+.pharacyregister-container-box-header>div {
+    width: 80%;
+}
+
+.pharm-one {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pharm-two {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pharm-two>img {
+    width: 100%;
+    height: 100%;
+}
+
+.pharm-three {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pharm-four {
+    width: 40%;
+    height: 100%;
+}
+
+.pharm-four>img {
+    width: 100%;
+    height: 100%;
+}
+
+.pharm-five {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-red {
+    width: 40px;
+    height: 40px;
+    background: #CB1B5B;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CB1B5B;
+    border-radius: 50%;
+}
+
+.circle-gray {
+    width: 40px;
+    height: 40px;
+    background: #98969D;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #98969D;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .circle-red {
+        width: 95%;
+        height: 25%;
+        font-size: small;
+    }
+
+    .circle-gray {
+        width: 95%;
+        height: 25%;
+        font-size: small;
+    }
+
+    .pharm-name {
+        width: 100%;
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(3) {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(1)>div {
+        width: 100%;
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(3)>div:nth-child(2)>div {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(1) {
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+        color: #181423;
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(2) {
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+        color: #4B4853;
+        margin-top: 1%;
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(4) {
+        width: 100%;
+        margin-top: 3%;
+
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(4)>label {
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .pharacyregister-container-box-container>div>div:nth-child(4)>label>span {
+        color: red;
+    }
+
+    .mob-flag {
+        width: 100%;
+        height: 48px;
+        border: 1px solid #98969D;
+        border-radius: 8px;
+        margin-top: 2%;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .mob-flag>div:nth-child(1) {
+        width: 20%;
+        height: 30px;
+        margin-left: 10px;
+        background: rgba(217, 217, 217, 0.2);
+        border: 1px solid #98969D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .mob-flag>div:nth-child(2) {
+        width: 45%;
+        height: 100%;
+        font-size: small;
+    }
+
+    .mob-flag>div:nth-child(2)>input {
+        width: 100%;
+        height: 100%;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        padding-left: 20px;
+    }
+
+    .mob-flag>div:nth-child(3) {
+        width: 35%;
+    }
+
+    .mob-flag>div:nth-child(3)>button {
+        width: 90%;
+        height: 30px;
+        background: #98969D;
+        border-radius: 8px;
+        color: #fff;
+        font-size: small;
+    }
+
+    .pharm-register2-form-container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .pharm-register2-form-container-left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .pharm-register2-form-container-right {
+        width: 100%;
+        height: 50%;
+    }
+
+    .pharm2-box>div:nth-child(1) {
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 24px;
+        color: #181423;
+        height: 30%;
+    }
+
+    .pharm2-box>div:nth-child(2) {
+        height: 65%;
+        margin-top: 2%;
+    }
+
+    .pharm2-box>div:nth-child(2)>input[type="text"] {
+        width: 100%;
+        height: 80%;
+        border: 1px solid #98969D;
+        border-radius: 8px;
+    }
+
+    input[type='radio'] {
+        -webkit-appearance: none;
+        width: 20.43px;
+        height: 20.43px;
+        border-radius: 50%;
+        outline: none;
+        border: 3px solid #CB1B5B;
+    }
+
+    .pharm2-box5>div:nth-child(2)>div:nth-child(1) {
+        margin-top: -30px;
+    }
+
+    .pharm2-box5>div:nth-child(2)>div {
+        margin-top: 1px;
+    }
+
+    .pharm-register2-button>div:nth-child(1)>button {
+        width: 100%;
+        height: 45%;
+        font-size: 17px;
+    }
+
+    .pharm-register2-button>div:nth-child(2)>button {
+        width: 100%;
+        height: 45%;
+        font-size: 17px;
+    }
+
+    .pharm-register2-button {
+        width: 85%;
+        margin: auto;
+        height: 10%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .pharm2-box5>div:nth-child(2)>div>div:nth-child(2) {
+        margin-top: -4px;
+    }
+
+    .pharm2-box5>div:nth-child(2)>div>div:nth-child(2)>label {
+        padding-left: 5px;
+        font-size: 11px;
+    }
+
+    .pharacyregister-container-box {
+        margin-top: -5%;
+        width: 94%;
+    }
+
+    .pharmacyone-button {
+        width: 100%;
+        height: 70%;
+        background: #98969D;
+        border-radius: 8px;
+        border: 1px solid #98969D;
+        color: #fff;
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        margin-top: 5%;
+    }
+
+    .pharm-register3-form-container {
+        width: 85%;
+        height: 95%;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .pharm-register3-form-container-left {
+        width: 100%;
+        height: 50%;
+    }
+
+    .pharm-register3-form-container-right {
+        width: 100%;
+        height: 50%;
+    }
+
+    .pharm3-box>div:nth-child(1) {
+        font-size: 9px;
+    }
+
+    .pharm3-box>div:nth-child(2)>div {
+        margin-top: 1px;
+    }
+
+    .pharm3-box>div:nth-child(2) {
+        margin-top: 1px;
+    }
+
+    .pharm3-box1>div:nth-child(2)>input {
+        width: 100%;
+        height: 28px;
+        border: 1px solid #98969D;
+        border-radius: 8px;
+    }
+
+    .pharm3-box>div:nth-child(2)>div>div:nth-child(2)>label {
+        font-size: 9px;
+    }
+
+    .pharacyregister3-container-box1 {
+        width: 85%;
+        height: 1650px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        margin: auto;
+    }
+
+    .pharm3-terms {
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #CB1B5B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-top: -58%;
+        margin-bottom: 5%;
+    }
+
+    .pharm-register3-button {
+        width: 90%;
+        margin: auto;
+        height: 10%;
+        display: flex;
+        gap: 5px;
+    }
+
+    .pharm-register3-button>div:nth-child(1)>button {
+        width: 85%;
+        height: 30%;
+        font-size: 17px;
+    }
+
+    .pharm-register3-button>div:nth-child(2)>button {
+        width: 85%;
+        height: 30%;
+        font-size: 17px;
+    }
+
+    .pharacyregister3-container-box1 {
+        margin-top: 5%;
+    }
+
+    .modal-content {
+        width: 90%;
+        height: 85%;
+        margin: auto;
+        left: 0.5%;
+        top: 150px;
+    }
+
+    .pharm-reg2-label {
+        font-size: 12px;
+    }
+
+    .pharacyregister3-container-box-header1 {
+        height: 5%;
+    }
+
+    .pharm3-box2 {
+        margin-top: 5%;
+    }
+
+    .pharm3-box3 {
+        margin-top: 5%;
+    }
+
+    .pharm3-box4 {
+        margin-top: 5%;
+    }
+
+    .pharm3-box5 {
+        margin-top: 5%;
+    }
+
+    .pharm3-box6 {
+        margin-top: 5%;
+    }
+
+    .pharm3-box7 {
+        margin-top: 5%;
+    }
+
+    .pharm3-license {
+        margin-top: 10%;
+    }
+
+    .pharm3-terms {
+        margin-top: 1%;
+    }
+
+    .pharacyregister-container-box-header1 {
+        height: 7%;
+    }
+
+    .circle-red {
+        font-size: small;
+    }
+
+    .circle-gray {
+        font-size: small;
+    }
+
+    .doctorregistration1-form-box h4 {
+        font-weight: 500 !important;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .doctorregistration1-form-box h4.label-msg {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .retail-label-new {
+        margin-top: 2% !important;
+    }
+}
+
+.retail-label-new {
+    margin-top: -10%;
+}
+
+.retail-label-new1 {
+    margin-top: -2%;
+}

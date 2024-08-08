@@ -1,0 +1,17 @@
+.for-retail-breadcrumb-section .padding-section{
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
+.for-retail-banner-section{
+    padding-bottom: 56px;
+}
+.get {
+    margin-top: 5%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .for-retail-breadcrumb-section .padding-section{
+        padding-top: 16px;
+        padding-bottom: 32px;
+    }
+}

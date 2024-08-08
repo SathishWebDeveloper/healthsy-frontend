@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "T54R44TJLY.com.axaone.userapp",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

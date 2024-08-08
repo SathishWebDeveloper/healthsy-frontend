@@ -1,0 +1,484 @@
+.healthsyRpQrRating {
+
+    @media only screen and (max-device-width: 768px) {
+
+        .rpQrBanner {
+            padding: 32px 24px;
+        }
+
+        .rpQrContent {
+            max-width: 366px;
+            line-height: 29px;
+            padding-top: 10px;
+        }
+
+        .healthsyRpQrForm {
+            padding: 40px 24px 32px;
+        }
+
+        .rpQrNxtBtn {
+            width: 366px;
+        }
+
+        .rpQrFormInput {
+            max-width: 366px;
+            height: 56px;
+            border-radius: 12px;
+            border: 1px solid #D2D2D2;
+        }
+
+        .otpLabel {
+            padding-bottom: 16px;
+        }
+
+        .pharmacyLogoWraper {
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+        }
+
+        .rpQrRating {
+            // padding: 1px 10px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            border: 0.5px solid #FFF;
+            max-width: 106px;
+        }
+
+        .healthsyRpQrRatingForm {
+            padding: 15px 24px;
+            gap: 13px;
+        }
+
+        .pharmacyName {
+            padding: 7px 0 4px;
+        }
+
+        .rpQrExperience {
+            background: #F5F5F5;
+        }
+
+        .rpQrExperience {
+            padding: 32px 24px 24px;
+        }
+
+        .rpQrStep {
+            padding-bottom: 8px;
+        }
+
+        .rpQrLevelTwo {
+            padding: 32px 24px;
+        }
+
+        .rpQrRatingLabel {
+            padding-bottom: 24px;
+        }
+
+        // .rpQrRatingInput {
+        //     display: none;
+        // }
+
+        .rpQrRadioBtn {
+            border-radius: 12px;
+            background: #F5F5F5;
+            border: none;
+        }
+
+        .rpQrRatingLabel {
+            padding: 10px 20px;
+        }
+
+        .rpQrRatingDiscount {
+            padding-bottom: 56px;
+        }
+
+        // .healthsyRpQrRadioBtn {
+        //     margin-right: 20px !important;
+        // }
+
+        .rpQrLabel {
+            max-width: 366px;
+            margin-bottom: 10px !important;
+        }
+
+        .rqQrRatingTextarea {
+            max-width: 369px;
+            height: 125px !important;
+            border-radius: 12px;
+            background: #F6F6F6;
+        }
+
+        .uploadImage {
+            width: 369px;
+            height: 56px;
+            border-radius: 12px;
+            border: none;
+            background: #FAE8EF;
+            color: #CB1B5B
+        }
+
+        .ratingFormRegisterBtn {
+            max-width: 366px;
+            margin-top: 40px;
+        }
+
+        .selected {
+            background: #FAE8EF !important;
+            color: #CB1B5B !important;
+        }
+
+        .rpQrUploadImage {
+            position: absolute;
+            left: 70px;
+        }
+
+        .rpQrStepFourBtn {
+            margin: 40px 0 auto 0;
+            width: 366px;
+            height: 56px;
+        }
+
+        .rpQrRatingAddBtn {
+            width: 369px;
+            height: 56px;
+            border: none;
+            border-radius: 12px;
+            background: #FAE8EF;
+        }
+    }
+
+    @media only screen and (max-device-width: 410px) {
+        .rpQrRatingLabel {
+            padding: 10px;
+        }
+    }
+
+    @media only screen and (max-device-width: 380px) {
+        .rpQrNxtBtn {
+            width: 275px;
+        }
+
+        // .healthsyRpQrRadioBtn {
+        //     margin-right: 6px !important;
+        // }
+
+        .uploadImage {
+            width: 270px;
+        }
+
+        .rpQrStepFourBtn {
+            width: 270px;
+        }
+
+        .rpQrRatingAddBtn {
+            width: 275px;
+        }
+    }
+}
+
+.starRating {
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .on {
+        // color: #FFE61C !important;
+        background-image: linear-gradient(to right, #FFE61C, #FFA929);
+        /* Change these color values */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .off {
+        color: #ccc !important;
+    }
+
+    .raingStar {
+        font-size: 50px;
+    }
+}
+
+.pharmacyRatingsFeedBack {
+    padding: 72px 0 98px;
+    justify-content: space-between;
+
+    .feedBacksWrapper {
+        max-width: 745px;
+        width: 100%;
+    }
+
+    .feedBackWrapper {
+        max-width: 745px;
+        height: auto;
+        border-radius: 24px;
+        border: 1px solid var(--eerie-black-50, #E9E9E9);
+        background: #F5F5F5;
+        margin-bottom: 24px;
+        padding: 24px 24px 32px;
+    }
+
+    .feedbackDateTime {
+        color: #98969D;
+    }
+
+    .userName {
+        color: #65626C;
+    }
+
+    .starRating {
+        margin: 0 0 10px;
+    }
+
+    .raingStar {
+        font-size: 35px;
+    }
+
+    .feedBack {
+        margin-bottom: 16px;
+        line-height: 30px;
+    }
+
+    .viewMoreBtn {
+        width: 210px;
+        height: 56px;
+        border-radius: 12px;
+        background: #CB1B5B;
+        border: none;
+        color: #fff;
+    }
+
+    .feedBackTitle {
+        margin-bottom: 49px;
+    }
+
+    .storeRatingsWrapper {
+        max-width: 443px;
+        width: 100%;
+    }
+
+    .ratingPeriod {
+        width: 134px;
+        border-radius: 16px !important;
+        height: 42px;
+        background: #FFFFFF;
+        border: 1px solid #DAD0D0;
+        color: #CB1B5B;
+        /* padding: 6px 1px 16px 24px; */
+        appearance: none;
+        background-image: url(/assets/careers/drop-down.png);
+        background-repeat: no-repeat;
+        background-position: right 17px top 18px;
+    }
+
+    .totalRatingWrapper {
+        margin: 48px 0 40px;
+        max-width: 443px;
+        height: auto;
+        padding: 28px 28px 26px 28px;
+        border-radius: 18px;
+        background: #181423;
+        color: #fff;
+    }
+
+    .ratingChatStar {
+        font-size: 30px;
+        background-image: linear-gradient(to right, #FFE61C, #FFA929);
+        /* Change these color values */
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .ratingLine {
+        background: #EFEFEF;
+        // width: 320px;
+        width: 100%;
+
+    }
+
+    .ratingBar {
+        background: #CB1B5B;
+    }
+
+    .storeRatingsWrapper {
+        margin-bottom: 33px;
+    }
+
+    .ratingLineWrapper {
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .ratingLine,
+    .ratingBar {
+        border-radius: 32px;
+        height: 24px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        flex-direction: column-reverse;
+        padding: 35px 24px 40px;
+
+        .feedBackWrapper {
+            padding: 16px;
+        }
+
+        .starRating {
+            margin: 0;
+        }
+
+        .viewMoreBtn {
+            width: 366px;
+            height: 56px;
+            border: 1px solid #CB1B5B;
+            background: #CB1B5B;
+            color: #fff;
+        }
+
+        .feedBackTitle {
+            margin-bottom: 24px;
+        }
+
+        .ratingPeriod {
+            width: 94px;
+            height: 30px;
+            border-radius: 12px;
+            background-position: right 19px top 10px;
+        }
+
+        .totalRatingWrapper {
+            margin-top: 24px;
+            margin-bottom: 35px;
+            max-width: 366px;
+            height: auto;
+            padding: 24px;
+        }
+
+        .ratingLine,
+        .ratingBar {
+            height: 11px;
+            border-radius: 16px;
+        }
+
+        .storeRatingsWrapper {
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.rpQrThankYou {
+    @media only screen and (max-device-width: 768px) {
+        padding: 28px 0 83px;
+
+        .RpQrRatingFormImg {
+            margin: 61px 0 24px;
+        }
+
+        .rpQrFeedback {
+            line-height: 39px;
+        }
+
+        .rpQrDownloadApp {
+            padding: 81px 0 15px;
+        }
+
+        .rpQrOption {
+            padding: 25px 0 19px;
+        }
+
+        .rpQrAdPage {
+            padding-top: 131px;
+        }
+    }
+}
+
+.pharmacyOwnerBanner {
+    padding: 70px 0;
+    overflow: hidden;
+
+    .pharmacyLogoWrapper {
+        width: 192px;
+        height: 192px;
+        border-radius: 50%;
+        font-size: 100px;
+        font-weight: 800;
+        margin-right: 32px;
+    }
+
+    .pharmacyLocation {
+        margin: 22px 0 30px;
+    }
+
+    .pharmacyIdWrapper {
+        max-width: 191px;
+        border-radius: 4px;
+        border: 0.8px solid #FFA1C4;
+        background: #DF3070;
+        padding: 8px;
+    }
+
+    .topPhill {
+        position: absolute;
+        top: 36px;
+        left: -136px;
+    }
+
+    .bottomPhill {
+        position: absolute;
+        bottom: 32px;
+        right: -64px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 26px 0 32px;
+        border-radius: 0px 0px 32px 32px;
+
+        .pharmacyBannerContent {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pharmacyIdWrapper {
+            margin: auto;
+        }
+
+        .pharmacyLogoWrapper {
+            width: 88px;
+            height: 88px;
+            font-size: 35px;
+            margin: 0;
+        }
+
+        .pharmacyName {
+            text-align: center;
+            margin: 16px 0 8px;
+        }
+
+
+        .pharmacyLocation {
+            margin: 0 0 24px;
+            justify-content: center;
+        }
+
+        .topPhill,
+        .bottomPhill {
+            width: 70px;
+            height: 32px;
+        }
+
+        .topPhill {
+            top: 78px;
+            left: -8px;
+        }
+
+        .bottomPhill {
+            bottom: 57px;
+            right: -42px;
+        }
+    }
+}

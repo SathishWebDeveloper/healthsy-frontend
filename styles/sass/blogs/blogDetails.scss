@@ -1,0 +1,61 @@
+.subscribe-modal .banner-inner1 {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+
+.subscribe-modal .banner-inner1 p {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.subscribe-modal .modal-content{
+    width: 450px;
+    padding: 10px 20px;
+    margin-left: 250px;
+    margin-top: 160px;
+}
+
+.subscribe-modal .banner-inner1 input {
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 222, 222);
+    width: 100%;
+    padding-left: 25px;
+    margin: 10px 0px;
+}
+
+.subscribe-modal .banner-inner1 .btn button {
+    text-align: center;
+    background-color: rgb(151, 149, 149);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 200px;
+}
+
+.subscribe-modal .btn-close{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px;
+    opacity: 1;
+    box-shadow: 1px 0px 10px #918d8e;
+    left: 95%;
+    top: -5%;
+
+}
+@media only screen and (max-width: 768px) {
+    .subscribe-modal .modal-content{
+        width: 90%;
+        height: 85%;
+        margin: auto;
+        /* height: 85vh; */
+        /* right: 20px; */
+        /* left: 50px; */
+        left: 0%;
+        top: 70px;
+      }
+    }

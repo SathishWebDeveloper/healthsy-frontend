@@ -1,0 +1,771 @@
+.star{
+    color:#CB1B5B;
+}
+.healthcareregisterheader{
+    width: 100%;
+    height: 10vh;
+}
+.healthcareregisterheader-logo{
+    width: 85%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.healthcareregistration1-container{
+    width: 100%;
+}
+.healthcareregistration2-container{
+    width: 100%;
+}
+.healthcareregistration1-box{
+    width: 100%;
+}
+.healthcareregistration2-box{
+    width: 100%;
+}
+.healthcareregistration1-banner{
+    width: 100%;
+    height: 50vh;
+}
+.healthcareregistration1-banner > img{
+    width: 100%;
+    height: 100%;
+}
+.healthcareregistration2-banner{
+    width: 100%;
+    height: 50vh;
+}
+.healthcareregistration2-banner > img{
+    width: 100%;
+    height: 100%;
+}
+.button-next{
+    width: 100%;
+}
+.healthcareregistration1-form{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: -4.5%;
+    position: relative;
+}
+.healthcareregistration2-form{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-top: -4.5%;
+    position: relative;
+}
+.healthcareregistration1-form-banner{
+    width: 100%;
+    margin: auto;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(152, 150, 157, 0.3);
+    border-radius: 8px 8px 0px 0px;
+}
+.healthcareregistration1-form-banner > img {
+    width: 85%;
+}
+.healthcareregistration2-form-banner{
+    width: 100%;
+    margin: auto;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(152, 150, 157, 0.3);
+    border-radius: 8px 8px 0px 0px;
+}
+.healthcareregistration2-form-banner > img {
+    width: 85%;
+}
+.healthcareregistration1-form-container{
+    width: 100%;
+    height: 532px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.healthcareregistration1-form-box{
+    width: 85%;
+    height: 85%;
+    margin: auto;
+}
+.healthcareregistration1-form-title1{
+    width: 100%;
+    height: 10%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #181423;
+}
+.healthcareregistration1-form-title2{
+    width: 100%;
+    height: 10%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #4B4853;
+    display: flex;
+    align-items: center;
+}
+.healthcareregistration1-form-name-email{
+    width: 100%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+.healthcareregistration1-form-mobile-dummy{
+    width: 100%;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+}
+.healthcareregistration1-form-name{
+    width: 100%;
+    height: 100%;
+}
+.healthcareregistration1-form-name > div:nth-child(1){
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.healthcareregistration1-form-name > div:nth-child(2){
+    width: 100%;
+    height: 50%;
+}
+.healthcareregistration1-form-name > div:nth-child(2)  > input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+.healthcareregistration1-form-email{
+    width: 100%;
+    height: 100%;
+}
+.healthcareregistration1-form-email > div:nth-child(1){
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.healthcareregistration1-form-email > div:nth-child(2){
+    width: 100%;
+    height: 50%;
+}
+.healthcareregistration1-form-email > div:nth-child(2)  > input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+.healthcareregistration1-form-mobile{
+    width: 100%;
+    height: 100%;
+}
+.healthcareregistration1-form-dummy{
+    width: 100%;
+    height: 100%;
+}
+.healthcareregistration1-form-dummy > div:nth-child(1){
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.healthcareregistration1-form-dummy > div:nth-child(2){
+    width: 100%;
+    height: 50%;
+}
+.healthcareregistration1-form-mobile > div:nth-child(1){
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.healthcareregistration1-form-mobile > div:nth-child(2){
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+.healthcareregistration1-form-mobile > div:nth-child(2) > div {
+    width: 95%;
+    height: 80%;
+    display: flex;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.flag > div{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #98969D;
+    border-radius: 8px;
+}
+.input{
+    width: 70%;
+}
+.input > input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    padding-left: 10px;
+}
+.getcode{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getcode > button{
+    width: 100%;
+    height: 80%;
+    background: #98969D;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.healthcareregistration1-form-submit{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.healthcareregistration1-form-button {
+    width: 100%;
+    height: 64px;
+    background: #98969D;
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.healthcareregistration2-form-container{
+    width: 100%;
+    height: 712px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5%;*/
+    padding-bottom: 3.5% !important; 
+}
+.healthcareregistration2-form-container > div{
+    width: 85%;
+    height: 90%;
+}
+.healthcareregistration2-form-box{
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.healthcareregistration2-form-box-left{
+    width: 100%;
+    height: 100%;
+}
+.healthcareregistration2-terms{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.healthcareregistration2-form-container .healthcareregistration2-terms .cont-black{
+    color: #65626C;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 4px;
+}
+.healthcare-register2-gender{
+    width: 100%;
+    height: 25%;
+    margin-bottom: 5%;
+}
+.healthcare-register2-service{
+    width: 100%;
+    height: 25%;
+}
+.healthcare-register2-gender > div:nth-child(1){
+    width: 100%;
+    height: 40%;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+    margin-bottom: 2%;
+}
+.healthcare-register2-gender > div:nth-child(2){
+    width: 100%;
+    height: 60%;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 2%;
+}
+.reg2-male{
+    display: flex;
+}
+.reg2-male > div:nth-child(2){
+    margin-left: 10%;
+    margin-top: 2%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+
+}
+.reg2-female{
+    display: flex;
+}
+.reg2-female > div:nth-child(2){
+    margin-left: 10%;
+    margin-top: 2%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+.reg2-other{
+    display: flex;
+}
+.reg2-other > div:nth-child(2){
+    margin-left: 10%;
+    margin-top: 2%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+.healthcare-register2-specialisation{
+    width: 100%;
+    height: 12.5%;
+}
+.healthcare-reg2-name{
+    width: 100%;
+    height: 30%;    
+}
+.healthcare-reg2-input-container{
+    width: 100%;
+    height: 70%;
+}
+.healthcare-reg2-input-container input{
+    padding-left: 20px;
+}
+.health-con1{
+    height: 75%;
+}
+.healthcare-reg2-input{
+    width: 100%;
+    height: 50%; 
+    border: 1px solid #98969D;
+    border-radius: 8px;
+}
+.healthcare-register2-experience{
+    width: 100%;
+    height: 25%;
+}
+.healthcare-register2-education{
+    width: 100%;
+    height: 12.5%;
+}
+.healthcare-register2-pincode{
+    width: 100%;
+    height: 25%;
+}
+.healthcare-register2-telemedicine{
+    width: 100%;
+    height: 15%;
+}
+.healthcare-register2-establishment{
+    width: 100%;
+    height: 20%;
+}
+.healthcareregistration2-form-box-right{
+    width: 100%;
+    margin-top: 7%;
+}
+.healthcareregistration2-terms{
+    width: 100%;
+    height: 5%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CB1B5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.healthcareregistration2-submit{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    gap: 50px;
+}
+.healthcareregistration2-submit-back{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.healthcareregistration2-submit-back > button{
+    width: 100%;
+    height: 60%;
+    border: 1px solid transparent;
+    border: 3px solid #CB1B5B;
+    border-radius: 8px;
+    background: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #CB1B5B;
+}
+.healthcareregistration2-submit-register{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.healthcareregistration2-submit-register-button{
+    width: 100%;
+    height: 60%;
+    border: 1px solid transparent;
+    background: #98969D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+}
+.doc-reg2-radio-name{
+    width: 100%;
+    height: 30%;
+}
+.doc-reg2-radio-container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    gap: 5%;
+}
+.doc-reg2-radio-name-vertical{
+    width: 100%;
+    height: 15%;
+}
+.doc-reg2-radio-container-vertical{
+    width: 100%;
+    height: 85%;
+}
+.doc-reg2-radio-box{
+    display: flex;
+}
+.doc-reg2-radio-box > div:nth-child(2){
+    margin-top: 5%;
+    margin-left: 10%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+.doc-reg2-radio-box-vertical{
+    display: flex;
+}
+.doc-reg2-radio-box-vertical > div:nth-child(2){
+    margin-top: 1%;
+    margin-left: 2%;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4B4853;
+}
+.gray{
+    color: #98969D;
+}
+.healthcare-register2-primary{
+    width: 100%;
+    height: 15%;
+}
+.healthcare-register2-mci{
+    width: 100%;
+    height: 25%;
+}
+.healthcare-register2-membership{
+    width: 100%;
+    height: 25%;
+    margin-top: 2%;
+}
+.healthcare-register2-location{
+    width: 100%;
+    height: 25%;
+    margin-top: 2%;
+}
+.healthcare-register2-inclinic{
+    width: 100%;
+    height: 25%;
+}
+.healthcare-register2-tele2{
+    width: 100%;
+    height: 15%;
+}
+.healthcare-reg2-input-container > select{
+    width: 100%;
+    height: 50%; 
+    border: 1px solid #98969D;
+    border-radius: 8px;
+    color: #98969D;
+    padding-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .healthcareregistration2-form-box{
+        width: 100%;
+        display: grid;
+        height: 75%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2px;
+    }
+    .healthcareregistration2-terms{
+        height: 5%;
+        margin-top: 20%;
+    }
+    .healthcareregistration2-submit{
+        height: 15%;
+    }
+    .healthcareregistration2-form-box-left{
+        width: 100%;
+        height: 100%;
+    }
+    .healthcareregistration2-form-box-right{
+        width: 100%;
+        height: 100%;
+        margin-top: 15%;
+    }
+    .healthcareregistration2-banner{
+        width: 100%;
+        height: 15vh;
+    }
+    .healthcareregistration1-banner{
+        width: 100%;
+        height: 15vh;
+    }
+    .healthcareregistration2-banner > img{
+        width: 100%;
+        height: 100%;
+    }
+    .healthcare-reg2-name{
+        width: 100%;
+        height: 30%;  
+        font-size: 12px;  
+    }
+    .doc-reg2-radio-name{
+        width: 100%;
+        height: 30%;
+        font-size: 12px;
+    }
+    .doc-reg2-radio-box > div:nth-child(2){
+        font-size: 12px;
+    }
+    .doc-reg2-radio-box-vertical > div:nth-child(2){
+        font-size: 11px;
+        margin-top: 0;
+        margin-left: 2%;
+    }
+    .healthcare-register2-gender > div:nth-child(1){
+        font-size: 12px;
+    }
+    .reg2-male > div:nth-child(2){
+        font-size: 12px;
+    
+    }
+    .reg2-female > div:nth-child(2){
+        font-size: 12px;
+    
+    }
+    .reg2-other > div:nth-child(2){
+        font-size: 12px;
+    
+    }
+    .doc-reg2-radio-name-vertical{
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+    .healthcare-reg2-input-container > select{
+        width: 100%;
+        height: 60%; 
+        border: 1px solid #98969D;
+        border-radius: 8px;
+        color: #98969D;
+        padding-left: 2%;
+        font-size: 10px;
+    }
+    .healthcare-reg2-name{
+        margin-top: 2%;
+    }
+    .doc-reg2-radio-container{
+        margin-top: 10%;
+    }
+    .healthcareregistration2-terms{
+        font-size: 12px;
+    }
+    
+    .healthcareregistration2-submit-back > button{
+        height: 40%;
+    }
+    .healthcareregistration2-submit-register > button{
+        height: 40%;
+    }
+    .healthcareregistration2-form-container > div{
+        height: 95%;
+    }
+    .healthcareregistration2-submit-back > button{
+        font-size: 15px;
+    }
+    .healthcareregistration2-submit-register > button{
+        font-size: 15px;
+    }
+    .healthcareregistration2-submit{
+        gap: 10px;
+    }
+    .healthcareregistration1-form-title1{
+        font-size: 11px;
+        height: 5%;
+        margin-bottom: 3%;
+    }
+    .healthcareregistration1-form-title2{
+        font-size: 12px;
+        height: 5%;
+    }
+    .healthcareregistration1-form-name-email{
+        height: 40%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .healthcareregistration1-form-mobile-dummy{
+        height: 25%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .healthcareregistration1-form-mobile{
+        margin-top: 5%;
+    }
+    .flag{
+        width: 20%;
+    }
+    .getcode{
+        width: 30%;
+    }
+    .getcode > button{
+        font-size: 10px;
+    }
+    .healthcareregistration1-form-submit{
+        height: 20%;
+        margin-top: 5%;
+    }
+    .healthcareregistration1-form-button{
+        height: 50%;
+        font-size: 15px;
+    }
+    .healthcareregistration1-form-banner{
+        height: 72px;
+    }
+    .modal-content{
+        width: 90%;
+        height: 85%;
+        margin: auto;
+        left: 0.5%;
+        top: 150px;
+      }
+      .healthcareregistration2-form-banner{
+        height: 70px;
+      }
+      .notified-red .modal-content{
+        top: 50px !important;
+      }
+}
+
+.doctorregistration1-form-banner .border-bottom {
+    border-bottom: 1px solid #181423;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .modal-content {
+        height: auto;
+        top: 0px;
+    }
+    .p-90 {
+        padding: 56px 0 !important;
+    }
+    .success-gif-pict {
+        width: 214px;
+        height: 214px;
+        margin-bottom: 12px;
+    }
+    .healthcareregistration1-form{
+        width: 94%;
+    }
+}

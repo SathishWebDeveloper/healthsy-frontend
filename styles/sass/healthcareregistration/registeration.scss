@@ -1,0 +1,60 @@
+.section-registertion-health-care .container-fluid {
+    background-color: #f9f9f9;
+    padding: 30px 0px 50px 0px;
+}
+.section-registertion-health-care .registration {
+    margin-top: 20px;
+    padding: 50px 0px 0px 0px;
+    background-color: white;
+    border-radius: 16px;
+}
+.section-registertion-health-care .register-title {
+    text-align: center;
+    width: 70%;
+    margin:0 auto;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+.section-registertion-health-care .button-div {
+    text-align: center;
+}
+.section-registertion-health-care .register-now {
+    background-color: #CB1B5B;
+    color: white;
+    font-size: 16px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+@media screen and (max-width:768px) {
+    .section-registertion-health-care .container-fluid {
+        padding: 0px 0px 50px 0px;
+        overflow: hidden !important;
+    }
+    .section-registertion-health-care  .register-title {
+        text-align: center !important;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 35px ;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        width: 100% !important;
+        padding: 0px 10px !important;
+        text-align: center;
+    }
+    .section-registertion-health-care .register-now {
+        background-color: #CB1B5B;
+        color: white;
+        font-size: 16px;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        /* margin: 24px; */
+    }    
+}

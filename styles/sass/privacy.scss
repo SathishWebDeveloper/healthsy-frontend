@@ -1,0 +1,65 @@
+.privacybanner {
+    background-color: #cb1b5b;
+    height: 250px;
+}
+
+.privacybanner .backarrow img {
+    height: 55px;
+    width: 55px;
+    margin-left: 40px;
+    margin-top: 24px;
+}
+
+.privacybanner .banner-tilte-privacy h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    // text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 5;
+}
+
+.privacy-content {
+    border-radius: 8px;
+    position: relative;
+    margin-top: -60px;
+    background-color: #fff;
+    padding: 40px 24px;
+}
+
+.privacy-content p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #181423;
+    letter-spacing: 0.02em;
+}
+
+.privacy-content h6 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #181423;
+    margin: 30px 0px 20px 0px !important;
+
+}
+
+.privacy-content .mt-5 {
+    margin-top: 35px !important;
+}
+
+.privacy-content a {
+    color: rgb(52, 179, 221);
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .privacybanner .banner-tilte-privacy h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-top: 40px;
+    }
+}

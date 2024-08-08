@@ -1,0 +1,656 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRowReverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexJusCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.flexColumnJusCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexColumnJusBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flexColumnAlignCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexBetweenCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flexAlignStart{
+  display: flex;
+  align-items: start;
+}
+
+.bannerImageMob {
+  display: none;
+}
+
+.br-12 {
+  border-radius: 12px;
+}
+
+.fs48m36fw800,
+.fs48m26fw800,
+.fs48m24fw800,
+.fs48m28fw800,
+.fs48m27fw800,
+.fs44m26fw800,
+.fs42m35fw800,
+.fs40m24fw800,
+.fs40m22fw800m700,
+.fs36m22fw800m700,
+.fs36m20fw800,
+.fs32m24fw800,
+.fs32m20fw800,
+.fs26m19fw800,
+.fs24fw800,
+.fs24m20fw800,
+.fs13fw800,
+.fs11m9fw800 {
+  font-weight: 800;
+}
+
+.fs48m32fwb,
+.fs48m30fwb,
+.fs48m28fwb,
+.fs48m24fwb,
+.fs48m18fwb,
+.fs42m24fwb,
+.fs40m26fwb,
+.fs40m24fwb,
+.fs38m24fwb,
+.fs38m28fwb,
+.fs36m28fwb,
+.fs36m24fwb,
+.fs36m22fwb,
+.fs36m20fwb,
+.fs36m19fwb,
+.fs36m18fwb,
+.fs35m22fwb,
+.fs32fwb,
+.fs32m24fwb,
+.fs32m22fwb,
+.fs32m21fwb,
+.fs32m20fwb,
+.fs36fwb,
+.fs30m20fwb,
+.fs29m22fwb,
+.fs28m24fwb,
+.fs28m16fwb,
+.fs24m18fwb,
+.fs24m16fwb,
+.fs24m20fwb,
+.fs24m22fwb,
+.fs24m26fwb,
+.fs24fwb,
+.fs22m16fwb,
+.fs22m14fwb,
+.fs22m13fw700,
+.fs20m15fwb,
+.fs20m24fwb,
+.fs20m18fwb,
+.fs20m16fwb,
+.fs20m14fwb,
+.fs20fwb,
+.fs19m18fwb,
+.fs19m16fwb,
+.fs19m16,
+.fs19m14fwb,
+.fs18m16fwb,
+.fs18m15fwb,
+.fs18fwb,
+.fs16fwb,
+.fs16m14fwb,
+.fs16m13fwb,
+.fs16m12fwb,
+.fs15m11fwb,
+.fs15fwb,
+.fs14m13fwb,
+.fs14fwb,
+.fs13m9fwb,
+.fs13fwb {
+  font-weight: 700;
+}
+
+.fs24m13fw600m500,
+.fs22m16fw600,
+.fs18m14fw600,
+.fs18fw600,
+.fs16fw600,
+.fs16m12fw600,
+.fs16m14fw600,
+.fs16m13fw600,
+.fs13m9fw600,
+.fs15fw600,
+.fs12m16fw600 {
+  font-weight: 600;
+}
+
+.fs36m26fw500,
+.fs24m16fw500,
+.fs24m14fw500,
+.fs21m15fw500,
+.fs21m14fw500,
+.fs20m16fw500,
+.fs18m16fw500,
+.fs18m16fw500m400,
+.fs18m15fw500,
+.fs18m14fw500,
+.fs18m13fw500,
+.fs18fw500,
+.fs16m14fw500,
+.fs16m13fw500,
+.fs16fw500,
+.fs15fw500,
+.fs14fw500,
+.fs12fw500,
+.fs14m13fw500,
+.fs14m12fw500,
+.fs14m10fw500,
+.fs13m12fw500,
+.fs10fw500 {
+  font-weight: 500;
+}
+
+.fs48m32fwb,
+.fs48m30fwb,
+.fs48m28fwb,
+.fs48m24fwb,
+.fs48m18fwb {
+  font-size: 48px;
+}
+
+.fs48m36fw800,
+.fs48m24fw800,
+.fs48m28fw800,
+.fs48m27fw800,
+.fs48m26fw800,
+.fs48m30fwb {
+  font-size: 48px;
+}
+
+.fs44m26fw800 {
+  font-size: 44px;
+}
+
+.fs42m35fw800,
+.fs42m24fwb {
+  font-size: 42px;
+}
+
+.fs40m26fwb,
+.fs40m24fw800,
+.fs40m24fwb,
+.fs40m22fw800m700 {
+  font-size: 40px;
+}
+
+.fs38m24fwb,
+.fs38m28fwb {
+  font-size: 38px;
+}
+
+.fs36m22fw800m700,
+.fs36m28fwb,
+.fs36m26fw500,
+.fs36m24fwb,
+.fs36m20fw800,
+.fs36m20fwb,
+.fs36m19fwb,
+.fs36m18fwb {
+  font-size: 36px;
+}
+
+.fs36m22fwb {
+  font-size: 36px;
+}
+
+.fs35m22fwb {
+  font-size: 35px;
+}
+
+.fs32m24fw800,
+.fs32fwb,
+.fs32m20fw800,
+.fs32m24fwb,
+.fs32m22fwb,
+.fs32m21fwb,
+.fs32m20fwb {
+  font-size: 32px;
+}
+
+.fs30m14,
+.fs30m16,
+.fs30m20fwb {
+  font-size: 30px;
+}
+
+.fs29m22fwb {
+  font-size: 29px;
+}
+
+.fs28m24fwb,
+.fs28m16fwb {
+  font-size: 28px;
+}
+
+.fs26m19fw800 {
+  font-size: 26px;
+}
+
+.fs24m16fw500,
+.fs24m13fw600m500,
+.fs24m14fw500,
+.fs24m26fwb,
+.fs24m22fwb,
+.fs24fw800,
+.fs24m20fw800,
+.fs24m20fwb,
+.fs24m18fwb,
+.fs24m16fwb,
+.fs24m16,
+.fs24m10,
+.fs24fwb {
+  font-size: 24px;
+}
+
+.fs22m16fwb,
+.fs22m16fw600,
+.fs22m14fwb,
+.fs22m13fw700 {
+  font-size: 22px;
+}
+
+.fs21m15fw500,
+.fs21m14fw500,
+.fs21m14 {
+  font-size: 21px;
+}
+
+.fs20m16fwb,
+.fs20m16,
+.fs20m15fwb,
+.fs20m18fwb,
+.fs20m24fwb,
+.fs20fwb,
+.fs20m14fwb,
+.fs20m14 {
+  font-size: 20px;
+}
+
+.fs19,
+.fs19m18fwb,
+.fs19m18mfwb,
+.fs19m16fwb,
+.fs19m14fwb,
+.fs19m16,
+.fs19m16 {
+  font-size: 19px;
+}
+
+.fs18fw600,
+.fs18m16fwb,
+.fs18fwb,
+.fs18m16,
+.fs18m16fw500,
+.fs18,
+.fs18m10,
+.fs18m14fw600,
+.fs18m14fw500,
+.fs18m16fw500m400,
+.fs18m14,
+.fs18m15,
+.fs18m15fwb,
+.fs18m13fw500,
+.fs18fw500,
+.fs18m15fw500,
+.fs18m14fw400 {
+  font-size: 18px;
+}
+
+.fs16m18,
+.fs16m14,
+.fs16m15,
+.fs16fwb,
+.fs16fw500,
+.fs16m12fw600,
+.fs16fw600,
+.fs16m14fw600,
+.fs16m14fwb,
+.fs16m14fw500,
+.fs16m13fwb,
+.fs16m13fw600,
+.fs16m13fw500,
+.fs16m12fwb,
+/* .fs16fw400, */
+.fs16m12,
+.fs16m11,
+.fs16 {
+  font-size: 16px;
+}
+
+.fs15m11fwb,
+.fs15fw600,
+.fs15fw500,
+.fs15fwb,
+.fs15m16,
+.fs15m11 {
+  font-size: 15px;
+}
+
+.fs14m12,
+.fs14fw500,
+.fs14m13fw500,
+.fs14m12fw500,
+.fs14m13fwb,
+.fs14m10fw500,
+.fs14fwb,
+.fs14 {
+  font-size: 14px;
+}
+
+.fs13fw800,
+.fs13m12fw500,
+.fs13m9fwb,
+.fs13m9fw600,
+.fs13fwb,
+.fs13m12,
+.fs13m10,
+.fs13 {
+  font-size: 13px;
+}
+
+.fs12m16fw600,
+.fs12fw500,
+.fs12 {
+  font-size: 12px;
+}
+
+.fs11m9fw800 {
+  font-size: 11px;
+}
+
+.fs10fw500 {
+  font-size: 10px;
+}
+
+@media screen and (max-width:959px) {
+  .bannerImageMob {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .mob_device_img {
+    width: 100% !important;
+    max-width: 350px !important;
+  }
+
+  .bannerImageDesktop {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:768px) {
+
+  .fs40m22fw800m700,
+  .fs36m22fw800m700,
+  .fs19m18mfwb {
+    font-weight: 700;
+  }
+
+  .fs24m13fw600m500 {
+    font-weight: 500;
+  }
+
+  .fs18m16fw500m400 {
+    font-weight: 400;
+  }
+
+  .fs48m36fw800 {
+    font-size: 36px;
+  }
+
+  .fs42m35fw800 {
+    font-size: 35px;
+  }
+
+  .fs48m32fwb {
+    font-size: 32px;
+  }
+
+  .fs48m30fwb,
+  .fs48m30fwb {
+    font-size: 30px;
+  }
+
+  .fs48m28fw800,
+  .fs38m28fwb,
+  .fs48m28fwb,
+  .fs36m28fwb {
+    font-size: 28px;
+  }
+
+  .fs48m27fw800 {
+    font-size: 27px;
+  }
+
+  .fs48m26fw800,
+  .fs40m26fwb,
+  .fs36m26fw500,
+  .fs44m26fw800,
+  .fs24m26fwb {
+    font-size: 26px;
+  }
+
+  .fs38m24fwb,
+  .fs36m24fwb,
+  .fs32m24fw800,
+  .fs32m24fwb,
+  .fs42m24fwb,
+  .fs48m24fw800,
+  .fs48m24fwb,
+  .fs40m24fw800,
+  .fs40m24fwb,
+  .fs28m24fwb,
+  .fs20m24fwb {
+    font-size: 24px;
+  }
+
+  .fs40m22fw800m700,
+  .fs32m22fwb,
+  .fs24m22fwb,
+  .fs29m22fwb,
+  .fs35m22fwb,
+  .fs36m22fw800m700,
+  .fs36m22fwb {
+    font-size: 22px;
+  }
+
+  .fs32m21fwb {
+    font-size: 21px;
+  }
+
+  .fs30m20fwb,
+  .fs24m20fw800,
+  .fs24m20fwb,
+  .fs36m20fwb,
+  .fs36m20fw800,
+  .fs32m20fw800,
+  .fs32m20fwb {
+    font-size: 20px;
+  }
+
+  .fs36m19fwb,
+  .fs26m19fw800 {
+    font-size: 19px;
+  }
+
+  .fs48m18fwb,
+  .fs36m18fwb,
+  .fs24m18fwb,
+  .fs20m18fwb,
+  .fs19m18fwb,
+  .fs19m18mfwb,
+  .fs16m18 {
+    font-size: 18px;
+  }
+
+  .fs30m16,
+  .fs28m16fwb,
+  .fs24m16fwb,
+  .fs24m16fw500,
+  .fs24m16,
+  .fs20m16fwb,
+  .fs20m16fw500,
+  .fs20m16,
+  .fs22m16fwb,
+  .fs22m16fw600,
+  .fs19m16fwb,
+  .fs19m16,
+  .fs19m16,
+  .fs18m16fwb,
+  .fs18m16fw500,
+  .fs18m16fw500m400,
+  .fs18m16,
+  .fs15m16,
+  .fs12m16fw600 {
+    font-size: 16px;
+  }
+
+  .fs21m15fw500,
+  .fs20m15fwb,
+  .fs16m15,
+  .fs18m15,
+  .fs18m15fwb,
+  .fs18m15fw500 {
+    font-size: 15px;
+  }
+
+  .fs24m14fw500,
+  .fs22m14fwb,
+  .fs21m14fw500,
+  .fs30m14,
+  .fs16m14fw500,
+  .fs16m14,
+  .fs21m14,
+  .fs20m14fwb,
+  .fs20m14,
+  .fs19m14fwb,
+  .fs18m14fw500,
+  .fs18m14fw600,
+  .fs18m14,
+  .fs16m14fwb,
+  .fs16m14fw600,
+  .fs18m14fw400 {
+    font-size: 14px;
+  }
+
+  .fs24m13fw600m500,
+  .fs18m13fw500,
+  .fs16m13fwb,
+  .fs16m13fw600,
+  .fs16m13fw500,
+  .fs14m13fwb,
+  .fs14m13fw500 {
+    font-size: 13px;
+  }
+
+  .fs22m13fw700 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .fs16m12fwb,
+  .fs16m12,
+  .fs14m12,
+  .fs13m12,
+  .fs16m12fw600,
+  .fs14m12fw500,
+  .fs13m12fw500 {
+    font-size: 12px;
+  }
+
+  .fs16m11,
+  .fs15m11fwb,
+  .fs15m11 {
+    font-size: 11px;
+  }
+
+  .fs24m10,
+  .fs18m10,
+  .fs14m10fw500,
+  .fs13m10 {
+    font-size: 10px;
+  }
+
+  .fs13m9fwb,
+  .fs13m9fw600,
+  .fs11m9fw800 {
+    font-size: 9px;
+  }
+
+}

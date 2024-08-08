@@ -1,0 +1,234 @@
+.homepage-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 66px;
+    overflow: hidden !important;
+    position: relative;
+  }
+  
+  .homepage-top .get-content {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 47px;
+    color: #4B4853;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .homepage-top .get-content span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #CB1B5B;
+    position: relative;
+    display: block;
+  }
+  
+  .homepage-top .title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #181423;
+    margin: 0;
+    width: 854px;
+    margin-bottom: 56px;
+    font-size: 56px;
+    margin-top: 34px;
+  }
+  
+  .homepage-top .circle {
+    /* position: absolute; */
+    /* width: 1440px;
+      height: 1440px;
+      left: calc(50% - 1440px/2); */
+    position: absolute;
+    width: 1349px;
+    height: 1349px;
+    left: calc(50% - 1349px/2);
+    top: 692px;
+    background: #FFF5FA;
+    border-radius: 50%;
+    z-index: -1;
+    transition: top 4s ease;
+  }
+  
+  .banner-mob-img {
+    margin-bottom: -30px;
+    margin-top: 50px;
+    width: 320px;
+  }
+  
+  /* Scroller styling */
+  .scroller {
+    height: 2.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .scroller>.scroller-el-wrap {
+    position: absolute;
+    top: 0;
+    animation: slide 8s infinite;
+    font-weight: bold;
+  }
+  
+  .scroller>.scroller-el-wrap {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    animation: slide 8s infinite;
+    font-weight: bold;
+  }
+  
+  @keyframes slide {
+    0% {
+      top: 0;
+    }
+  
+    25% {
+      top: -40px;
+    }
+  
+    50% {
+      top: -80px;
+    }
+  
+    75% {
+      top: -120px;
+    }
+  
+    100% {
+      top: -160px;
+    }
+  }
+  
+  @media screen and (max-width: 959px) {
+  
+    /* .homepage-top .circle_normal{
+      top: 210%;
+      
+    } */
+    .homepage-top .circle_normal {
+      position: absolute;
+      background: #FFF5FA;
+      border-radius: 50%;
+      z-index: -1;
+      width: 685px;
+      height: 612px;
+      /* top: 67%; */
+      top: 150%;
+    }
+  }
+  @media screen and (max-width:959px) {
+    .homePageTopMob {
+      width: 100% !important;
+      max-width: 300px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .homepage-top .get-content {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .homepage-top .title {
+      width: 100%;
+      font-size: 40px;
+      line-height: 50px;
+    }
+  
+    .homepage-top .get-content {
+      width: 100%;
+    }
+  
+    .homepage-top .circle {
+      /* display: none; */
+    }
+  
+    .homepage-top .circle_normal {
+      top: 65%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    .homepage-top .circle_normal {
+      top: 68%;
+    }
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .homepage-top .title {
+      font-size: 32px;
+    }
+  
+    .homepage-top .get-content {
+      font-size: 18px;
+    }
+  
+    .homepage-top button {
+      width: 182px;
+      height: 48px;
+      padding: 0 !important;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 98px !important;
+    }
+  
+    .banner-mob-img {
+      width: 276px;
+      margin-top: 0;
+    }
+  
+    /* Responsive */
+    .homepage-top .get-content span {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  
+    /* Scroller styling */
+    .scroller {
+      height: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .scroller>.scroller-el-wrap {
+      position: absolute;
+      top: 0;
+      animation: slide 8s infinite;
+      font-weight: bold;
+      width: 100%;
+    }
+  
+    @keyframes slide {
+      0% {
+        top: 0;
+      }
+  
+      25% {
+        top: -32px;
+      }
+  
+      50% {
+        top: -64px;
+      }
+  
+      75% {
+        top: -96px;
+      }
+  
+      100% {
+        top: -128px;
+      }
+    }
+  }

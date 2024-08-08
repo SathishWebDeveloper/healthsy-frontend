@@ -1,0 +1,188 @@
+.formLandingBannerContainer {
+
+    .formLandingBannerTitle {
+        font-weight: 700;
+        font-size: 48px;
+        max-width: 540px;
+        line-height: 1.2;
+    }
+
+    .formLandingBannerTitle span {
+        color: #CB1B5B;
+    }
+
+    .formLandingBannerDesc {
+        font-weight: 500;
+        font-size: 18px;
+        color: #4B4853;
+        max-width: 540px;
+        line-height: 1.7;
+    }
+
+    .QRcodeContent {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.7;
+        max-width: 300px;
+    }
+
+    .formLandingBannerButton {
+        margin-top: 44px;
+        margin-bottom: 70px;
+    }
+
+
+    @media only screen and (max-device-width: 1300px) {
+
+        .formLandingBannerImg {
+            width: 550px !important;
+            height: auto !important;
+        }
+    }
+
+    @media only screen and (max-device-width: 992px) {
+        .formLandingBannerContent {
+            flex-direction: column-reverse;
+            align-items: center !important;
+        }
+
+        .formLandingContentWrapper {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .formLandingBannerButton {
+            margin-top: 30px !important;
+        }
+
+        .QRcodeWrapper {
+            justify-content: center;
+            margin-bottom: 5%;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+
+        .formLandingBannerContent {
+            margin-top: 28px !important;
+            overflow: hidden;
+        }
+
+        .formLandingBannerTitle {
+            font-size: 30px;
+            margin: auto;
+            line-height: 1.5;
+            max-width: 336px;
+        }
+
+        .formLandingBannerDesc {
+            max-width: 360px;
+        }
+
+        .QRcodeWrapper {
+            display: none !important;
+        }
+
+        .formLandingBannerButton {
+            margin-bottom: 30px !important;
+        }
+
+    }
+
+    @media only screen and (max-device-width: 600px) {
+        .formLandingBannerImg {
+            width: 90% !important;
+        }
+    }
+}
+
+.instaDocBanner {
+    .formLandingBannerContent {
+        margin-top: 0 !important;
+    }
+
+    .formLandingContentWrapper {
+        margin-top: 54px;
+    }
+
+    .formLandingBannerImg {
+        width: 500px !important;
+        height: 636px !important;
+        margin-bottom: 60px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .formLandingBannerImg {
+            display: none;
+        }
+
+        .formLandingMobBannerImg {
+            height: auto !important;
+            margin-top: 24px;
+        }
+
+        .formLandingContentWrapper {
+            margin-top: 38px;
+        }
+    }
+}
+
+.pharmacyLandingBanner {
+    .formLandingBannerContent {
+        margin-top: 0 !important;
+    }
+
+    .formLandingBannerTitle {
+        margin-top: 50px;
+    }
+
+    @media only screen and (max-device-width: 992px) {
+        .formLandingBannerTitle {
+            margin-top: 0px;
+        }
+    }
+}
+
+.homeHealthcareLandingBanner {
+    @media only screen and (min-device-width: 993px) {
+        .formLandingBannerImg {
+            height: 547px;
+            width: auto;
+        }
+    }
+}
+
+.runningBorder {
+    position: relative;
+    background: #FFF8FA;
+}
+
+.runningBorder:before,
+.runningBorder:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    // background: linear-gradient(60deg, #ee8db0, #CB1B5B, #ee8db0, #ee8db0, #ee8db0, #ee8db0, #ee8db0, #ee8db0);
+    background: linear-gradient(60deg, #ee8db0, #CB1B5B, #ee8db0, #ee8db0, #ee8db0, #fff, #ee8db0, #ee8db0);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    border-radius: 24px;
+    animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}

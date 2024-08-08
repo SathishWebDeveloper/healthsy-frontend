@@ -1,0 +1,153 @@
+.CareerDetailBannerSection {
+    background: #FCF1F4;
+}
+
+.jobTitle {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.validDate {
+    font-size: 18px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background: #CB1B5B;
+    border-radius: 100%;
+    margin: 0 15px;
+}
+
+.jobLocation,
+.typeOfJob {
+    font-size: 20px;
+    color: #CB1B5B;
+}
+
+.applyNowBtn,
+.shareBtn {
+    background-color: #CB1B5B;
+    color: #fff !important;
+    font-size: 16px;
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.shareBtn {
+    background-color: transparent;
+    color: #CB1B5B !important;
+    border: 1px solid #CB1B5B;
+}
+
+.jobBannerContent {
+    margin: auto;
+    padding: 40px 0;
+}
+
+.careerDetailSubheader {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.careerDetailDescription {
+    font-weight: 500;
+    font-size: 18px;
+    color: #797979;
+}
+
+.careerDetailWrapper,
+.jobformWrapper {
+    margin: 38px auto; 
+    max-width: 864px;
+}
+.jobformWrapper{
+    padding-top: 60px;
+}
+.jobBannerContent {
+    max-width: 864px;
+}
+
+.job-form-section .form-fields label {
+
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.jobform-submit-btn {
+    width: 100% !important;
+    border: 1px solid #98969D;
+    background: #98969D;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    height: 48px;
+    width: 224px !important;
+}
+
+.career-get-codee {
+    right: 10px;
+}
+
+.attachText {
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid #CB1B5B;
+}
+
+@media only screen and (min-device-width: 1200px) {
+
+    .jobBannerContent,
+    .careerDetailWrapper,
+    .jobformWrapper {
+        max-width: 950px;
+    }
+}
+
+@media only screen and (max-device-width: 950px) {
+
+    .careerDetailWrapper,
+    .jobformWrapper,
+    .jobBannerContent {
+        max-width: 85% !important;
+    }
+
+}
+
+@media only screen and (max-device-width: 768px) {
+    .jobBannerBottomContent {
+        flex-direction: column;
+        align-items: flex-start !important;
+
+        button {
+            margin-top: 15px;
+        }
+    }
+
+    .validDate {
+        margin: 18px 0 15px;
+    }
+
+    .jobBannerContent {
+        padding: 40px 22px;
+    }
+}
+
+@media only screen and (max-device-width: 600px) {
+    .careerDetailWrapper,
+    .jobformWrapper,
+    .jobBannerContent {
+        max-width: 95% !important;
+    }
+}
+
+@media only screen and (max-device-width: 450px) {
+    .jobBannerBtns {
+        text-align: center;
+    }
+}

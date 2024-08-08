@@ -1,0 +1,76 @@
+.section-registertion-for-doctors .container-fluid{
+    background-color: #f9f9f9; 
+    padding: 55px 0px 0px 0px !important;
+}
+.section-registertion-for-doctors .registration{
+    margin-top: 20px;
+    padding: 56px 0px 0px 0px;
+    background-color: white;
+    border-radius: 16px;
+}
+.section-registertion-for-doctors .register-title{
+    text-align: center !important;
+    margin-top: 10px;
+    margin-bottom: 72px;
+    width: 739px !important;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #181423;
+}
+.section-registertion-for-doctors{
+    padding-bottom: 0px;
+}
+.hassle-free-img img{
+    padding-bottom: 80px;
+    width: 84%;
+}
+.hassle-free-img .content-mobile{
+    padding-bottom: 80px;
+}
+@media screen and (max-width:768px) {
+    .section-registertion-for-doctors .container-fluid{
+        background-color: #f9f9f9; 
+        padding: 0px 0px 0px 0px !important;
+        overflow: hidden !important;
+    }
+    .section-registertion-for-doctors .registration{
+        margin-top: 20px;
+        padding: 20px 0px 0px 0px !important;
+        background-color: white;
+        border-radius: 0px;
+    }
+    .section-registertion-for-doctors .register-title{
+        text-align: center !important;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 35px ;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hassle-free-img{
+        display: flex;
+        justify-content: center;
+    }
+    .section-registertion-for-doctors .register-now {
+        width: 316px;
+        height: 40px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .hassle-free-img img {
+        width: 100%;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .hassle-free-img .content-mobile{
+        padding-bottom: 0px;
+    }
+}

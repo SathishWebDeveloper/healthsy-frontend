@@ -1,0 +1,54 @@
+[
+    {
+        "label" : "Physiotherapist",
+        "value": "Physiotherapist"
+    },
+    {
+        "label" : "Nurse",
+        "value": "Nurse"
+    },
+    {
+        "label" : "Mental Wellness Therapist",
+        "value": "Mental Wellness Therapist"
+    },
+    {
+        "label" : "Caretakers / Caregivers",
+        "value": "Caretakers / Caregivers"
+    },
+    {
+        "label" : "Speech Therapist",
+        "value": "Speech Therapist"
+    },
+    {
+        "label" : "Elderly Care Support",
+        "value": "Elderly Care Support"
+    },
+    {
+        "label" : "Mother and Baby Care Support",
+        "value": "Mother and Baby Care Support"
+    },
+    {
+        "label" : "Medical Equipment for Rent",
+        "value": "Medical Equipment for Rent"
+    },
+    {
+        "label" : "Labs Tests at Home",
+        "value": "Labs Tests at Home"
+    },
+    {
+        "label" : "Dietician",
+        "value": "Dietician"
+    },
+    {
+        "label" : "Family Counselling / Personal Counselling",
+        "value": "Family Counselling / Personal Counselling"
+    },
+    {
+        "label" : "Ortho Rehab Support",
+        "value": "Ortho Rehab Support"
+    },
+    {
+        "label" : "Home Isolation Support",
+        "value": "Home Isolation Support"
+    }
+]

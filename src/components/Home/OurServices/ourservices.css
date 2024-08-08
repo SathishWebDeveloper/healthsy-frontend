@@ -1,0 +1,28 @@
+.our_service_section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden !important;
+}
+.our_service_section .title {
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+.our_service_box{
+    margin-top: 40px;
+    /* display: grid;
+    grid-template-columns: 250px 250px 250px;
+    row-gap: 48px;
+    column-gap: 88px; */
+}
+.our_service_section .service {
+    border: 1px solid #FFF5FA;
+    border-radius: 8px;
+    padding: 24px 32px;
+}

@@ -1,0 +1,627 @@
+.textContentSection {
+    .textHeading {
+        margin: 88px 0 24px;
+    }
+
+    .firstContent {
+        margin-bottom: 40px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        padding: 0 24px;
+
+        .textHeading {
+            margin: 40px 0 16px;
+        }
+
+        .firstContent {
+            margin-bottom: 15px;
+        }
+
+    }
+}
+
+.advantageNumber {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FAE8EF;
+    color: #D50B3E;
+    margin-bottom: 18px;
+}
+
+.physioAdvantagesSection {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+
+    .gridBox {
+        border: 1px solid #EFEFEF;
+        border-radius: 10px;
+        padding: 24px 32px;
+    }
+
+    .advantageHeading {
+        margin: 80px 0 40px;
+    }
+
+    .advantageDesc {
+        margin-top: 16px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        .advantageHeading {
+            margin: 40px 12px 0 12px;
+        }
+
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+
+        .gridBox {
+            border: none;
+            margin: 32px 12px 0;
+            padding: 0;
+        }
+
+        .advantageNumber {
+            margin-bottom: 16px;
+        }
+
+    }
+
+    @media only screen and (max-device-width: 991px) {
+        .advantageTitle {
+            font-size: 24px;
+        }
+    }
+}
+
+.physioHealthSection {
+    margin-top: 70px;
+
+    .physioTitle {
+        margin-bottom: 16px;
+        display: inline;
+    }
+
+    .physioImage {
+        width: 100%;
+        max-width: 56px;
+        height: 56px;
+        border-radius: 8px;
+        background: #FCF8F9;
+        margin-right: 24px;
+    }
+
+    .physioDesc {
+        margin-bottom: 40px;
+        margin-top: 24px;
+    }
+
+    .physioContents {
+        margin-top: 50px;
+        margin-bottom: 16px;
+    }
+
+    .physioDescription {
+        max-width: 324px
+    }
+
+    .physioImg {
+        max-width: 28.52px;
+        height: 32px;
+    }
+
+    .physioDescription {
+        max-width: 1162px;
+    }
+
+    @media screen and (max-width:768px) {
+        padding: 0 24px;
+        margin-top: 40px;
+
+        .physioDesc {
+            margin-top: 16px;
+        }
+
+        .physioContents {
+            margin: 24px 0 14px;
+        }
+
+        .physioImg {
+            max-width: 18.71px;
+            height: 21px;
+        }
+
+        .physioImage {
+            max-width: 40px;
+            height: 40px;
+            margin-right: 16px;
+        }
+    }
+}
+
+.bookPhysioService {
+    background-color: #181423;
+    margin: 56px 0 0;
+    // padding-bottom: 80px;
+
+    .bookArrow {
+        filter: brightness(0) invert(1);
+        margin-left: 14px;
+    }
+}
+
+.serviceTitle {
+    padding-top: 80px;
+    margin-top: 56px;
+    margin-bottom: 52px;
+}
+
+.physioServiceImage {
+    border-radius: 16px;
+    margin-left: 17px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.physioBookBtn {
+    height: 50px;
+    width: 203px;
+    border: none;
+    margin-top: 76.96px;
+}
+
+.physioStepImageWrapper {
+    padding-bottom: 80px;
+}
+
+.physioServiceContent {
+    align-items: flex-end;
+}
+
+@media screen and (max-width:1399px) and (min-width:769px) {
+    .physioStepImage {
+        height: auto !important;
+        width: 100%;
+    }
+
+    .physioStepImageWrapper,
+    .physioServiceImage {
+        width: 50%;
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .serviceMobTitle {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 24px;
+        padding-top: 40px;
+    }
+
+    .physioServiceImage {
+        max-width: 382px;
+        height: 341px;
+        margin: 32px 0 0;
+    }
+
+    .bookPhysioService {
+        margin-top: 40px;
+        padding-bottom: 56px;
+    }
+
+    .physioServiceContent {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .serviceMobImage {
+        margin-top: 25px;
+        object-fit: contain !important;
+    }
+
+    .physioBookBtn {
+        margin-top: 56px;
+        height: 48px;
+        width: 171px;
+    }
+
+    .physioStepImageWrapper {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-device-width: 400px) {
+    .physioServiceImage {
+        max-width: 100%;
+    }
+
+    .serviceMobImage {
+        width: 100%;
+    }
+}
+
+.healthsyHelpSection {
+    margin-top: 80px;
+
+    @media only screen and (max-device-width: 768px) {
+        margin-top: 66px;
+        padding: 0 20px 0 28px;
+
+        .healthsyHelpContent {
+            flex-direction: column;
+
+            >div {
+                width: 100%;
+            }
+        }
+
+        .healthsyHelpQuestion {
+            margin-bottom: 24px;
+        }
+    }
+}
+
+.citiesSection {
+    margin: 80px auto 0px;
+
+    .cityBoxes {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
+    }
+
+    .cityImageContainer {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+
+    .citiesTitle {
+        margin-bottom: 81px;
+    }
+
+    .cityName {
+        margin-top: 16px;
+    }
+
+    @media only screen and (max-device-width: 1399px) {
+        .cityBoxes {
+            grid-template-columns: repeat(5, 1fr);
+        }
+    }
+
+    @media only screen and (max-device-width: 1200px) {
+        .cityBoxes {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    @media only screen and (max-device-width: 820px) {
+        .cityBoxes {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        margin: 40px auto;
+
+        .cityImageContainer {
+            width: 94px;
+            height: 94px;
+        }
+
+        .cityImage {
+            width: 60px !important;
+            height: 45px !important;
+        }
+
+        .citiesTitle {
+            margin-bottom: 24px;
+        }
+
+        .cityName {
+            margin-top: 8px;
+        }
+    }
+
+    @media only screen and (max-device-width: 400px) {
+        .cityBoxes {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+.howToReadySection {
+    margin: 80px auto;
+
+    .physiotherapyImage {
+        object-fit: cover;
+        border-radius: 15px !important;
+        width: 600px !important;
+        height: auto !important;
+        max-height: 668px;
+        object-position: bottom;
+    }
+
+    .howToReadyAnswer {
+        line-height: 2;
+    }
+
+    .textSection {
+        margin-left: 70px;
+    }
+
+    .howToReadyAnswer {
+        margin-top: 30px;
+    }
+
+    @media only screen and (max-device-width: 1399px) and (min-device-width: 769px) {
+
+        .physiotherapyImageWrapper,
+        .textSection {
+            width: 50%;
+        }
+
+        .physiotherapyImage {
+            width: 100% !important;
+        }
+    }
+
+    @media only screen and (max-device-width: 1199px) and (min-device-width: 769px) {
+        .howToReadyQuestion {
+            font-size: 30px !important;
+        }
+
+        .howToReadyAnswer {
+            font-size: 18px;
+        }
+
+        .textSection {
+            margin-left: 30px;
+        }
+
+        .physiotherapyImage {
+            height: 535px !important;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        flex-direction: column-reverse !important;
+        padding: 0 24px;
+        margin: 40px auto;
+
+        .physiotherapyImage {
+            width: 380px !important;
+            height: 340px !important;
+            object-position: 0px 68%;
+        }
+
+        .textSection {
+            margin: 0;
+        }
+
+        .howToReadyAnswer {
+            margin: 16px 0 24px;
+        }
+    }
+
+    @media only screen and (max-device-width: 420px) {
+        .physiotherapyImage {
+            width: 300px !important;
+            height: 220px !important;
+        }
+    }
+}
+
+.testimonialSection {
+    text-align: center;
+
+    .testimonialTitle {
+        margin-bottom: 50px;
+    }
+
+    .carousel.carousel-slider {
+        max-width: 1248px;
+        margin: auto;
+    }
+
+    .testimonialContent {
+        max-width: 1248px;
+        width: 100%;
+        height: 544px;
+        // margin: auto;
+        border-radius: 72px;
+        background: #FAE8EF;
+        position: relative;
+    }
+
+    .testimonialText {
+        max-width: 810px;
+        margin: 40px 0;
+        line-height: 40px;
+    }
+
+    .testimonialCarouselArrow,
+    .testimonialCarouselRightArrow {
+        height: 56px;
+        width: 56px;
+        position: absolute;
+        background: #fff;
+        z-index: 2;
+        top: 50%;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 0px 32px 96px 0px rgba(0, 0, 0, 0.10), 0px 8px 32px 0px rgba(0, 0, 0, 0.07), 0px 3px 9.600000381469727px 0px rgba(0, 0, 0, 0.05), 0px 4px 6.400000095367432px 0px rgba(0, 0, 0, 0.03);
+
+        img {
+            width: 20px;
+        }
+    }
+
+    .testimonialCarouselArrow {
+        left: 57px;
+    }
+
+    .testimonialCarouselRightArrow {
+        transform: rotate(180deg);
+        right: 57px;
+    }
+
+    .avatharImage {
+        border-radius: 100%;
+        width: 72px !important;
+        margin-right: 18px;
+    }
+
+    .locationName {
+        margin-left: 8px;
+        color: #4D4D4D;
+    }
+
+    @media screen and (max-width:1300px) {
+        .testimonialContent {
+            max-width: 95%;
+            margin: auto;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        margin: 0 10px;
+
+        .testimonialTitle {
+            margin-bottom: 16px;
+        }
+
+        .testimonialContentWrapper {
+            padding: 0 14px;
+        }
+
+        .testimonialContent {
+            height: auto;
+            padding: 35px 0;
+            border-radius: 24px;
+            max-width: 100%
+        }
+
+        .rating {
+            height: 18px;
+            width: auto;
+        }
+
+        .testimonialText {
+            margin: 8px 0;
+            padding: 0 30px;
+            line-height: 25px;
+        }
+
+        .locationPin {
+            width: 12px !important;
+            height: 12px !important;
+        }
+
+        .locationName {
+            margin-left: 4px;
+        }
+
+        .avatharImage {
+            width: 28px !important;
+            height: 28px;
+        }
+
+        .testimonialCarouselArrow,
+        .testimonialCarouselRightArrow {
+            width: 28px;
+            height: 28px;
+
+            img {
+                width: 12px;
+            }
+        }
+
+        .testimonialCarouselArrow {
+            left: 0;
+            z-index: 5;
+        }
+
+        .testimonialCarouselRightArrow {
+            right: 0;
+        }
+    }
+}
+
+// todo remove
+.testimonialSection2 {
+    .testimonialContent {
+        margin: 0 25px;
+        width: 97%;
+    }
+
+    .react-multi-carousel-list .react-multi-carousel-item:first-child,
+    .react-multi-carousel-list .react-multi-carousel-item:last-child {
+        margin: 0 auto;
+    }
+
+    /* Allocate space for surrounding items */
+    .react-multi-carousel-list .react-multi-carousel-item:not(:first-child):not(:last-child) {
+        flex-basis: 10% !important;
+    }
+}
+
+.majorCitiesSectionWrapper {
+    background: #F9F9F9;
+}
+
+.majorCitiesSection {
+    padding: 80px 0;
+
+    .majorCitiesTitle {
+        margin-bottom: 24px;
+    }
+
+    .majorCitiesGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .majorCities {
+        color: #4D4D4D;
+    }
+
+    @media screen and (max-width:1399px) {
+        .majorCitiesGrid {
+            overflow: scroll;
+
+        }
+
+        .majorCities {
+            width: 390px;
+        }
+
+        .majorCitiesGrid::-webkit-scrollbar {
+            display: none !important;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        padding: 24px 24px 40px;
+
+        .majorCitiesGrid {
+            gap: 24px;
+        }
+
+        .majorCities {
+            width: 255px;
+        }
+    }
+}

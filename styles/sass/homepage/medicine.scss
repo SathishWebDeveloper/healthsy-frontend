@@ -1,0 +1,65 @@
+.homePageMedicine {
+    background: #fff;
+
+    .OnlineMedicineConsultation {
+        padding: 85px 0 98px;
+    }
+
+    .medicalDetailsCard {
+        border-radius: 12px;
+        border: 1px solid #F3F3F3;
+        padding: 16px;
+    }
+
+
+    .medicalDetailsCard:hover {
+        // box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 1px 8px rgb(0 0 0 / 50%);
+    }
+
+    .medicineDoctorWeb {
+        margin-top: 26px;
+    }
+
+    .max-width-120 {
+        max-width: 120px;
+    }
+
+    .usersDoctorMedicine {
+        margin-top: 60px;
+    }
+
+    .medicineImg:nth-child(0) {
+        width: 42px !important;
+        height: auto;
+    }
+
+    @media screen and (max-width:768px) {
+        .OnlineMedicineConsultation {
+            padding: 32px 24px 40px;
+        }
+
+        .medicineImg {
+            width: 26px;
+            height: auto;
+        }
+
+        .medicineDoctorWeb {
+            margin-top: 18px;
+        }
+
+        .usersDoctorMedicine {
+            margin-top: 30px;
+            gap: 12px;
+        }
+
+        .medicalDetailsCard {
+            width: 114px;
+            height: auto;
+            padding: 15px 6px 15px 15px;
+            box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.15);
+            border-radius: 6px;
+        }
+    }
+
+}

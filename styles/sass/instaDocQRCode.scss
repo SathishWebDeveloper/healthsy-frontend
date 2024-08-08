@@ -1,0 +1,189 @@
+.instaDocContainer {
+    margin: 48px auto 100px;
+    max-width: 832px;
+
+    .instaDocDetails {
+        padding: 19px 0 31px;
+        color: #797979;
+    }
+
+    .instaDocLine {
+        border: 1px solid #E3E3E3;
+        max-width: 832px;
+        height: 1.211px;
+    }
+
+    .instaDocForm-Control {
+        max-width: 832px;
+        height: 68px;
+        border-radius: 15px;
+        border: 1.211px solid #D2D2D2 !important;
+        background: #fff !important;
+    }
+
+    .instaDocForm-Control:disabled {
+        background: #fff !important;
+    }
+
+    .instaDocLabel {
+        padding: 32px 0 20px;
+    }
+
+    .instaDocAgree {
+        padding: 86px 0 13px;
+    }
+
+    select.instaDocForm-Control {
+        -webkit-appearance: menulist-button;
+        /* For Chrome and Safari */
+        appearance: menulist-button;
+        /* For other modern browsers */
+    }
+
+    @media only screen and (max-device-width: 768px) {
+        margin: 32px auto 40px;
+        max-width: 380px;
+        padding: 0 24px;
+
+        .instaDocForm-Control {
+            max-width: 380px;
+            border-radius: 12px;
+        }
+
+        .instaDocDetails {
+            padding: 12px 0 3px;
+        }
+
+        .instaDocLabel {
+            padding-bottom: 16px;
+        }
+
+        .instaDocAgree {
+            padding: 40px 0 25px;
+        }
+    }
+}
+
+.instaDocQrCodeBanner {
+    text-align: center;
+    color: #FFF;
+    overflow: hidden;
+
+    .instaQrBannerTitle {
+        max-width: 648px;
+        width: 100%;
+        margin: auto;
+        line-height: 65px;
+        padding: 64px 0 24px;
+    }
+
+    .instaQrBannerSubTitle {
+        max-width: 500px;
+        border-radius: 8.534px;
+        margin: auto;
+        border: 1.897px dashed #FFF;
+        background: #DF3070;
+        color: #F8F8F8;
+        line-height: 28px;
+        padding: 13px 0 14px;
+    }
+
+    .QRcodeBanner {
+        padding: 28px 0 21px;
+    }
+
+
+    .qrCodeBannerImage {
+        width: 439px;
+        height: 514px;
+    }
+
+    .instaDocBannerImage {
+        position: absolute;
+        width: 191px;
+        height: 89px;
+        top: 79px;
+        left: -75px;
+    }
+
+    .qrCodePointerImage {
+        position: absolute;
+        width: 245px;
+        height: 114.162px;
+        bottom: 66px;
+        right: -94px;
+    }
+
+    .qrCodeBannerTitle {
+        padding: 0 32px 0 24px;
+    }
+
+    .qrCodeTickImage {
+        width: 18px;
+        height: 18px;
+    }
+
+    @media only screen and (max-device-width: 768px) {
+
+        .instaQrBannerTitle {
+            padding: 32px 0 17px;
+            max-width: 324px;
+            width: 100%;
+            line-height: 34px;
+        }
+
+        .instaQrBannerSubTitle {
+            padding: 7px 0 8px;
+            max-width: 333px;
+        }
+
+        .qrCodeBannerImage {
+            width: 305px;
+            height: auto;
+        }
+
+        .instaDocBannerImage {
+            width: 70.001px;
+            height: 32.545px;
+            top: 16px;
+            left: -26px;
+        }
+
+        .qrCodePointerImage {
+            width: 90.001px;
+            height: 41.843px;
+            bottom: 291px;
+            right: -33px;
+        }
+
+        .QRcodeBanner {
+            flex-direction: column;
+            padding: 24px 0 27px;
+            max-width: 248px;
+            width: 100%;
+            margin: auto;
+            align-items: baseline;
+        }
+
+        .qrCodeTickImage {
+            width: 14px;
+            height: 14px;
+        }
+
+        .instaDocSubDes {
+            justify-content: center;
+            align-items: baseline;
+        }
+
+        .qrCodeBannerTitle {
+            padding: 0 0 24px 12px;
+        }
+    }
+
+    @media only screen and (max-device-width: 340px) {
+
+        .instaQrBannerSubTitle {
+            max-width: 300px;
+        }
+    }
+}

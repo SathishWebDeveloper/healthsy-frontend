@@ -1,0 +1,83 @@
+.c-modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 48px 48px 48px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 20px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    z-index: 1010;
+}
+
+.c-modal__body {
+    text-align: center;
+}
+
+.c-modal__launchIcon {
+    width: 180px;
+    height: 214px;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+
+.c-modal__launchTitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Mulish;
+    font-style: normal;
+    color: #000000;
+    height: 10vh;
+}
+
+.c-modal__launchpara {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Mulish;
+    font-style: normal;
+    color: #000000;
+    margin-top: 5%;
+    height: 10vh;
+}
+
+.c-modal-overlay {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.25);
+    z-index: 1000;
+    animation: overlaySlide 0.4s;
+}
+
+@keyframes overlaySlide {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .c-modal {
+        width: calc(100% - 48px);
+        padding: 20px 20px 40px 20px;
+    }
+
+    .c-modal__launchTitle {
+        font-size: 24px;
+    }
+
+    .c-modal__launchpara {
+        font-size: 16px;
+    }
+
+    .c-modal__launchIcon {
+        width: 112px;
+        height: 112px;
+    }
+}

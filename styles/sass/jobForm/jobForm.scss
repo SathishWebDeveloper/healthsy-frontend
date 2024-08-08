@@ -1,0 +1,524 @@
+#jobApplyModal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.jobapply .close-button {
+    border-radius: 50%;
+    color: white;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.jobapply .modal-content {
+    padding: 30px;
+}
+
+.jobapply .modal-dialog {
+    border-radius: 10px;
+}
+
+.jobapply .modal-body .btn-close {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    position: absolute;
+    padding: 10px;
+    opacity: 1;
+    box-shadow: 1px 0px 10px #d0d0d0;
+    right: 0;
+
+}
+
+.jobapply .modal-body {
+    border-bottom: 0px solid #fff;
+}
+
+.jobapply-body {
+    display: flex;
+}
+
+.jobapply-body .title {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181423;
+    margin-bottom: 16px;
+}
+
+.job-title {
+    margin-bottom: 16px;
+}
+
+.job-title img {
+    margin-right: 12px;
+}
+
+.job-form-section {
+    max-width: 630px;
+}
+
+.job-form-section .form-fields input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #CFCFCF;
+    border-radius: 8px;
+}
+
+.color-mandatory {
+    color: #CB1B5B;
+}
+
+.job-form-section .form-fields ::placeholder {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98969D;
+}
+
+.job-form-section input {
+    padding-left: 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+}
+
+.job-form-section input.mobile-input {
+    padding-left: 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #65626C;
+    width: 88%;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.job-form-section .flagicon {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    /* height: 30px; */
+    height: 25px;
+    left: 22px;
+    font-weight: bold;
+    /* top: 317px; */
+    top: 320px;
+    padding-left: 1%;
+    /* background: rgba(217, 217, 217, 0.2); */
+    border-right: 1px solid #98969D;
+    /* border-radius: 8px; */
+}
+
+.job-form-section .flagicon img {
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 7px;
+    top: 6px;
+}
+
+.job-form-section .getcode {
+    position: absolute;
+    width: 99px;
+    height: 30px;
+    left: 306px;
+    top: 317px;
+    background: #98969D;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+    -webkit-appearance: textfield;
+}
+
+.job-form-section .form-fields input[type=radio] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    outline: none;
+    border: 3px solid #CB1B5B;
+    margin-right: 6px;
+    padding-left: 0;
+}
+
+.job-form-section .form-fields .input-radio-btn {
+    display: flex;
+    align-items: center;
+}
+
+.job-form-section .form-fields .input-radio-btn span {
+    margin-right: 24px;
+}
+
+.job-form-section .form-fields input[type="radio"]:checked:before {
+    background: #CB1B5B;
+}
+
+.job-form-section .form-fields input[type="radio"]:before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 20% auto;
+    border-radius: 50%;
+}
+
+.job-form-section .form-fields .upload {
+    border: 1px solid #CB1B5B;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.upload-btn {
+    position: relative;
+    flex: 0 0 120px;
+    overflow: hidden;
+    // display: inline-block;
+    // cursor: pointer; 
+}
+
+.upload-resume-label {
+    flex: 1 0 200px;
+    max-width: 200px;
+}
+
+.upload-btn .upload-resume-btn {
+    border: 1px solid #CB1B5B;
+    border-radius: 8px;
+    /* height: 48px; */
+    /* height: 40px; */
+    height: 50px;
+    width: 132px;
+    flex: 0 0 120px;
+    /* background: #fff; */
+    background: #f9f9f9;
+    cursor: pointer;
+}
+
+.upload-btn input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.job-form-section .w95 {
+    width: 95% !important;
+}
+
+.grey-title {
+    color: grey;
+    font-size: 15px;
+}
+
+.plus-icon {
+    width: 25px;
+    height: 25px;
+    background-color: #CB1B5B;
+    /* padding: 0px 4px; */
+    /* padding: 3px 5px; */
+    border-radius: 50%;
+    /* margin-left: 270px; */
+    margin-left: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-icon>img {
+    width: 15px;
+    height: 15px;
+}
+
+
+.jobapply .fade {
+    width: 100% !important;
+    height: 200vh !important;
+}
+
+.job-form-section span.career-get-timer {
+    right: 3% !important;
+}
+
+@media only screen and (min-width: 960px) {
+    .upload-resume-btn {
+        margin-right: 10px;
+    }
+
+    .upload-btn div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .jobapply .modal-content {
+        width: 100%;
+        height: 85%;
+        margin: auto;
+        left: 0%;
+        /* left: 2%; */
+        /* top: 160px; */
+        top: 35px;
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .mob-plus-icon {
+        width: 55px !important;
+    }
+
+    #jobApplyModal {
+        font-size: 16px;
+    }
+
+    .jobapply .fade {
+        width: 100%;
+        height: 200vh;
+    }
+
+    .job-form-section .flagicon {
+        top: 421px;
+    }
+
+    .jobapply .modal-content {
+        padding: 10px;
+    }
+
+    .job-form-section .form-fields input[type=radio] {
+        margin-right: 0;
+    }
+
+    .job-form-section .form-fields .input-radio-btn span {
+        margin-right: 26px;
+        margin-left: 8px;
+    }
+
+    .jobapply .modal-body .btn-close {
+        color: black;
+        border-radius: 50%;
+        padding: 10px;
+        opacity: 1;
+        position: relative;
+        box-shadow: 1px 0px 10px #918d8e;
+        display: block !important;
+
+    }
+
+    .upload-btn {
+        position: relative;
+        flex: 0 0 68px;
+    }
+
+    .upload-btn .upload-resume-btn {
+        border: none;
+        border-radius: 8px;
+        /* height: 48px; */
+        height: 43px;
+        flex: 0 0 68px;
+        background: #fff;
+        margin-left: -10%;
+    }
+
+    .mob-upload-btn {
+        background: #918d8e;
+        border: 1px solid transparent;
+        color: #fff;
+        width: 141px;
+        height: 40px;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Mulish';
+        position: absolute;
+        left: 55%;
+        /* margin-top: 30px; */
+        margin-top: -12%;
+    }
+
+    .job-form-section .flagicon {
+        box-sizing: border-box;
+        width: 40px;
+        height: 25px;
+        font-weight: bold;
+        padding-left: 2%;
+        /* padding-top: 1%; */
+        border-right: 1px solid #98969D;
+        /* margin-top: 25%; */
+        margin-top: 1%;
+    }
+
+    .career-job-apply-form input[type="text"] {
+        height: 50px !important;
+        width: 100%;
+    }
+
+    .plus-icon {
+        width: 25px;
+        height: 25px;
+        background-color: #CB1B5B;
+        /* padding: 0px 4px; */
+        /* padding: 3px 5px; */
+        border-radius: 50%;
+        /* margin-left: 270px; */
+        margin-left: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mob-mobile-des {
+        width: 240% !important;
+    }
+
+    // .career-get-codee {
+    //     left: 65% !important;
+    // }
+
+    .career-get-timer {
+        width: 50%;
+        font-size: 14px !important;
+    }
+
+    .career-verifyy {
+        right: 0% !important;
+        left: 75% !important;
+        width: 17%;
+    }
+
+    /* .career-job-apply-form input[type="radio"]{
+        width: 25px !important;
+        height: 20px !important;
+    } */
+    .get-notified-sucess-content {
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .career-get-timer {
+        // left: 62% !important;
+        width: 50% !important;
+        display: flex;
+        font-size: 12px !important;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+
+    .job-form-section .career-get-timer {
+        justify-content: flex-end;
+    }
+
+    .resume-title {
+        position: absolute;
+        margin-top: -1%;
+        left: 2%;
+    }
+
+}
+
+.career-mob-verify {
+    display: flex;
+}
+
+.mob-car-verify {
+    display: flex;
+}
+
+.mob-car-verify>span:nth-child(1) {
+    width: 10%;
+    /* border: 1px solid indigo; */
+}
+
+.verify-car-otp-span {
+    width: 10%;
+    /* border: 1px solid indigo; */
+}
+
+.car-verify-input {
+    width: 70% !important;
+}
+
+.verify-por-career {
+    margin-left: 6%;
+}
+
+.career-91 {
+    padding-left: 2% !important;
+}
+
+.career-job-apply-form input[type="text"] {
+    height: 50px !important;
+}
+
+.career-job-apply-form input[type="number"] {
+    height: 50px !important;
+    /* border: 1px solid red !important; */
+}
+
+/* .career-tab-view-display{
+    display: none;
+} */
+
+// .career-get-codee {
+//     left: 67%;
+// }
+
+.career-get-timer {
+    // left: 55%;
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.career-verifyy {
+    right: 0%;
+    // left: 75%;
+}
+
+@media only screen and (max-width: 350px) {
+    .job-form-section .form-fields .input-radio-btn span {
+        margin-right: 12px;
+    }
+}
